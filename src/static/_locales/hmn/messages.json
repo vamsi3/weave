@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Daim Duab Tag Nrho Cov Nplooj Ntawv & Ntes",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Ntes tag nrho, scrolling screenshots ntawm txhua nplooj ntawv web. Cia li txuag tag nrho nplooj ntawv ua ib daim duab zoo meej.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Ntes Screenshot",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave Chaw",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave Chaw",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Default Action",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Xaiv seb yuav ua li cas thaum koj nyem lub extension icon.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Qhib Viewer",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Download",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Luam",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Nug qhov twg yuav txuag",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Yog tias qhib, koj tuaj yeem xaiv cov ntaub ntawv npe thiab qhov chaw rau txhua qhov download.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Yuav tsum tau luam cov duab screenshot ntes mus rau lub clipboard.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Ntes tsis tau: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Ib qho yuam kev tshwm sim thaum lub sij hawm screenshot txheej txheem: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave Screenshot Saib Ua Ntej",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Screenshot Saib Ua Ntej",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Koj nplooj ntawv ntes tau npaj txhij.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Luam",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Luam!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Download",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Downloading...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Yuam kev",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Koj qhov screenshot ntes yuav tshwm ntawm no.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Tsis tuaj yeem thauj cov screenshot. Nws yuav raug tshem tawm ntawm qhov chaw cia.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Txhawb Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Yog tias koj pom qhov txuas ntxiv no muaj txiaj ntsig, thov xav txog kev txhawb nqa nws txoj kev loj hlob. Koj qhov kev koom tes pab kuv mob siab rau ntau lub sijhawm rau cov yam ntxwv tshiab thiab kev txhim kho.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Txhawb nqa ntawm GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

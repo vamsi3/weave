@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Buong Pahinang Screenshot at Pagkuha",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Kumuha ng buo, nag-i-scroll na mga screenshot ng anumang webpage. Awtomatikong sine-save ang buong pahina bilang isang perpektong larawan.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Kumuha ng Screenshot",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Mga Setting ng Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Mga Setting ng Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Default na Aksyon",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Piliin kung ano ang mangyayari kapag nag-click ka sa icon ng extension.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Buksan ang Viewer",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "I-download",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kopyahin",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Tanungin kung saan ise-save",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Kung naka-on, maaari mong piliin ang pangalan ng file at lokasyon para sa bawat pag-download.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Kinakailangan upang kopyahin ang nakuhang larawan ng screenshot sa clipboard.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Nabigo ang pagkuha: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "May naganap na error sa proseso ng screenshot: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Preview ng Screenshot ng Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Preview ng Screenshot",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Handa na ang iyong nakuhang pahina.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kopyahin",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Kinopya!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "I-download",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Nagda-download...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Error",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Ang iyong nakuhang screenshot ay lalabas dito.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Hindi ma-load ang screenshot. Maaaring na-clear ito mula sa storage.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Suportahan ang Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Kung nakita mong nakakatulong ang extension na ito, mangyaring isaalang-alang ang pagsuporta sa pag-unlad nito. Ang iyong kontribusyon ay tumutulong sa akin na maglaan ng mas maraming oras sa mga bagong feature at pagpapabuti.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Sponsor sa GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

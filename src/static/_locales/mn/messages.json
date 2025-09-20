@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Бүтэн хуудасны дэлгэцийн зураг авах ба авах",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Ямар ч вэб хуудасны бүтэн, гүйлгэдэг дэлгэцийн агшинг авах. Хуудсыг бүхэлд нь нэг төгс зураг болгон автоматаар хадгална.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Дэлгэцийн зураг авах",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave-ийн тохиргоо",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave-ийн тохиргоо",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Үндсэн үйлдэл",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Өргөтгөлийн дүрс дээр дарахад юу болохыг сонгоно уу.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Үзүүлэгчийг нээх",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Татаж авах",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Хуулах",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Хаана хадгалахаа асуух",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Хэрэв асаалттай бол та татан авалт бүрийн файлын нэр, байршлыг сонгох боломжтой.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Авсан дэлгэцийн зургийг санах ойд хуулах шаардлагатай.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Авч чадсангүй: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Дэлгэцийн зураг авах явцад алдаа гарлаа: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave дэлгэцийн зургийг урьдчилан харах",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Дэлгэцийн зургийг урьдчилан харах",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Таны авсан хуудас бэлэн боллоо.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Хуулах",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Хуулсан!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Татаж авах",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Татаж байна...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Алдаа",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Таны авсан дэлгэцийн зураг энд гарч ирнэ.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Дэлгэцийн зургийг ачаалж чадсангүй. Энэ нь хадгалалтаас цэвэрлэгдсэн байж магадгүй.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Weave-г дэмжих",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Хэрэв танд энэ өргөтгөл хэрэгтэй гэж үзвэл түүний хөгжлийг дэмжинэ үү. Таны оруулсан хувь нэмэр надад шинэ боломжууд болон сайжруулалтад илүү их цаг зарцуулахад тусалдаг.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "GitHub дээр ивээн тэтгэх",
+    "description": "Text for the sponsor button."
+  }
+}

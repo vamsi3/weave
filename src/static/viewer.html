@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weave Screenshot Preview</title> <!-- Title will be set via JS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1 data-i18n="viewerHeader">Screenshot Preview</h1>
+        <p data-i18n="viewerDescription">Your captured page is ready.</p>
+      </div>
+      <div class="button-group">
+        <button id="copyBtn" class="secondary" data-i18n="copyButton">Copy</button>
+        <button id="downloadBtn" class="primary" data-i18n="downloadButton">Download</button>
+      </div>
+    </header>
+    <div class="screenshot-wrapper">
+      <img id="screenshot" data-i18n-alt="screenshotAltText" alt="Your captured screenshot will appear here."/>
+    </div>
+  </div>
+  <script src="viewer.js"></script>
+</body>
+</html>

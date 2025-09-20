@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: 전체 페이지 스크린샷 및 캡처",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "모든 웹페이지의 전체 스크롤 스크린샷을 캡처합니다. 전체 페이지를 완벽한 이미지 하나로 자동 저장합니다.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "스크린샷 캡처",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave 설정",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave 설정",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "기본 작업",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "확장 프로그램 아이콘을 클릭할 때 발생하는 작업을 선택합니다.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "뷰어 열기",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "다운로드",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "복사",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "저장할 위치 묻기",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "켜져 있으면 각 다운로드에 대한 파일 이름과 위치를 선택할 수 있습니다.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "캡처한 스크린샷 이미지를 클립보드에 복사해야 합니다.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "캡처 실패: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "스크린샷 프로세스 중에 오류가 발생했습니다: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave 스크린샷 미리보기",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "스크린샷 미리보기",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "캡처한 페이지가 준비되었습니다.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "복사",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "복사됨!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "다운로드",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "다운로드 중...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "오류",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "캡처한 스크린샷이 여기에 표시됩니다.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "스크린샷을 로드할 수 없습니다. 스토리지에서 지워졌을 수 있습니다.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Weave 지원",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "이 확장 프로그램이 도움이 되었다면 개발 지원을 고려해 주십시오. 여러분의 기여는 제가 새로운 기능과 개선에 더 많은 시간을 할애하는 데 도움이 됩니다.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "GitHub에서 후원",
+    "description": "Text for the sponsor button."
+  }
+}

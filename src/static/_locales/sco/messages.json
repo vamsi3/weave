@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Fu' Page Skreenshot & Capture",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Tak fou, scrollin screenshots o ony wabpage. Automatically saves the hale page as yin perfect eemage.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Capture Skreenshot",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave Settins",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave Settins",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Default Action",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Chuise whit happens whan ye click the extension icon.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Open Viewer",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Dounload",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Copy",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Ask whaur tae save",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "If on, ye can chuise the file name an' location fur each dounload.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Required tae copy the captured skreenshot image tae the clipboard.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Capture failed: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "An error occurred durin' the skreenshot process: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave Skreenshot Preview",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Skreenshot Preview",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Yer captured page is ready.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Copy",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Copied!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Dounload",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Dounloadin'...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Error",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Yer captured skreenshot will appear here.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Couldnae load skreenshot. It may hae been cleared fae storage.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Support Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "If ye find this extension helpful, please consider supportin' its development. Yer contribution helps me dedicate mair time tae new features an' improvements.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Sponsor on GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

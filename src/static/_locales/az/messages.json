@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Tam Səhifə Ekran Görüntüsü və Çəkmə",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "İstənilən veb-səhifənin tam, sürüşən ekran şəkillərini çəkin. Bütün səhifəni avtomatik olaraq bir mükəmməl şəkil kimi saxlayır.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Ekran Görüntüsü Çək",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave Ayarları",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave Ayarları",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Varsayılan Fəaliyyət",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Genişlənmə ikonuna kliklədiyiniz zaman nə baş verdiyini seçin.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Görüntüləyicini Aç",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Yüklə",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kopyala",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Harada saxlanılacağını soruş",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Aktiv olduqda, hər yükləmə üçün fayl adını və yerini seçə bilərsiniz.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Çəkilmiş ekran görüntüsü şəklini mübadilə buferinə kopyalamaq üçün tələb olunur.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Çəkmə uğursuz oldu: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Ekran görüntüsü prosesi zamanı xəta baş verdi: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave Ekran Görüntüsü Önizləməsi",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Ekran Görüntüsü Önizləməsi",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Çəkdiyiniz səhifə hazırdır.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kopyala",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Kopyalandı!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Yüklə",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Yüklənir...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Xəta",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Çəkdiyiniz ekran görüntüsü burada görünəcək.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Ekran görüntüsü yüklənə bilmədi. Yaddaşdan silinmiş ola bilər.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Weave-i dəstəkləyin",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Bu genişlənməni faydalı hesab edirsinizsə, lütfən, onun inkişafına dəstək olmağı düşünün. Sizin töhfəniz mənə yeni funksiyalara və təkmilləşdirmələrə daha çox vaxt ayırmağa kömək edir.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "GitHub-da Sponsor Olun",
+    "description": "Text for the sponsor button."
+  }
+}

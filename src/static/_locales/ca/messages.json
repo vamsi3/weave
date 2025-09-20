@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Captura de pantalla i captura de pàgina completa",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Captureu captures de pantalla completes i amb desplaçament de qualsevol pàgina web. Desa automàticament tota la pàgina com una imatge perfecta.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Captura de pantalla",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Configuració de Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Configuració de Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Acció per defecte",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Trieu què passa quan feu clic a la icona de l'extensió.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Obre el visualitzador",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Descarrega",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Copia",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Pregunta on desar",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Si està activat, podeu triar el nom del fitxer i la ubicació per a cada descàrrega.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Necessari per copiar la imatge de la captura de pantalla capturada al porta-retalls.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "La captura ha fallat: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "S'ha produït un error durant el procés de captura de pantalla: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Visualització prèvia de la captura de pantalla de Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Visualització prèvia de la captura de pantalla",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "La vostra pàgina capturada està a punt.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Copia",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Copiat!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Descarrega",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "S'està descarregant...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Error",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "La vostra captura de pantalla capturada apareixerà aquí.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "No s'ha pogut carregar la captura de pantalla. És possible que s'hagi esborrat de l'emmagatzematge.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Doneu suport a Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Si trobeu útil aquesta extensió, considereu donar suport al seu desenvolupament. La vostra contribució m'ajuda a dedicar més temps a noves funcions i millores.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Patrocina a GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

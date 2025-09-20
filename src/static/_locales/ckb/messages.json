@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "ویڤ: وێنەی شاشەی لاپەڕەی تەواو و گرتن",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "گرتەیەکی تەواو و خولاوەی هەر پەڕەیەکی وێب بگرە. بە شێوەیەکی ئۆتۆماتیکی هەموو پەڕەکە وەک یەک وێنەی تەواو پاشەکەوت دەکات.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "گرتنی وێنەی شاشە",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "ڕێکخستنەکانی ویڤ",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "ڕێکخستنەکانی ویڤ",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "کرداری بنەڕەتی",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "هەڵبژێرە چی ڕوودەدات کاتێک کرتە لەسەر ئایکۆنی درێژکراوەکە دەکەیت.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "بینەر بکەرەوە",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "داگرتن",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "کۆپی کردن",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "بپرسە لە کوێ پاشەکەوت بکرێت",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "ئەگەر کراوە بێت، دەتوانیت ناوی فایل و شوێنی هەر دابەزاندنێک هەڵبژێریت.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "پێویستە بۆ کۆپیکردنی وێنەی شاشەی گیراو بۆ کلیپبۆرد.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "گرتن سەرکەوتوو نەبوو: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "هەڵەیەک ڕوویدا لە کاتی پرۆسەی وێنەی شاشەدا: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "پێشبینی وێنەی شاشەی ویڤ",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "پێشبینی وێنەی شاشە",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "لاپەڕە گیراوەکەت ئامادەیە.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "کۆپی کردن",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "کۆپی کرا!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "داگرتن",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "داگرتن...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "هەڵە",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "وێنەی شاشەی گیراوەکەت لێرە دەردەکەوێت.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "نەتوانرا وێنەی شاشە باربکرێت. لەوانەیە لە کۆگاکەوە پاککرابێتەوە.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "پشتگیری ویڤ بکە",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "ئەگەر ئەم درێژکراوەیە بەسوود دەزانیت، تکایە بیر لە پشتگیریکردنی گەشەپێدانەکەی بکەرەوە. بەشداریکردنت یارمەتیم دەدات کاتی زیاتر بۆ تایبەتمەندی و باشترکردنی نوێ تەرخان بکەم.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "لەسەر GitHub سپۆنسەر بکە",
+    "description": "Text for the sponsor button."
+  }
+}

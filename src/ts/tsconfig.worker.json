@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2022", "WebWorker"],
+    "tsBuildInfoFile": "../../.tsbuildinfo/worker.tsbuildinfo"
+  },
+  "include": ["background.ts", "types.d.ts"]
+}

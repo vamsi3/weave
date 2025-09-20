@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Screenshot e cattura a pagina intera",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Cattura screenshot completi e scorrevoli di qualsiasi pagina web. Salva automaticamente l'intera pagina come un'unica immagine perfetta.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Cattura screenshot",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Impostazioni Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Impostazioni Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Azione predefinita",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Scegli cosa succede quando fai clic sull'icona dell'estensione.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Apri visualizzatore",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Scarica",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Copia",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Chiedi dove salvare",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Se attivo, puoi scegliere il nome e la posizione del file per ogni download.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Richiesto per copiare l'immagine dello screenshot catturato negli appunti.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Cattura non riuscita: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Si è verificato un errore durante il processo di screenshot: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Anteprima screenshot Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Anteprima screenshot",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "La tua pagina catturata è pronta.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Copia",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Copiato!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Scarica",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Download in corso...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Errore",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Il tuo screenshot catturato apparirà qui.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Impossibile caricare lo screenshot. Potrebbe essere stato cancellato dalla memoria.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Sostieni Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Se trovi utile questa estensione, considera di sostenere il suo sviluppo. Il tuo contributo mi aiuta a dedicare più tempo a nuove funzionalità e miglioramenti.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Sponsorizza su GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

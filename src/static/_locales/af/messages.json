@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Volbladskermskoot & opname",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Neem volledige, scrollende skermkiekies van enige webblad. Stoor die hele bladsy outomaties as een perfekte prent.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Neem skermskoot",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave-instellings",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave-instellings",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Standaardaksie",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Kies wat gebeur wanneer jy op die uitbreidingikoon klik.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Maak kyker oop",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Aflaai",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kopieer",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Vra waar om te stoor",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Indien aan, kan jy die lêernaam en ligging vir elke aflaai kies.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Vereis om die vasgelegde skermskootbeeld na die knipbord te kopieer.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Opname het misluk: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "'n Fout het tydens die skermskootproses voorgekom: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave-skermskootvoorskou",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Skermskootvoorskou",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Jou vasgelegde bladsy is gereed.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kopieer",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Gekopieer!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Aflaai",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Laai af...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Fout",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Jou vasgelegde skermskoot sal hier verskyn.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Kon nie skermskoot laai nie. Dit is moontlik uit die berging verwyder.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Ondersteun Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "As jy hierdie uitbreiding nuttig vind, oorweeg asseblief om die ontwikkeling daarvan te ondersteun. Jou bydrae help my om meer tyd aan nuwe kenmerke en verbeterings te bestee.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Borg op GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

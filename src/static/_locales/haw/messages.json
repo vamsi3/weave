@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Kiʻi Paʻi Paʻi ʻAoʻao piha a me ka hopu ʻana",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "E kiʻi i nā kiʻi paʻi piha o kēlā me kēia ʻaoʻao pūnaewele. Mālama ʻakomi i ka ʻaoʻao holoʻokoʻa ma ke ʻano he kiʻi kūpono hoʻokahi.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Hopu i ke Kiʻi Paʻi Paʻi",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Nā hoʻonohonoho Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Nā hoʻonohonoho Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Hana Paʻamau",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "E koho i ka mea e hiki mai ana ke kaomi ʻoe i ka ikona hoʻolōʻihi.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Wehe i ka mea nānā",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Hoʻoiho",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kope",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "E nīnau i kahi e mālama ai",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Inā ʻā, hiki iā ʻoe ke koho i ka inoa waihona a me kahi no kēlā me kēia hoʻoiho.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Pono e kope i ke kiʻi paʻi kiʻi i hopu ʻia i ka papa ʻoki.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "ʻAʻole i hopu ʻia: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Ua loaʻa kahi hewa i ka wā o ke kaʻina hana kiʻi paʻi kiʻi: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Nānā mua i ke Kiʻi Paʻi Paʻi Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Nānā mua i ke Kiʻi Paʻi Paʻi",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Mākaukau kāu ʻaoʻao i hopu ʻia.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kope",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Kope ʻia!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Hoʻoiho",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Ke hoʻoiho nei...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Hewa",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "E ʻike ʻia kāu kiʻi paʻi kiʻi i hopu ʻia ma ʻaneʻi.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "ʻAʻole hiki ke hoʻouka i ke kiʻi paʻi kiʻi. Ua holoi ʻia paha ia mai ka waihona.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Kākoʻo iā Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Inā ʻike ʻoe he kōkua kēia hoʻolōʻihi, e ʻoluʻolu e noʻonoʻo e kākoʻo i kāna hoʻomohala ʻana. Kōkua kāu haʻawina iaʻu e hoʻolaʻa i ka manawa hou aʻe i nā hiʻohiʻona hou a me nā hoʻomaikaʻi.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Kākoʻo ma GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

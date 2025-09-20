@@ -1,0 +1,251 @@
+/* --- GLOBAL STYLES --- */
+:root {
+  /* Light Mode Theme (Inspired by Chrome's UI) */
+  --bg-color: #f1f3f4;
+  --container-bg: #ffffff;
+  --text-primary: #202124;
+  --text-secondary: #5f6368;
+  --accent-color: #8ab4f8;
+  --accent-text-color: #202124;
+  --control-bg: #e8eaed;
+  --control-disc-color: #ffffff;
+  --shadow-color: rgba(60, 64, 67, 0.3);
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Dark Mode Theme */
+  :root {
+    --bg-color: #131316;
+    --container-bg: #212124;
+    --text-primary: #e8eaed;
+    --text-secondary: #9aa0a6;
+    --accent-color: #a78bfa;
+    --accent-text-color: #131316;
+    --control-bg: #3c3c41;
+    --control-disc-color: #ffffff;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* A more robust box-sizing model and base styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  margin: 0;
+  /* Use clamp() for responsive padding that scales with the viewport */
+  padding: clamp(1rem, 5vh, 2rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-0.625rem); } /* 10px -> 0.625rem */
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.container {
+  background-color: var(--container-bg);
+  /* Use clamp() for responsive padding */
+  padding: clamp(1.5rem, 5vw, 2.5rem) clamp(2rem, 7vw, 3rem);
+  border-radius: 1.5rem; /* 24px -> 1.5rem */
+  box-shadow: 0 0.5rem 2rem var(--shadow-color); /* 8px 32px -> 0.5rem 2rem */
+  width: 100%;
+  max-width: 42.5rem; /* 680px -> 42.5rem */
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* --- TYPOGRAPHY --- */
+h1 { font-size: 2rem; font-weight: 700; margin: 0 0 2.5rem 0; }
+h2 { font-size: 1.125rem; font-weight: 600; margin: 0; }
+/* Use logical properties for margins */
+p { color: var(--text-secondary); margin-block-start: 0.25rem; margin-block-end: 0; font-size: 0.9rem; }
+
+/* --- LAYOUT & SECTIONS (options.html) --- */
+.options-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens for better responsiveness */
+}
+.options-section + .options-section {
+  /* Use logical properties for margin, padding, and borders */
+  margin-block-start: 1.5rem;
+  padding-block-start: 1.5rem;
+  border-block-start: 0.0625rem solid var(--control-bg); /* 1px -> 0.0625rem */
+}
+.options-section .description {
+  flex-basis: 50%;
+  flex-grow: 1;
+  min-inline-size: 15rem; /* Prevent text from being overly squished before wrapping */
+}
+.options-section .control-wrapper {
+  flex-shrink: 0;
+}
+
+/* --- SEGMENTED BUTTON WITH SLIDING ANIMATION --- */
+.segmented-button {
+  position: relative;
+  display: flex;
+  background-color: var(--control-bg);
+  /* Adjusted padding and radius for pixel-perfect symmetry */
+  border-radius: 0.875rem; /* 14px */
+  padding: 0.25rem; /* 4px */
+}
+.selection-indicator {
+  position: absolute;
+  inset-block-start: 0.25rem; /* Match parent padding */
+  inset-inline-start: 0; /* JS handles horizontal positioning */
+  block-size: calc(100% - 0.5rem); /* Match parent padding (2 * 4px) */
+  background-color: var(--accent-color);
+  /* Concentric radius: Parent radius (14px) - padding (4px) = 10px */
+  border-radius: 0.625rem; /* 10px */
+  box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,0.15);
+  /* Animate only the transform for a smooth slide. Size changes will be instant. */
+  transition: transform 0.3s cubic-bezier(0.2, 0, 0, 1);
+}
+.segmented-button input[type="radio"] { display: none; }
+.segmented-button label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+  padding: 0.6rem 1.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  transition: color 0.3s ease;
+  z-index: 1; /* Ensure label text is rendered above the indicator */
+}
+.segmented-button input[type="radio"]:checked + label {
+  color: var(--accent-text-color);
+}
+
+/* --- TOGGLE SWITCH CONTROL --- */
+.toggle-control {
+  display: block;
+}
+.toggle-control input[type="checkbox"] { display: none; }
+.toggle-control .slider {
+  position: relative;
+  display: inline-block;
+  inline-size: 2.75rem; /* 44px */
+  block-size: 1.5rem; /* 24px */
+  background-color: var(--control-bg);
+  border-radius: 0.75rem; /* 12px */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.toggle-control .slider::before {
+  content: '';
+  position: absolute;
+  inline-size: 1.125rem; /* 18px */
+  block-size: 1.125rem; /* 18px */
+  border-radius: 50%;
+  background-color: var(--control-disc-color);
+  inset: 0.1875rem; /* 3px */
+  transition: transform 0.3s cubic-bezier(0.2, 0, 0, 1);
+  box-shadow: 0 0.0625rem 0.1875rem rgba(0,0,0,0.2); /* 1px 3px */
+}
+.toggle-control input:checked + .slider { background-color: var(--accent-color); }
+.toggle-control input:checked + .slider::before { transform: translateX(1.25rem); } /* 20px */
+
+/* --- VIEWER PAGE STYLES --- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+header h1 {
+  margin-block-end: 0.25rem;
+}
+.button-group {
+  display: flex;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+button, a.button {
+  font-family: inherit;
+  font-weight: 500;
+  border: none;
+  border-radius: 0.5rem; /* 8px */
+  font-size: 0.9rem;
+  padding: 0.6rem 1.25rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
+button.primary, a.button.primary {
+  background-color: var(--accent-color);
+  color: var(--accent-text-color);
+}
+button.secondary, a.button.secondary {
+  background-color: var(--control-bg);
+  color: var(--text-primary);
+}
+button:hover, a.button:hover { filter: brightness(0.95); }
+button:active, a.button:active { transform: scale(0.97); }
+.screenshot-wrapper {
+  margin-block-start: 1.5rem;
+  text-align: center;
+}
+img#screenshot {
+  max-width: 100%;
+  border-radius: 0.75rem; /* 12px */
+  box-shadow: 0 0.25rem 1rem var(--shadow-color); /* 4px 16px */
+}
+
+/* --- RESPONSIVE ADJUSTMENTS --- */
+@media (max-width: 35em) { /* 560px */
+  .options-section {
+    flex-direction: column;
+    align-items: stretch; /* Stretch items to full width */
+    gap: 1.25rem;
+  }
+
+  .options-section .description {
+    text-align: center;
+  }
+
+  .options-section .control-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .segmented-button {
+    flex-direction: column;
+    width: 100%;
+    max-width: 20rem; /* 320px, prevent it from being too wide */
+    padding: 0.25rem;
+    border-radius: 1rem; /* 16px */
+    /* Ensure the button group itself is centered */
+    margin-inline: auto;
+  }
+
+  .segmented-button label {
+    /* Add more vertical padding for a better look in the vertical layout */
+    padding-block: 0.8rem;
+  }
+
+  .selection-indicator {
+    /* Recalculate radius for the new container shape */
+    border-radius: 0.75rem; /* 16px - 4px = 12px */
+  }
+}

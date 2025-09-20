@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave：全頁螢幕擷取與擷取",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "擷取任何網頁的完整滾動螢幕截圖。自動將整個頁面儲存為一張完美的圖片。",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "擷取螢幕截圖",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave 設定",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave 設定",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "預設動作",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "選擇按一下擴充功能圖示時發生的情況。",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "開啟檢視器",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "下載",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "複製",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "詢問儲存位置",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "如果開啟，您可以為每次下載選擇檔案名稱和位置。",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "需要將擷取的螢幕截圖影像複製到剪貼簿。",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "擷取失敗：$reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "螢幕截圖過程中發生錯誤：$message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave 螢幕截圖預覽",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "螢幕截圖預覽",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "您擷取的頁面已準備就緒。",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "複製",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "已複製！",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "下載",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "正在下載...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "錯誤",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "您擷取的螢幕截圖將顯示在此處。",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "無法載入螢幕截圖。它可能已從儲存空間中清除。",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "支援 Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "如果您發現此擴充功能有幫助，請考慮支持其開發。您的貢獻有助於我投入更多時間來開發新功能和進行改進。",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "在 GitHub 上贊助",
+    "description": "Text for the sponsor button."
+  }
+}

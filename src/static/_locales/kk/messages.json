@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Толық беттің скриншоты және түсіру",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Кез келген веб-беттің толық, айналдырылатын скриншоттарын түсіріңіз. Бүкіл бетті бір тамаша кескін ретінде автоматты түрде сақтайды.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Скриншот түсіру",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave параметрлері",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave параметрлері",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Әдепкі әрекет",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Кеңейтім белгішесін басқанда не болатынын таңдаңыз.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Көру құралын ашу",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Жүктеп алу",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Көшіру",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Қайда сақтау керектігін сұрау",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Егер қосулы болса, әр жүктеп алу үшін файл атауын және орнын таңдай аласыз.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Түсірілген скриншот кескінін алмасу буферіне көшіру қажет.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Түсіру сәтсіз аяқталды: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Скриншот жасау процесінде қате орын алды: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave скриншотын алдын ала қарау",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Скриншотты алдын ала қарау",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Сіздің түсірілген бетіңіз дайын.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Көшіру",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Көшірілді!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Жүктеп алу",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Жүктелуде...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Қате",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Сіздің түсірілген скриншотыңыз осында пайда болады.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Скриншотты жүктеу мүмкін болмады. Ол жадтан тазаланған болуы мүмкін.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Weave-ге қолдау көрсетіңіз",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Егер сіз бұл кеңейтімді пайдалы деп тапсаңыз, оның дамуына қолдау көрсетуді қарастырыңыз. Сіздің үлесіңіз маған жаңа мүмкіндіктер мен жақсартуларға көбірек уақыт бөлуге көмектеседі.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "GitHub-та демеуші болу",
+    "description": "Text for the sponsor button."
+  }
+}

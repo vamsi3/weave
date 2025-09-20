@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Pikantsary pejy feno & fakana sary",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Makà sary feno, mikoriana amin'ny pejin-tranonkala rehetra. Mitahiry ho azy ny pejy iray manontolo ho sary tokana tonga lafatra.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Makà pikantsary",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Fandaharana Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Fandaharana Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Hetsika mahazatra",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Fidio izay mitranga rehefa manindry ny kisary fanitarana ianao.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Sokafy ny mpijery",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Ampidino",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Adikao",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Anontanio ny toerana hitahirizana",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Raha mandeha, dia afaka misafidy ny anaran'ny rakitra sy ny toerana isaky ny misintona ianao.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Ilaina ny mandika ny sary pikantsary voasambotra ao amin'ny solaitrabe.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Tsy nahomby ny fakana: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Nisy lesoka nitranga nandritra ny fizotry ny pikantsary: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Topimaso pikantsary Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Topimaso pikantsary",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Vonona ny pejinao voasambotra.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Adikao",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Nadikaina!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Ampidino",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Mampidina...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Lesoka",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Hisy eto ny pikantsary nosamborinao.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Tsy afaka nampiditra pikantsary. Mety ho nofafana tamin'ny fitahirizana izy io.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Tohano ny Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Raha hitanao fa mahasoa ity fanitarana ity, dia mba diniho ny hanohana ny fampandrosoana azy. Ny fandraisanao anjara dia manampy ahy hanokana fotoana bebe kokoa amin'ny endri-javatra vaovao sy fanatsarana.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Mpanohana ao amin'ny GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

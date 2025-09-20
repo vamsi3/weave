@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Nataalu Skrin bu Page bi yépp & Jàpp",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Jël nataalu ekran bu mat, buy défilé ci bépp xëtu web. Dajale na otomatikman xët wépp méngooko benn nataal bu mat sëkk.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Jàpp Nataalu Skrin",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave Paramètres",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave Paramètres",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Jëf ju Ñakk",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Tànnal li xew bu ngeen klikkee ci icône extension bi.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Ubbil Seetukaay",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Yeb",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kopi",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Laajte fan lañu denc",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Su ñu ko taalee, mën ngeen tànn turu dencukaay bi ak barab bi ngir yeb bu nekk.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Laaj nañu ngir kopi nataalu skrin bi ñu jàpp ci clipboard bi.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Jàpp bi antuwul: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Am na njuumte ci biir prosesu nataalu skrin bi: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave Nataalu Skrin bu Njëkk",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Nataalu Skrin bu Njëkk",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Sa xët wu ñu jàpp pare na.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kopi",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Kopi na!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Yeb",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Yeb na...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Njuumte",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Sa nataalu skrin bu ñu jàpp dina feeñ fii.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Mënuñu yeb nataalu skrin bi. Mën nañu ko dindi ci dencukaay bi.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Jàppaleel Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Su ngeen gisee ne extension bi am na njariñ, xalaat leen ngeen jàppale ci doxal gi. Seen cér dina tax ma mën a joxe waxtu bu bare ci ay melokaan yu bees ak ay yeesal.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Jàppale ci GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

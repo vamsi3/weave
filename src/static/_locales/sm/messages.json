@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Ata atoa o le Itulau & Pueina",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Pu'e atoa ata o so'o se itulau web. Fa'asaoina otometi le itulau atoa e pei o se ata lelei atoatoa e tasi.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Pueina le Ata",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Fa'atonuga o Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Fa'atonuga o Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Gaioiga Fa'aletonu",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Filifili le mea e tupu pe a e kiliki i luga o le fa'ailoga fa'aopoopo.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Tatala le Maimoaga",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Sii mai",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kopi",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Fesili po o fea e teu ai",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Afai e ola, e mafai ona e filifilia le igoa o le faila ma le nofoaga mo download taitasi.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "E mana'omia le kopiina o le ata o le ata na pu'eina i le laupapa kilipa.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Ua le manuia le pueina: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Na tupu se mea sese i le taimi o le faagasologa o le ata: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Ata o le Weave Screenshot",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Ata o le Ata",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Ua saunia lau itulau na pueina.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kopi",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Kopiina!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Sii mai",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "O loo siiina mai...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Sese",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "O lau ata na pu'eina o le a aliali mai iinei.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Le mafai ona utaina le ata. Atonu na aveesea mai le teuina.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Lagolago Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Afai e te mauaina lenei fa'aopoopoga e fesoasoani, fa'amolemole mafaufau e lagolago lona atina'e. O lau sao e fesoasoani ia te a'u e tu'uina atu le tele o le taimi i foliga fou ma fa'aleleia atili.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Sponsor i luga o GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

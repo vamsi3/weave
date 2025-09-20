@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: पूर्ण पृष्ठ स्क्रिनसट र क्याप्चर",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "कुनै पनि वेबपेजको पूर्ण, स्क्रोलिङ स्क्रिनसटहरू खिच्नुहोस्। स्वचालित रूपमा सम्पूर्ण पृष्ठलाई एक उत्तम छविको रूपमा बचत गर्दछ।",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "स्क्रिनसट क्याप्चर गर्नुहोस्",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave सेटिङहरू",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave सेटिङहरू",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "पूर्वनिर्धारित कार्य",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "जब तपाइँ विस्तार आइकनमा क्लिक गर्नुहुन्छ के हुन्छ छनौट गर्नुहोस्।",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "दर्शक खोल्नुहोस्",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "डाउनलोड गर्नुहोस्",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "प्रतिलिपि गर्नुहोस्",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "कहाँ बचत गर्ने सोध्नुहोस्",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "यदि सक्रिय छ भने, तपाइँ प्रत्येक डाउनलोडको लागि फाइल नाम र स्थान छनौट गर्न सक्नुहुन्छ।",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "क्याप्चर गरिएको स्क्रिनसट छवि क्लिपबोर्डमा प्रतिलिपि गर्न आवश्यक छ।",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "क्याप्चर असफल भयो: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "स्क्रिनसट प्रक्रियाको क्रममा त्रुटि भयो: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave स्क्रिनसट पूर्वावलोकन",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "स्क्रिनसट पूर्वावलोकन",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "तपाईंको क्याप्चर गरिएको पृष्ठ तयार छ।",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "प्रतिलिपि गर्नुहोस्",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "प्रतिलिपि गरियो!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "डाउनलोड गर्नुहोस्",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "डाउनलोड हुँदैछ...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "त्रुटि",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "तपाईंको क्याप्चर गरिएको स्क्रिनसट यहाँ देखिनेछ।",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "स्क्रिनसट लोड गर्न सकिएन। यो भण्डारणबाट खाली गरिएको हुन सक्छ।",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Weave लाई समर्थन गर्नुहोस्",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "यदि तपाइँ यो विस्तार उपयोगी पाउनुहुन्छ भने, कृपया यसको विकासलाई समर्थन गर्ने विचार गर्नुहोस्। तपाईंको योगदानले मलाई नयाँ सुविधाहरू र सुधारहरूमा थप समय समर्पित गर्न मद्दत गर्दछ।",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "GitHub मा प्रायोजक",
+    "description": "Text for the sponsor button."
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Tota Pagina Screenshot & Captura",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Capere imagines photographicas totius paginae, volvendo, cuiusvis paginae interretialis. Automaticae totam paginam ut unam imaginem perfectam servat.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Cape Screenshot",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave Optiones",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave Optiones",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Actio Defalta",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Elige quid fiat cum iconem extensionis premes.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Aperi Visorem",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Depone",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Exemplare",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Quaere ubi serves",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Si in, nomen et locum fasciculi pro singulis demissionibus eligere potes.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Necesse est ut imaginem screenshot captam in clipboard exscribas.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Captura defecit: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Error accidit in processu screenshot: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave Screenshot Praevisum",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Screenshot Praevisum",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Pagina tua capta parata est.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Exemplare",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Exemplatum!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Depone",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Deponens...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Error",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Screenshot tuum captum hic apparebit.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Screenshot onerari non potuit. Fortasse ex repositione purgatum est.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Sustine Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Si hanc extensionem utilem invenis, quaeso considera eius evolutionem sustinere. Contributio tua me adiuvat ut plus temporis novis notis et emendationibus impendam.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Sponsor in GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

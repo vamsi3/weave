@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Screenshot tal-Paġna Sħiħa u Qbid",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Aqbad screenshots sħaħ u li jiskrolljaw ta' kwalunkwe paġna tal-web. Isalva awtomatikament il-paġna kollha bħala immaġni waħda perfetta.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Aqbad Screenshot",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Settings ta' Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Settings ta' Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Azzjoni Default",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Agħżel x'jiġri meta tikklikkja fuq l-ikona tal-estensjoni.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Iftaħ Viewer",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Niżżel",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kopja",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Staqsi fejn tissejvja",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Jekk mixgħul, tista' tagħżel l-isem tal-fajl u l-post għal kull download.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Meħtieġ biex tikkopja l-immaġni tal-screenshot maqbuda fil-clipboard.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Il-qbid falla: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Seħħ żball matul il-proċess tal-screenshot: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Preview tal-Screenshot ta' Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Preview tal-Screenshot",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Il-paġna maqbuda tiegħek hija lesta.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kopja",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Ikkupjat!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Niżżel",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Qed tniżżel...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Żball",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Is-screenshot maqbuda tiegħek se tidher hawn.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Ma setax jgħabbi screenshot. Jista' jkun ġie kklerjat mill-ħażna.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Appoġġja lil Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Jekk issib din l-estensjoni utli, jekk jogħġbok ikkunsidra li tappoġġja l-iżvilupp tagħha. Il-kontribuzzjoni tiegħek tgħinni niddedika aktar ħin għal karatteristiċi u titjib ġodda.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Sponsorja fuq GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

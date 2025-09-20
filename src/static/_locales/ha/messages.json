@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Cikakken Hoton allo na Shafi & Kama",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Ɗauki cikakkun hotunan kariyar kwamfuta na kowane shafin yanar gizo. Yana adana dukkan shafin ta atomatik azaman hoto ɗaya cikakke.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Ɗauki Hoton allo",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Saitunan Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Saitunan Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Ayyukan Tsoho",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Zaɓi abin da zai faru idan ka danna alamar tsawo.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Bude Mai kallo",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Sauke",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kwafi",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Tambayi inda za a adana",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Idan a kunne, za ka iya zaɓar sunan fayil da wurin kowane saukewa.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Ana buƙatar kwafin hoton allo da aka kama zuwa allon allo.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Kamawa ya gaza: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "An sami kuskure yayin aikin hoton allo: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Kallon Hoton allo na Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Kallon Hoton allo",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Shafinku da aka kama a shirye yake.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kwafi",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "An kwafa!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Sauke",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Ana saukewa...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Kuskure",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Hoton allon da ka kama zai bayyana a nan.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Ba a iya loda hoton allo ba. Ana iya share shi daga ajiya.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Taimaki Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Idan ka sami wannan tsawo yana da amfani, don Allah ka yi la'akari da tallafawa ci gabanta. Gudummawarka tana taimaka mini in sadaukar da ƙarin lokaci ga sababbin fasali da ingantawa.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Tallafi a GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

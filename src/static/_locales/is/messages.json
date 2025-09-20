@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Skjáskot og myndataka á heilli síðu",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Taktu heilar, skrunanlegar skjámyndir af hvaða vefsíðu sem er. Vistar alla síðuna sjálfkrafa sem eina fullkomna mynd.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Taka skjáskot",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave stillingar",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave stillingar",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Sjálfgefin aðgerð",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Veldu hvað gerist þegar þú smellir á viðbótartáknið.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Opna skoðara",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Hlaða niður",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Afrita",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Spyrja hvar á að vista",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Ef kveikt er á geturðu valið skráarheiti og staðsetningu fyrir hvern niðurhal.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Nauðsynlegt til að afrita tekna skjáskotsmynd á klemmuspjald.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Myndataka mistókst: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Villa kom upp við skjáskotsferlið: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Forskoðun á Weave skjáskoti",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Forskoðun á skjáskoti",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Tekna síðan þín er tilbúin.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Afrita",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Afritað!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Hlaða niður",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Hleður niður...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Villa",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Tekna skjáskotið þitt mun birtast hér.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Gat ekki hlaðið skjáskoti. Það gæti hafa verið hreinsað úr geymslu.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Styðjið Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Ef þér finnst þessi viðbót gagnleg, vinsamlegast íhugaðu að styðja þróun hennar. Framlag þitt hjálpar mér að verja meiri tíma í nýja eiginleika og endurbætur.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Styrkja á GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

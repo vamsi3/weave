@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Picha ya skrini ya Ukurasa Mzima na Ukamataji",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Piga picha kamili za skrini za ukurasa wowote wa wavuti. Huhifadhi ukurasa mzima kiotomatiki kama picha moja kamili.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Nasa Picha ya skrini",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Mipangilio ya Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Mipangilio ya Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Kitendo Chaguomsingi",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Chagua kinachotokea unapobofya ikoni ya kiendelezi.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Fungua Kitazamaji",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Pakua",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Nakili",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Uliza mahali pa kuhifadhi",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Ikiwa imewashwa, unaweza kuchagua jina la faili na eneo kwa kila upakuaji.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Inahitajika kunakili picha ya skrini iliyonaswa kwenye ubao wa kunakili.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Ukamataji umeshindwa: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Hitilafu ilitokea wakati wa mchakato wa picha ya skrini: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Onyesho la kukagua Picha ya skrini ya Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Onyesho la kukagua Picha ya skrini",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Ukurasa wako uliokamatwa uko tayari.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Nakili",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Imenakiliwa!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Pakua",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Inapakua...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Hitilafu",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Picha yako ya skrini iliyonaswa itaonekana hapa.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Haikuweza kupakia picha ya skrini. Inaweza kuwa imefutwa kutoka kwa hifadhi.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Saidia Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Ikiwa utapata kiendelezi hiki kikiwa na msaada, tafadhali fikiria kusaidia maendeleo yake. Mchango wako unanisaidia kutumia muda mwingi zaidi kwa vipengele na maboresho mapya.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Fadhili kwenye GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

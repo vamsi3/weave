@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Wêneya Dîmenderê ya Rûpelê Tevahî & Girtin",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Wêneyên ekranê yên tevahî, gerok ên her rûpelek malperê bigirin. Tevahiya rûpelê bixweber wekî wêneyek bêkêmasî tomar dike.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Dîmenek Dîmenderê Bigire",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Mîhengên Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Mîhengên Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Çalakiya Pêşdibistanê",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Dema ku hûn li ser îkona pêvekê bikirtînin çi diqewime hilbijêrin.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Viewer Vekirî",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Daxistin",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kopîkirin",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Li ku derê tomar bike bipirsin",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Ger vekirî be, hûn dikarin navê pelê û cîhê ji bo her dakêşanê hilbijêrin.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Ji bo kopîkirina wêneya dîmendera girtî li ser clipboardê hewce ye.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Girtin bi ser neket: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Di dema pêvajoya dîmenderê de xeletiyek derket: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Pêşdîtina Dîmendera Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Pêşdîtina Dîmenderê",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Rûpela weya girtî amade ye.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kopîkirin",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Hate kopîkirin!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Daxistin",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Daxistin...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Xeta",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Dîmena weya girtî dê li vir xuya bibe.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Dîmenek nehat barkirin. Dibe ku ew ji hilanînê were paqij kirin.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Piştgiriya Weave bikin",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Ger hûn vê pêvekê arîkar dibînin, ji kerema xwe piştgirîkirina pêşkeftina wê bifikirin. Beşdariya we ji min re dibe alîkar ku ez bêtir wextê xwe ji taybetmendiyên nû û çêtirkirinan re veqetînim.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Sponsor li ser GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

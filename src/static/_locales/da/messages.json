@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Fuld sideskærmbillede og optagelse",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Tag fulde, rullende skærmbilleder af enhver webside. Gemmer automatisk hele siden som et enkelt perfekt billede.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Tag skærmbillede",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave-indstillinger",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave-indstillinger",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Standardhandling",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Vælg, hvad der sker, når du klikker på udvidelsesikonet.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Åbn fremviser",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Download",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kopiér",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Spørg, hvor der skal gemmes",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Hvis slået til, kan du vælge filnavn og placering for hver download.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Kræves for at kopiere det optagede skærmbillede til udklipsholderen.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Optagelse mislykkedes: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Der opstod en fejl under skærmbilledeprocessen: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave-skærmbilledefremvisning",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Skærmbilledefremvisning",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Din optagede side er klar.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kopiér",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Kopieret!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Download",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Downloader...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Fejl",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Dit optagede skærmbillede vises her.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Kunne ikke indlæse skærmbillede. Det er muligvis blevet ryddet fra lageret.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Støt Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Hvis du finder denne udvidelse nyttig, bedes du overveje at støtte dens udvikling. Dit bidrag hjælper mig med at dedikere mere tid til nye funktioner og forbedringer.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Sponsor på GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

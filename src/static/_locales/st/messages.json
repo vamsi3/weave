@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Skrini e Feletseng ea Leqephe & Ho Tšoara",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Nka linepe tse felletseng tsa skrine sa leqephe la webo leha e le lefe. E boloka leqephe lohle ka bo eona e le setšoantšo se le seng se phethahetseng.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Nka Skrini",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Litlhophiso tsa Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Litlhophiso tsa Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Ketso e sa Lekanyetsoang",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Khetha se etsahalang ha o tobetsa letšoao la katoloso.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Bula Sebali",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Khoasolla",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kopitsa",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Botsa hore na o boloke hokae",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Haeba e butsoe, o ka khetha lebitso la faele le sebaka sa download e 'ngoe le e 'ngoe.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Ho hlokahala ho kopitsa setšoantšo sa skrini se hapiloeng ho clipboard.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Ho hapa ho hlolehile: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Ho bile le phoso nakong ea ts'ebetso ea skrini: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Tlhahlobo ea Skrini ea Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Tlhahlobo ea Skrini",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Leqephe la hau le hapiloeng le se le lokile.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kopitsa",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "E kopitsitsoe!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Khoasolla",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Ea khoasolla...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Phoso",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Skrini sa hau se hapiloeng se tla hlaha mona.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Ha e khone ho kenya skrini. E kanna ea hlakoloa polokelong.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Tšehetsa Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Haeba u fumana katoloso ena e thusa, ka kopo nahana ka ho tšehetsa nts'etsopele ea eona. Tlatsetso ea hau e nthusa ho nehelana ka nako e eketsehileng ho likarolo tse ncha le lintlafatso.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Tšehetsa ho GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

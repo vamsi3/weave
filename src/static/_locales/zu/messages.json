@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "I-Weave: Isithombe-skrini Sekhasi Eligcwele Nokuthwebula",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Thatha izithombe-skrini ezigcwele, eziskrolayo zanoma yiliphi ikhasi lewebhu. Ilondoloza ngokuzenzakalelayo lonke ikhasi njengesithombe esisodwa esiphelele.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Thatha Isithombe-skrini",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Izilungiselelo Ze-Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Izilungiselelo Ze-Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Isenzo Esizenzakalelayo",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Khetha ukuthi kwenzekani uma uchofoza isithonjana sesandiso.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Vula Isibukeli",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Landa",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kopisha",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Buza ukuthi ungagcina kuphi",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Uma ivuliwe, ungakhetha igama lefayela nendawo yokulanda ngakunye.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Kudingeka ukukopisha isithombe sesithombe-skrini esithwetshulwe ebhodini lokunamathisela.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Ukuthwebula kuhlulekile: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Kube nephutha ngesikhathi senqubo yesithombe-skrini: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Ukubuka kuqala kwesithombe-skrini se-Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Ukubuka kuqala kwesithombe-skrini",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Ikhasi lakho elithwetshuliwe selilungile.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kopisha",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Kukopishiwe!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Landa",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Iyalanda...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Iphutha",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Isithombe-skrini sakho esithwetshuliwe sizovela lapha.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Ayikwazanga ukulayisha isithombe-skrini. Kungenzeka ukuthi sisuliwe endaweni yokugcina.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Sekela i-Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Uma uthola lesi sandiso siwusizo, sicela ucabangele ukusekela ukuthuthukiswa kwaso. Umnikelo wakho ungisiza ukuba nginikele isikhathi esengeziwe ezicini ezintsha nasekuthuthukisweni.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Xhasa ku-GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Helskärmsbild och tagning",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Ta fullständiga, rullande skärmdumpar av vilken webbsida som helst. Sparar automatiskt hela sidan som en enda perfekt bild.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Ta skärmdump",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave-inställningar",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave-inställningar",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Standardåtgärd",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Välj vad som händer när du klickar på tilläggsikonen.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Öppna visare",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Ladda ner",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kopiera",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Fråga var du ska spara",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Om på, kan du välja filnamn och plats för varje nedladdning.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Krävs för att kopiera den tagna skärmdumpbilden till urklipp.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Tagning misslyckades: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Ett fel uppstod under skärmdump-processen: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Förhandsgranskning av Weave-skärmdump",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Förhandsgranskning av skärmdump",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Din tagna sida är klar.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kopiera",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Kopierad!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Ladda ner",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Laddar ner...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Fel",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Din tagna skärmdump kommer att visas här.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Kunde inte läsa in skärmdump. Den kan ha rensats från lagring.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Stöd Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Om du tycker att detta tillägg är användbart, överväg att stödja dess utveckling. Ditt bidrag hjälper mig att ägna mer tid åt nya funktioner och förbättringar.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Sponsra på GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "ವೀವ್: ಪೂರ್ಣ ಪುಟದ ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಮತ್ತು ಕ್ಯಾಪ್ಚರ್",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "ಯಾವುದೇ ವೆಬ್‌ಪುಟದ ಪೂರ್ಣ, ಸ್ಕ್ರೋಲಿಂಗ್ ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ಗಳನ್ನು ಸೆರೆಹಿಡಿಯಿರಿ. ಸಂಪೂರ್ಣ ಪುಟವನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಒಂದು ಪರಿಪೂರ್ಣ ಚಿತ್ರವಾಗಿ ಉಳಿಸುತ್ತದೆ.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಸೆರೆಹಿಡಿಯಿರಿ",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "ವೀವ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "ವೀವ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "ಡೀಫಾಲ್ಟ್ ಕ್ರಿಯೆ",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "ನೀವು ವಿಸ್ತರಣೆ ಐಕಾನ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ ಏನಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ಆರಿಸಿ.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "ವೀಕ್ಷಕವನ್ನು ತೆರೆಯಿರಿ",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "ನಕಲಿಸಿ",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "ಎಲ್ಲಿ ಉಳಿಸಬೇಕೆಂದು ಕೇಳಿ",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "ಆನ್‌ನಲ್ಲಿದ್ದರೆ, ಪ್ರತಿ ಡೌನ್‌ಲೋಡ್‌ಗೆ ನೀವು ಫೈಲ್ ಹೆಸರು ಮತ್ತು ಸ್ಥಳವನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "ಸೆರೆಹಿಡಿದ ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಚಿತ್ರವನ್ನು ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲು ಅಗತ್ಯವಿದೆ.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "ಸೆರೆಹಿಡಿಯುವಿಕೆ ವಿಫಲವಾಗಿದೆ: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿ ದೋಷ ಸಂಭವಿಸಿದೆ: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "ವೀವ್ ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಪೂರ್ವವೀಕ್ಷಣೆ",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಪೂರ್ವವೀಕ್ಷಣೆ",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "ನಿಮ್ಮ ಸೆರೆಹಿಡಿದ ಪುಟ ಸಿದ್ಧವಾಗಿದೆ.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "ನಕಲಿಸಿ",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "ನಕಲಿಸಲಾಗಿದೆ!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "ಡೌನ್‌ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "ದೋಷ",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "ನಿಮ್ಮ ಸೆರೆಹಿಡಿದ ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಅದನ್ನು ಸಂಗ್ರಹಣೆಯಿಂದ ತೆರವುಗೊಳಿಸಿರಬಹುದು.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "ವೀವ್ ಅನ್ನು ಬೆಂಬಲಿಸಿ",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "ಈ ವಿಸ್ತರಣೆಯು ನಿಮಗೆ ಸಹಾಯಕವಾಗಿದ್ದರೆ, ದಯವಿಟ್ಟು ಅದರ ಅಭಿವೃದ್ಧಿಯನ್ನು ಬೆಂಬಲಿಸುವುದನ್ನು ಪರಿಗಣಿಸಿ. ನಿಮ್ಮ ಕೊಡುಗೆಯು ಹೊಸ ವೈಶಿಷ್ಟ್ಯಗಳು ಮತ್ತು ಸುಧಾರಣೆಗಳಿಗೆ ಹೆಚ್ಚು ಸಮಯವನ್ನು ವಿನಿಯೋಗಿಸಲು ನನಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "GitHub ನಲ್ಲಿ ಪ್ರಾಯೋಜಿಸಿ",
+    "description": "Text for the sponsor button."
+  }
+}

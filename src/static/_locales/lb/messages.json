@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Ganz Säit Screenshot & Erfaassung",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Maacht voll, scrollend Screenshots vun all Websäit. Späichert automatesch déi ganz Säit als ee perfekt Bild.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Screenshot maachen",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave Astellungen",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave Astellungen",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Standardaktioun",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Wielt wat geschitt wann Dir op d'Extensiounsikon klickt.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Viewer opmaachen",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Eroflueden",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kopéieren",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Frot wou ze späicheren",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Wann ageschalt, kënnt Dir den Dateinumm an d'Plaz fir all Download wielen.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Néideg fir dat erfaasst Screenshot-Bild an de Clipboard ze kopéieren.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Erfaassung feelgeschloen: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "E Feeler ass während dem Screenshot-Prozess geschitt: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave Screenshot Virschau",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Screenshot Virschau",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Är erfaasst Säit ass fäerdeg.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kopéieren",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Kopéiert!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Eroflueden",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Eroflueden...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Feeler",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Äre erfaasste Screenshot erschéngt hei.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Konnt de Screenshot net lueden. Et ass vläicht aus dem Späicher geläscht ginn.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Ënnerstëtzt Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Wann Dir dës Extensioun nëtzlech fannt, betruecht w.e.g. hir Entwécklung z'ënnerstëtzen. Äre Bäitrag hëlleft mir méi Zäit fir nei Features a Verbesserungen ze widmen.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Sponsor op GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

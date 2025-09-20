@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "ୱିଭ୍: ପୂରା ପୃଷ୍ଠା ସ୍କ୍ରିନସଟ୍ ଏବଂ କ୍ୟାପଚର୍",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "ଯେକ web ଣସି ୱେବପୃଷ୍ଠାର ସମ୍ପୂର୍ଣ୍ଣ, ସ୍କ୍ରୋଲିଂ ସ୍କ୍ରିନସଟ୍ କ୍ୟାପଚର୍ କରନ୍ତୁ | ସମଗ୍ର ପୃଷ୍ଠାକୁ ସ୍ୱୟଂଚାଳିତ ଭାବରେ ଗୋଟିଏ ସିଦ୍ଧ ପ୍ରତିଛବି ଭାବରେ ସଞ୍ଚୟ କରେ |",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "ସ୍କ୍ରିନସଟ୍ କ୍ୟାପଚର୍ କରନ୍ତୁ",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "ୱିଭ୍ ସେଟିଂସମୂହ",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "ୱିଭ୍ ସେଟିଂସମୂହ",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "ଡିଫଲ୍ଟ କାର୍ଯ୍ୟ",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "ଆପଣ ଏକ୍ସଟେନ୍ସନ୍ ଆଇକନ୍ ଉପରେ କ୍ଲିକ୍ କଲେ କ’ଣ ହୁଏ ବାଛନ୍ତୁ |",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "ଦର୍ଶକ ଖୋଲନ୍ତୁ",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "କପି କରନ୍ତୁ",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "କେଉଁଠାରେ ସଞ୍ଚୟ କରିବେ ପଚାରନ୍ତୁ",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "ଯଦି ଅନ୍ ଅଛି, ଆପଣ ପ୍ରତ୍ୟେକ ଡାଉନଲୋଡ୍ ପାଇଁ ଫାଇଲ୍ ନାମ ଏବଂ ଅବସ୍ଥାନ ବାଛିପାରିବେ |",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "କ୍ୟାପଚର୍ ହୋଇଥିବା ସ୍କ୍ରିନସଟ୍ ପ୍ରତିଛବିକୁ କ୍ଲିପବୋର୍ଡକୁ କପି କରିବା ଆବଶ୍ୟକ |",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "କ୍ୟାପଚର୍ ବିଫଳ ହେଲା: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "ସ୍କ୍ରିନସଟ୍ ପ୍ରକ୍ରିୟା ସମୟରେ ଏକ ତ୍ରୁଟି ଘଟିଛି: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "ୱିଭ୍ ସ୍କ୍ରିନସଟ୍ ପୂର୍ବାବଲୋକନ",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "ସ୍କ୍ରିନସଟ୍ ପୂର୍ବାବଲୋକନ",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "ଆପଣଙ୍କର କ୍ୟାପଚର୍ ହୋଇଥିବା ପୃଷ୍ଠା ପ୍ରସ୍ତୁତ ଅଛି |",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "କପି କରନ୍ତୁ",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "କପି ହୋଇଛି!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "ଡାଉନଲୋଡ୍ ହେଉଛି...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "ତ୍ରୁଟି",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "ଆପଣଙ୍କର କ୍ୟାପଚର୍ ହୋଇଥିବା ସ୍କ୍ରିନସଟ୍ ଏଠାରେ ଦେଖାଯିବ |",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "ସ୍କ୍ରିନସଟ୍ ଲୋଡ୍ କରିପାରିଲା ନାହିଁ | ଏହାକୁ ଷ୍ଟୋରେଜରୁ ସଫା କରାଯାଇଥାଇପାରେ |",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "ୱିଭ୍ କୁ ସମର୍ଥନ କରନ୍ତୁ",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "ଯଦି ଆପଣ ଏହି ଏକ୍ସଟେନ୍ସନ୍ କୁ ସହାୟକ ମନେ କରନ୍ତି, ଦୟାକରି ଏହାର ବିକାଶକୁ ସମର୍ଥନ କରିବାକୁ ବିଚାର କରନ୍ତୁ | ଆପଣଙ୍କର ଅବଦାନ ମୋତେ ନୂତନ ବ features ଶିଷ୍ଟ୍ୟ ଏବଂ ଉନ୍ନତି ପାଇଁ ଅଧିକ ସମୟ ଦେବାକୁ ସାହାଯ୍ୟ କରେ |",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "GitHub ରେ ପ୍ରାୟୋଜକ କରନ୍ତୁ",
+    "description": "Text for the sponsor button."
+  }
+}

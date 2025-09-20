@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Ful sidj skermbil an fang",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Maage folscheene, scrollende screenshots foon ark websid. Seekert dåt hiili sid automatisch ås iin perfekt bile.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Skermbil fang",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave instellingen",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave instellingen",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Standardaksjoon",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Wees wat der bart, wan dü üüb det ekstension-ikon klikest.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Viewer iepenmaage",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Deel loode",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kopiiare",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Fraage, huar't dü spaare wult",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Wan't uun as, könst dü a dateinööm an a plaats för arke deel looding wees.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Ferlangd, am det fangen skermbil-bil üüb det clipboard tu kopiiaren.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Fang misleked: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "En feeler as uun a skermbil-protses apskeden: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave skermbil föörschau",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Skermbil föörschau",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Dien fangen sidj as klaar.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kopiiare",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Kopiiaret!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Deel loode",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Loodet deel...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Feeler",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Dien fangen skermbil wal heer uunwise.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Kaan skermbil loode. Det as ferlicht faan a spaager wechnimen wurden.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Stipe Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Wan dü meenst, dat dës ekstension nütelk as, auerlei di do man, det ütjwikling tu stipe. Dien bidrach helpt mi, muar tidj för neii funksjoonen an ferbeedringen tu brüken.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Sponsor üüb GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

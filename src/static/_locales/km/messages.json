@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: រូបថត​អេក្រង់​ពេញ​ទំព័រ & ចាប់​យក",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "ចាប់យករូបថតអេក្រង់ពេញលេញនៃគេហទំព័រណាមួយ។ រក្សាទុកទំព័រទាំងមូលដោយស្វ័យប្រវត្តិជារូបភាពដ៏ល្អឥតខ្ចោះមួយ។",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "ចាប់​យករូបថត​អេក្រង់",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "ការ​កំណត់ Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "ការ​កំណត់ Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "សកម្មភាព​លំនាំដើម",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "ជ្រើសរើស​អ្វី​ដែល​កើត​ឡើង​នៅ​ពេល​អ្នក​ចុច​លើ​រូប​តំណាង​ផ្នែក​បន្ថែម។",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "បើក​កម្មវិធី​មើល",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "ទាញយក",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "ចម្លង",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "សួរ​កន្លែង​ដែល​ត្រូវ​រក្សា​ទុក",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "ប្រសិនបើ​បើក អ្នក​អាច​ជ្រើសរើស​ឈ្មោះ​ឯកសារ​និង​ទីតាំង​សម្រាប់​ការ​ទាញយក​នីមួយៗ។",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "តម្រូវ​ឱ្យ​ចម្លង​រូបភាព​រូបថត​អេក្រង់​ដែល​បាន​ចាប់​យក​ទៅ​ក្ដារ​តម្បៀត​ខ្ទាស់។",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "ការ​ចាប់​យក​បាន​បរាជ័យ៖ $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "មាន​កំហុស​កើត​ឡើង​ក្នុង​អំឡុង​ពេល​ដំណើរការ​រូបថត​អេក្រង់៖ $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "ការ​មើល​រូបថត​អេក្រង់ Weave ជាមុន",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "ការ​មើល​រូបថត​អេក្រង់​ជាមុន",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "ទំព័រ​ដែល​អ្នក​បាន​ចាប់​យក​រួចរាល់​ហើយ។",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "ចម្លង",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "បាន​ចម្លង!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "ទាញយក",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "កំពុង​ទាញយក...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "កំហុស",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "រូបថត​អេក្រង់​ដែល​អ្នក​បាន​ចាប់​យក​នឹង​បង្ហាញ​នៅ​ទីនេះ។",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "មិន​អាច​ផ្ទុក​រូបថត​អេក្រង់​បាន​ទេ។ វា​អាច​ត្រូវ​បាន​សម្អាត​ចេញពី​កន្លែង​ផ្ទុក។",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "គាំទ្រ Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "ប្រសិនបើ​អ្នក​រក​ឃើញ​ថា​ផ្នែក​បន្ថែម​នេះ​មាន​ប្រយោជន៍ សូម​ពិចារណា​គាំទ្រ​ការ​អភិវឌ្ឍ​របស់​វា។ ការ​ចូលរួម​ចំណែក​របស់​អ្នក​ជួយ​ខ្ញុំ​ក្នុង​ការ​លះបង់​ពេលវេលា​បន្ថែម​ទៀត​សម្រាប់​លក្ខណៈ​ពិសេស​ថ្មីៗ​និង​ការ​កែលម្អ។",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "ឧបត្ថម្ភ​នៅ​លើ GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

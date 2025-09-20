@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Chithunzi Chathunthu cha Tsamba & Kujambula",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Jambulani zithunzi zonse, zoyenda patsamba lililonse lawebusayiti. Zimasunga tsamba lonselo ngati chithunzi chimodzi changwiro.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Tengani Chithunzi",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Zokonda za Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Zokonda za Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Zochita Zosasinthika",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Sankhani zomwe zimachitika mukadina chizindikiro chowonjezera.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Tsegulani Wowonera",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Tsitsani",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Koperani",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Funsani komwe mungasunge",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Ngati yayatsidwa, mutha kusankha dzina la fayilo ndi malo a kutsitsa kulikonse.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Kufunika kukopera chithunzi chojambulidwa pa clipboard.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Kujambula kwalephera: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Pali cholakwika chomwe chidachitika panthawi yojambula chithunzi: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Chithunzi Chowonera Chithunzi cha Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Chithunzi Chowonera Chithunzi",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Tsamba lanu lojambulidwa lakonzeka.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Koperani",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Kukopera!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Tsitsani",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Kutsitsa...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Zolakwika",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Chithunzi chanu chojambulidwa chidzawonekera pano.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Sitinathe kunyamula chithunzi. Itha kuchotsedwa posungira.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Thandizani Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Ngati mupeza kuti zowonjezera izi ndizothandiza, chonde ganizirani zothandizira chitukuko chake. Zopereka zanu zimandithandiza kuti ndipereke nthawi yambiri pazinthu zatsopano ndi zosintha.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Thandizani pa GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

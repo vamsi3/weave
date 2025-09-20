@@ -1,0 +1,19 @@
+{
+  "name": "weave",
+  "version": "1.0.0",
+  "description": "A Chrome extension for full-page screenshots.",
+  "scripts": {
+    "clean": "shx rm -rf dist .tsbuildinfo",
+    "build:ts": "tsc --build",
+    "build:static": "cpx \"src/static/**/*\" dist",
+    "postbuild:ts": "shx rm dist/**/*.d.ts",
+    "build": "pnpm run clean && pnpm run build:static && pnpm run build:ts",
+    "watch": "tsc --build --watch"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.12",
+    "cpx": "^1.5.0",
+    "shx": "^0.4.0",
+    "typescript": "^5.9.2"
+  }
+}

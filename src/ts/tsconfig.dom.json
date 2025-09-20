@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2022", "DOM"],
+    "tsBuildInfoFile": "../../.tsbuildinfo/dom.tsbuildinfo"
+  },
+  "include": [
+    "content.ts",
+    "offscreen.ts",
+    "options.ts",
+    "viewer.ts",
+    "types.d.ts"
+  ]
+}

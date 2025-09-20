@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Snimak ekrana i snimanje cijele stranice",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Snimite pune, skrolujuće snimke ekrana bilo koje web stranice. Automatski sprema cijelu stranicu kao jednu savršenu sliku.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Napravi snimak ekrana",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave postavke",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave postavke",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Zadana radnja",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Odaberite što se događa kada kliknete na ikonu proširenja.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Otvori preglednik",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Preuzmi",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kopiraj",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Pitaj gdje spremiti",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Ako je uključeno, možete odabrati naziv datoteke i lokaciju za svako preuzimanje.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Potrebno za kopiranje snimljene slike ekrana u međuspremnik.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Snimanje nije uspjelo: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Došlo je do greške tokom procesa snimanja ekrana: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Pregled snimka ekrana Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Pregled snimka ekrana",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Vaša snimljena stranica je spremna.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kopiraj",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Kopirano!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Preuzmi",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Preuzimanje...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Greška",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Vaš snimljeni snimak ekrana će se pojaviti ovdje.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Nije moguće učitati snimak ekrana. Možda je obrisan iz memorije.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Podržite Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Ako smatrate da je ovo proširenje korisno, molimo vas da razmislite o podršci njegovom razvoju. Vaš doprinos mi pomaže da posvetim više vremena novim funkcijama i poboljšanjima.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Sponzorirajte na GitHubu",
+    "description": "Text for the sponsor button."
+  }
+}

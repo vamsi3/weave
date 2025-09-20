@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Guutuu Fuula Suura Kaasuu & Qabachuu",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Fuula weebii kamiyyuu irraa suuraa guutuu, iskooroolii waraabi. Fuula guutuu akka suuraa tokkootti ofumaan qusata.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Suura Kaasuu",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Qindaa'inoota Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Qindaa'inoota Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Gocha Iddilee",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Yeroo mallattoo diriirsituu cuqaastu maal akka ta'u filadhu.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Agarsiiftuu Bani",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Buufadhu",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Gara Gaggeessi",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Eessa Akka Kuufamu Gaafadhu",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Yoo baname, buufata tokkoon tokkoof maqaa faayilii fi iddoo filachuu dandeessa.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Suuraa iskiriinii qabame gara kilipboorditti garagalchuun barbaachisaadha.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Qabachuun kufaate: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Adeemsa suuraa kaasuu keessatti dogoggorri uumameera: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave Suura Kaasuu Duraa Agarsiisuu",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Suura Kaasuu Duraa Agarsiisuu",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Fuulli kee qabame qophaa'aadha.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Gara Gaggeessi",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Garagalchameera!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Buufadhu",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Buufachaa jira...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Dogoggora",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Suuraan iskiriinii kee qabame asitti mul'ata.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Suuraa kaasuu fe'uu hin dandeenye. Kuusaa irraa haqamuu danda'a.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Weave Deeggaraa",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Diriirsituu kana fayidaa qaba jettanii yoo yaadattan, guddina isaa deeggaruu yaadaa. Gumaachi keessan amaloota haaraa fi fooyya'iinsa irratti yeroo dabalataa akkan kennu na gargaara.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "GitHub irratti deeggaraa",
+    "description": "Text for the sponsor button."
+  }
+}

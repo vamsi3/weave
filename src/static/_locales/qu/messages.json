@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Lliwllapa P'anqa Rikch'a & Hap'iy",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Tukuy web p'anqamanta hunt'asqa, suchuq pukara hap'iy. Tukuy p'anqata huk ch'uya rikch'ayman kikinmanta waqaychan.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "P'anqa Rikch'ata Hap'iy",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave Kamachiyninkuna",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave Kamachiyninkuna",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Ñawpaq Ruray",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Akllay imachus pasanqa chay extension icono nisqapi ñit'ispa.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Qhawaqta Kichay",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Uraykuchiy",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kopiyay",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Maypi waqaychanata tapuy",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Sí encendido kashan chayqa, atinki sapa uraykuchinapaq archivoq sutinta chaymanta maypi kasqanta akllayta.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Hap'isqa p'anqa rikch'ata clipboardman kopiyanapaqmi necesitakun.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Hap'iyqa pantarqan: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Huk pantay karqan p'anqa rikch'a ruraypi: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave P'anqa Rikch'a Ñawpaq Rikuy",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "P'anqa Rikch'a Ñawpaq Rikuy",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Hap'isqa p'anqayki listom kashan.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kopiyay",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Kopiyasqa!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Uraykuchiy",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Uraykuchishan...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Pantay",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Hap'isqa p'anqa rikch'ayki kaypi rikurinqa.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Mana atirqanchu p'anqa rikch'ata kargayta. Ichapas waqaychanamanta pichasqa karqan.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Weaveta Yanapay",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Kay extension yanapasunki chayqa, ama hina kaspa, wiñariyninta yanapayta yuyaykuy. Qullqiykiwanmi yanapawanki musuq imaymanakunaman chaymanta allinchaykunaman aswan pacha qunaypaq.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "GitHubpi Yanapay",
+    "description": "Text for the sponsor button."
+  }
+}

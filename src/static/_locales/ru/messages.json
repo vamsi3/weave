@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Снимок экрана всей страницы и захват",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Делайте полные, прокручиваемые снимки экрана любой веб-страницы. Автоматически сохраняет всю страницу как одно идеальное изображение.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Сделать снимок экрана",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Настройки Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Настройки Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Действие по умолчанию",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Выберите, что происходит при нажатии на значок расширения.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Открыть просмотрщик",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Скачать",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Копировать",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Спрашивать, куда сохранять",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Если включено, вы можете выбрать имя файла и местоположение для каждой загрузки.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Требуется для копирования захваченного изображения снимка экрана в буфер обмена.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Захват не удался: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Во время процесса создания снимка экрана произошла ошибка: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Предварительный просмотр снимка экрана Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Предварительный просмотр снимка экрана",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Ваша захваченная страница готова.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Копировать",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Скопировано!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Скачать",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Загрузка...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Ошибка",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Ваш захваченный снимок экрана появится здесь.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Не удалось загрузить снимок экрана. Возможно, он был удален из хранилища.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Поддержите Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Если вы находите это расширение полезным, пожалуйста, рассмотрите возможность поддержки его разработки. Ваш вклад помогает мне уделять больше времени новым функциям и улучшениям.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Спонсировать на GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

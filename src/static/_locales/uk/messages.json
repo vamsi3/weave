@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Знімок екрана та захоплення всієї сторінки",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Робіть повні, прокручувані знімки екрана будь-якої веб-сторінки. Автоматично зберігає всю сторінку як одне ідеальне зображення.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Зробити знімок екрана",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Налаштування Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Налаштування Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Дія за замовчуванням",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Виберіть, що відбувається, коли ви натискаєте на іконку розширення.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Відкрити переглядач",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Завантажити",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Копіювати",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Запитати, де зберегти",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Якщо увімкнено, ви можете вибрати ім'я файлу та місцезнаходження для кожного завантаження.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Потрібно для копіювання захопленого зображення знімка екрана в буфер обміну.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Не вдалося захопити: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Під час процесу створення знімка екрана сталася помилка: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Попередній перегляд знімка екрана Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Попередній перегляд знімка екрана",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Ваша захоплена сторінка готова.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Копіювати",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Скопійовано!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Завантажити",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Завантаження...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Помилка",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Ваш захоплений знімок екрана з'явиться тут.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Не вдалося завантажити знімок екрана. Можливо, його було видалено зі сховища.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Підтримайте Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Якщо ви вважаєте це розширення корисним, будь ласка, розгляньте можливість підтримки його розробки. Ваш внесок допомагає мені приділяти більше часу новим функціям та вдосконаленням.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Спонсорувати на GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

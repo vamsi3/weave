@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: pilnas lapas ekrānuzņēmums un tveršana",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Uzņemiet pilnus, ritināmus jebkuras tīmekļa lapas ekrānuzņēmumus. Automātiski saglabā visu lapu kā vienu perfektu attēlu.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Uzņemt ekrānuzņēmumu",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave iestatījumi",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave iestatījumi",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Noklusējuma darbība",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Izvēlieties, kas notiek, noklikšķinot uz paplašinājuma ikonas.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Atvērt skatītāju",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Lejupielādēt",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Kopēt",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Jautāt, kur saglabāt",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Ja ieslēgts, katrai lejupielādei varat izvēlēties faila nosaukumu un atrašanās vietu.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Nepieciešams, lai uzņemto ekrānuzņēmuma attēlu nokopētu starpliktuvē.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Tveršana neizdevās: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Ekrānuzņēmuma procesa laikā radās kļūda: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave ekrānuzņēmuma priekšskatījums",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Ekrānuzņēmuma priekšskatījums",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Jūsu uzņemtā lapa ir gatava.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Kopēt",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Nokopēts!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Lejupielādēt",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Notiek lejupielāde...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Kļūda",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Šeit parādīsies jūsu uzņemtais ekrānuzņēmums.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Nevarēja ielādēt ekrānuzņēmumu. Iespējams, tas tika iztīrīts no krātuves.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Atbalstiet Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Ja uzskatāt, ka šis paplašinājums ir noderīgs, lūdzu, apsveriet iespēju atbalstīt tā izstrādi. Jūsu ieguldījums man palīdz veltīt vairāk laika jaunām funkcijām un uzlabojumiem.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Sponsorēt GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

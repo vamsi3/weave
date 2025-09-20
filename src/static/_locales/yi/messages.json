@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "וועאַווע: גאַנץ בלאַט סקרעענשאָט & כאַפּן",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "כאַפּן פול, סקראָללינג סקרעענשאָץ פון קיין וועבפּאַגע. אויטאָמאַטיש סאַוועס די גאנצע בלאַט ווי איין גאנץ בילד.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "כאַפּן סקרעענשאָט",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "וועאַווע סעטטינגס",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "וועאַווע סעטטינגס",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "פעליקייַט קאַמף",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "קלייַבן וואָס כאַפּאַנז ווען איר גיט די געשפּרייט ייקאַן.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "עפֿן וויוער",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "אראפקאפיע",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "קאָפּיע",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "פרעגן ווו צו ראַטעווען",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "אויב אויף, איר קענען קלייַבן די טעקע נאָמען און אָרט פֿאַר יעדער אראפקאפיע.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "פארלאנגט צו נאָכמאַכן די קאַפּטשערד סקרעענשאָט בילד צו די קליפּבאָרד.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "כאַפּן ניט אַנדערש: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "אַ טעות איז פארגעקומען בעשאַס די סקרעענשאָט פּראָצעס: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "וועאַווע סקרעענשאָט פאָרויסיקע ווייַזונג",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "סקרעענשאָט פאָרויסיקע ווייַזונג",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "דיין קאַפּטשערד בלאַט איז גרייט.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "קאָפּיע",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "קאַפּיד!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "אראפקאפיע",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "דאַונלאָודינג ...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "טעות",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "דיין קאַפּטשערד סקרעענשאָט וועט דערשייַנען דאָ.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "קען ניט מאַסע סקרעענשאָט. עס קען זיין קלירד פון סטאָרידזש.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "שטיצן וועאַווע",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "אויב איר געפֿינען דעם געשפּרייט נוציק, ביטע באַטראַכטן שטיצן זייַן אַנטוויקלונג. דיין צושטייַער העלפּס מיר אָפּגעבן מער צייט צו נייַע פֿעיִקייטן און ימפּרווומאַנץ.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "ספּאָנסאָר אויף GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

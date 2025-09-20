@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Tangkapan Layar & Pengambilan Halaman Penuh",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Ambil tangkapan layar gulir penuh dari halaman web mana pun. Secara otomatis menyimpan seluruh halaman sebagai satu gambar sempurna.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Ambil Tangkapan Layar",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Pengaturan Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Pengaturan Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Tindakan Default",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Pilih apa yang terjadi saat Anda mengklik ikon ekstensi.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Buka Penampil",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Unduh",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Salin",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Tanya tempat menyimpan",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Jika aktif, Anda dapat memilih nama file dan lokasi untuk setiap unduhan.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Diperlukan untuk menyalin gambar tangkapan layar yang diambil ke papan klip.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Pengambilan gagal: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Terjadi kesalahan selama proses tangkapan layar: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Pratinjau Tangkapan Layar Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Pratinjau Tangkapan Layar",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Halaman yang Anda ambil sudah siap.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Salin",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Disalin!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Unduh",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Mengunduh...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Kesalahan",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Tangkapan layar yang Anda ambil akan muncul di sini.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Tidak dapat memuat tangkapan layar. Mungkin telah dihapus dari penyimpanan.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Dukung Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Jika Anda merasa ekstensi ini bermanfaat, mohon pertimbangkan untuk mendukung pengembangannya. Kontribusi Anda membantu saya mendedikasikan lebih banyak waktu untuk fitur dan peningkatan baru.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Sponsor di GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

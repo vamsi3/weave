@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Whakaahuamata Whārangi Katoa & Hopu",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Hopukina ngā whakaahua mata katoa, panuku o tētahi whārangi tukutuku. Ka tiaki aunoa i te whārangi katoa hei whakaahua tino tika kotahi.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Hopu Whakaahuamata",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Ngā Tautuhinga Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Ngā Tautuhinga Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Mahi Taunoa",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Kōwhiria te mea ka pā mai ina pāwhiri koe i te ata toronga.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Whakatuwhera Pūtiro",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Tikiake",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Tārua",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Pātai ki hea e tiaki ai",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Mēnā kei te kā, ka taea e koe te kōwhiri i te ingoa kōnae me te wāhi mō ia tikiake.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Me tārua te atahanga whakaahuamata i hopukina ki te papatopenga.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "I rahua te hopu: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "I puta he hapa i te wā o te tukanga whakaahuamata: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Arokite Whakaahuamata Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Arokite Whakaahuamata",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Kua reri tō whārangi i hopukina.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Tārua",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Kua tāruatia!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Tikiake",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Kei te tikiake...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Hapa",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Ka puta mai tō whakaahuamata i hopukina ki konei.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Kāore i taea te uta i te whakaahuamata. Kua whakawāteahia pea i te pūmahara.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Tautoko i a Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Mēnā ka kitea e koe he whai hua tēnei toronga, tēnā koa whakaarohia te tautoko i tōna whanaketanga. Ka āwhina tō takoha i ahau ki te whakatapu wā atu ki ngā āhuatanga hou me ngā whakapainga.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Tautoko i runga i GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: Скриншоти пурраи саҳифа ва сабт",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Аксҳои пурраи ҳаракаткунандаи дилхоҳ саҳифаи интернетиро гиред. Тамоми саҳифаро ба таври худкор ҳамчун як тасвири комил захира мекунад.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Скриншот гиред",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Танзимоти Weave",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Танзимоти Weave",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Амали пешфарз",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Интихоб кунед, ки ҳангоми пахш кардани нишонаи васеъшавӣ чӣ мешавад.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Намоишгарро кушоед",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Зеркашӣ кунед",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Нусхабардорӣ кунед",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Пурсед, ки дар куҷо захира кунед",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Агар фаъол бошад, шумо метавонед номи файл ва макони ҳар як зеркаширо интихоб кунед.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Барои нусхабардории тасвири скриншоти гирифташуда ба буфер лозим аст.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Сабт нашуд: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Ҳангоми раванди скриншот хатогӣ рух дод: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Пешнамоиши скриншоти Weave",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Пешнамоиши скриншот",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Саҳифаи сабтшудаи шумо омода аст.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Нусхабардорӣ кунед",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Нусхабардорӣ шуд!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Зеркашӣ кунед",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Зеркашӣ карда мешавад...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Хатогӣ",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Скриншоти сабтшудаи шумо дар ин ҷо пайдо мешавад.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Скриншотро бор кардан мумкин нест. Шояд он аз анбор тоза карда шуда бошад.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Дастгирии Weave",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Агар шумо ин васеъшавиро муфид донед, лутфан дастгирии рушди онро баррасӣ кунед. Саҳми шумо ба ман кӯмак мекунад, ки вақти бештарро ба хусусиятҳои нав ва такмилдиҳӣ бахшам.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "Сарпарастӣ дар GitHub",
+    "description": "Text for the sponsor button."
+  }
+}

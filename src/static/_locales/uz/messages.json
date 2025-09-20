@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: To'liq sahifali skrinshot va suratga olish",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Istalgan veb-sahifaning toʻliq, aylantiriladigan skrinshotlarini oling. Butun sahifani bitta mukammal rasm sifatida avtomatik saqlaydi.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "Skrinshot olish",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave sozlamalari",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave sozlamalari",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "Standart harakat",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "Kengaytma belgisini bosganingizda nima sodir bo'lishini tanlang.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Ko'rish vositasini ochish",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "Yuklab olish",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "Nusxalash",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "Qayerda saqlashni so'rash",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "Agar yoqilgan bo'lsa, har bir yuklab olish uchun fayl nomi va joylashuvini tanlashingiz mumkin.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "Olingan skrinshot tasvirini vaqtinchalik xotiraga nusxalash talab qilinadi.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "Suratga olish muvaffaqiyatsiz tugadi: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Skrinshot jarayonida xatolik yuz berdi: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave skrinshotini oldindan ko'rish",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "Skrinshotni oldindan ko'rish",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "Siz olgan sahifa tayyor.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "Nusxalash",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "Nusxalandi!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "Yuklab olish",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "Yuklanmoqda...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Xatolik",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "Siz olgan skrinshot bu yerda paydo bo'ladi.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "Skrinshotni yuklab bo'lmadi. U xotiradan o'chirilgan bo'lishi mumkin.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Weave'ni qo'llab-quvvatlang",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "Agar siz ushbu kengaytmani foydali deb bilsangiz, uning rivojlanishini qo'llab-quvvatlashni o'ylab ko'ring. Sizning hissangiz menga yangi xususiyatlar va yaxshilanishlarga ko'proq vaqt ajratishimga yordam beradi.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "GitHub'da homiylik qiling",
+    "description": "Text for the sponsor button."
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Weave",
+			"path": ".",
+		},
+	],
+	"settings": {
+		"editor.wordWrap": "on",
+		"files.trimTrailingWhitespace": true,
+		"files.insertFinalNewline": true,
+	},
+}

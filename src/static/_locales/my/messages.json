@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "Weave: စာမျက်နှာအပြည့် မျက်နှာပြင်ရိုက်ကူးခြင်းနှင့် ဖမ်းယူခြင်း",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "မည်သည့်ဝဘ်စာမျက်နှာ၏မဆို အပြည့်အစုံ၊ လှိမ့်ကြည့်နိုင်သော ဖန်သားပြင်ဓာတ်ပုံများကို ရိုက်ကူးပါ။ စာမျက်နှာတစ်ခုလုံးကို ပြီးပြည့်စုံသော ပုံတစ်ပုံတည်းအဖြစ် အလိုအလျောက် သိမ်းဆည်းပေးသည်။",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "မျက်နှာပြင်ရိုက်ကူးပါ",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "Weave ဆက်တင်များ",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "Weave ဆက်တင်များ",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "ပုံသေလုပ်ဆောင်ချက်",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "တိုးချဲ့မှုအိုင်ကွန်ကို နှိပ်သည့်အခါ ဘာဖြစ်မည်ကို ရွေးချယ်ပါ။",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "ကြည့်ရှုသူကို ဖွင့်ပါ",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "ဒေါင်းလုဒ်လုပ်ပါ",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "ကူးယူပါ",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "ဘယ်မှာသိမ်းရမလဲ မေးပါ",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "ဖွင့်ထားပါက၊ ဒေါင်းလုဒ်တစ်ခုစီအတွက် ဖိုင်အမည်နှင့် တည်နေရာကို သင်ရွေးချယ်နိုင်သည်။",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "ဖမ်းယူထားသော မျက်နှာပြင်ရိုက်ကူးသည့်ပုံကို ကလစ်ဘုတ်သို့ ကူးယူရန် လိုအပ်သည်။",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "ဖမ်းယူမှု မအောင်မြင်ပါ- $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "မျက်နှာပြင်ရိုက်ကူးခြင်း လုပ်ငန်းစဉ်အတွင်း အမှားတစ်ခု ဖြစ်ပွားခဲ့သည်- $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "Weave မျက်နှာပြင်ရိုက်ကူးမှု အစမ်းကြည့်ရှုခြင်း",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "မျက်နှာပြင်ရိုက်ကူးမှု အစမ်းကြည့်ရှုခြင်း",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "သင်ဖမ်းယူထားသော စာမျက်နှာ အဆင်သင့်ဖြစ်ပါပြီ။",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "ကူးယူပါ",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "ကူးယူပြီးပါပြီ။",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "ဒေါင်းလုဒ်လုပ်ပါ",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "ဒေါင်းလုဒ်လုပ်နေသည်...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "အမှား",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "သင်ဖမ်းယူထားသော မျက်နှာပြင်ရိုက်ကူးမှု ဤနေရာတွင် ပေါ်လာပါမည်။",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "မျက်နှာပြင်ရိုက်ကူးမှုကို ဖွင့်၍မရပါ။ သိုလှောင်မှုမှ ရှင်းလင်းသွားနိုင်ပါသည်။",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "Weave ကို ပံ့ပိုးပါ",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "ဤတိုးချဲ့မှုကို အထောက်အကူဖြစ်စေသည်ဟု သင်တွေ့ရှိပါက၊ ၎င်း၏ဖွံ့ဖြိုးတိုးတက်မှုကို ပံ့ပိုးပေးရန် စဉ်းစားပါ။ သင်၏ ပံ့ပိုးကူညီမှုက ကျွန်ုပ်အား အင်္ဂါရပ်အသစ်များနှင့် တိုးတက်မှုများအတွက် အချိန်ပိုပေးနိုင်ရန် ကူညီပေးပါသည်။",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "GitHub တွင် ပံ့ပိုးပါ",
+    "description": "Text for the sponsor button."
+  }
+}

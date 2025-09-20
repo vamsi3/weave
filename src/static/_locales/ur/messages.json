@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "ویو: مکمل صفحہ اسکرین شاٹ اور کیپچر",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "کسی بھی ویب پیج کے مکمل، اسکرولنگ اسکرین شاٹس کیپچر کریں۔ پورے صفحہ کو خود بخود ایک بہترین تصویر کے طور پر محفوظ کرتا ہے۔",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "اسکرین شاٹ کیپچر کریں",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "ویو کی ترتیبات",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "ویو کی ترتیبات",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "ڈیفالٹ کارروائی",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "منتخب کریں کہ جب آپ ایکسٹینشن آئیکن پر کلک کرتے ہیں تو کیا ہوتا ہے۔",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "ویور کھولیں",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "ڈاؤن لوڈ کریں",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "کاپی کریں",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "کہاں محفوظ کرنا ہے پوچھیں",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "اگر آن ہے، تو آپ ہر ڈاؤن لوڈ کے لیے فائل کا نام اور مقام منتخب کر سکتے ہیں۔",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "کیپچر کی گئی اسکرین شاٹ کی تصویر کو کلپ بورڈ پر کاپی کرنے کی ضرورت ہے۔",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "کیپچر ناکام: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "اسکرین شاٹ کے عمل کے دوران ایک خرابی پیش آئی: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "ویو اسکرین شاٹ کا پیش نظارہ",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "اسکرین شاٹ کا پیش نظارہ",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "آپ کا کیپچر کیا گیا صفحہ تیار ہے۔",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "کاپی کریں",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "کاپی کیا گیا!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "ڈاؤن لوڈ کریں",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "ڈاؤن لوڈ ہو رہا ہے...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "خرابی",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "آپ کا کیپچر کیا گیا اسکرین شاٹ یہاں ظاہر ہوگا۔",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "اسکرین شاٹ لوڈ نہیں کیا جا سکا۔ اسے اسٹوریج سے صاف کیا جا سکتا ہے۔",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "ویو کی حمایت کریں",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "اگر آپ کو یہ ایکسٹینشن مفید معلوم ہوتی ہے، تو براہ کرم اس کی ترقی کی حمایت پر غور کریں۔ آپ کا تعاون مجھے نئی خصوصیات اور بہتری کے لیے مزید وقت دینے میں مدد کرتا ہے۔",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "GitHub پر اسپانسر کریں",
+    "description": "Text for the sponsor button."
+  }
+}

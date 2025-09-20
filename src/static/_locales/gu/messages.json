@@ -1,0 +1,124 @@
+{
+  "extName": {
+    "message": "વીવ: સંપૂર્ણ પૃષ્ઠ સ્ક્રીનશોટ અને કેપ્ચર",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "કોઈપણ વેબપેજની સંપૂર્ણ, સ્ક્રોલિંગ સ્ક્રીનશોટ કેપ્ચર કરો. આખા પૃષ્ઠને એક સંપૂર્ણ છબી તરીકે આપમેળે સાચવે છે.",
+    "description": "The description of the extension."
+  },
+  "actionTitle": {
+    "message": "સ્ક્રીનશોટ કેપ્ચર કરો",
+    "description": "Tooltip for the browser action button."
+  },
+  "optionsTitle": {
+    "message": "વીવ સેટિંગ્સ",
+    "description": "The title of the options page."
+  },
+  "optionsHeader": {
+    "message": "વીવ સેટિંગ્સ",
+    "description": "The main header on the options page."
+  },
+  "defaultActionHeader": {
+    "message": "ડિફૉલ્ટ ક્રિયા",
+    "description": "Header for the default action setting."
+  },
+  "defaultActionDescription": {
+    "message": "જ્યારે તમે એક્સ્ટેંશન આયકન પર ક્લિક કરો ત્યારે શું થાય છે તે પસંદ કરો.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "વ્યુઅર ખોલો",
+    "description": "Label for the 'open viewer' radio button."
+  },
+  "downloadLabel": {
+    "message": "ડાઉનલોડ કરો",
+    "description": "Label for the 'download' radio button."
+  },
+  "copyLabel": {
+    "message": "કૉપિ કરો",
+    "description": "Label for the 'copy' radio button."
+  },
+  "saveAsHeader": {
+    "message": "ક્યાં સાચવવું તે પૂછો",
+    "description": "Header for the 'save as' toggle setting."
+  },
+  "saveAsDescription": {
+    "message": "જો ચાલુ હોય, તો તમે દરેક ડાઉનલોડ માટે ફાઇલનું નામ અને સ્થાન પસંદ કરી શકો છો.",
+    "description": "Description for the 'save as' toggle setting."
+  },
+  "copyToClipboardJustification": {
+    "message": "કેપ્ચર કરેલી સ્ક્રીનશોટ છબીને ક્લિપબોર્ડ પર કૉપિ કરવા માટે જરૂરી છે.",
+    "description": "Justification for using the offscreen document for clipboard access."
+  },
+  "captureFailedError": {
+    "message": "કેપ્ચર નિષ્ફળ: $reason$",
+    "description": "Error message when screenshot capture fails, with a placeholder for the reason.",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "સ્ક્રીનશોટ પ્રક્રિયા દરમિયાન ભૂલ આવી: $message$",
+    "description": "Generic error message shown to the user in an alert, with a placeholder for the specific error.",
+    "placeholders": {
+      "message": {
+        "content": "$1"
+      }
+    }
+  },
+  "viewerTitle": {
+    "message": "વીવ સ્ક્રીનશોટ પૂર્વદર્શન",
+    "description": "Title of the screenshot viewer page."
+  },
+  "viewerHeader": {
+    "message": "સ્ક્રીનશોટ પૂર્વદર્શન",
+    "description": "Main header on the viewer page."
+  },
+  "viewerDescription": {
+    "message": "તમારું કેપ્ચર કરેલું પૃષ્ઠ તૈયાર છે.",
+    "description": "Sub-header/description on the viewer page."
+  },
+  "copyButton": {
+    "message": "કૉપિ કરો",
+    "description": "Text for the copy button."
+  },
+  "copiedButton": {
+    "message": "કૉપિ કર્યું!",
+    "description": "Text for the copy button after a successful copy."
+  },
+  "downloadButton": {
+    "message": "ડાઉનલોડ કરો",
+    "description": "Text for the download button."
+  },
+  "downloadingButton": {
+    "message": "ડાઉનલોડ કરી રહ્યું છે...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "ભૂલ",
+    "description": "Text for a button when an error occurs."
+  },
+  "screenshotAltText": {
+    "message": "તમારો કેપ્ચર કરેલો સ્ક્રીનશોટ અહીં દેખાશે.",
+    "description": "Alt text for the screenshot image."
+  },
+  "noScreenshotAltText": {
+    "message": "સ્ક્રીનશોટ લોડ કરી શકાયો નથી. તે સંગ્રહમાંથી સાફ થઈ શકે છે.",
+    "description": "Alt text for the screenshot image when the data URL is not found."
+  },
+  "supportHeader": {
+    "message": "વીવને સપોર્ટ કરો",
+    "description": "Header for the support/sponsorship section on the options page."
+  },
+  "supportDescription": {
+    "message": "જો તમને આ એક્સ્ટેંશન મદદરૂપ લાગે, તો કૃપા કરીને તેના વિકાસને ટેકો આપવાનું વિચારો. તમારું યોગદાન મને નવી સુવિધાઓ અને સુધારાઓ માટે વધુ સમય ફાળવવામાં મદદ કરે છે.",
+    "description": "Description for the support/sponsorship section."
+  },
+  "sponsorButton": {
+    "message": "GitHub પર સ્પોન્સર કરો",
+    "description": "Text for the sponsor button."
+  }
+}
