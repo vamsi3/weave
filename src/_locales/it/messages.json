@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Screenshot e cattura a pagina intera",
+    "description": "Il nome ufficiale dell'estensione. Mantenuto conciso per la visibilità nel web store e per il branding."
+  },
+  "extDescription": {
+    "message": "Cattura e unisci senza problemi screenshot a scorrimento di pagine intere con un solo clic. Visualizza, scarica o copia istantaneamente le tue catture.",
+    "description": "La descrizione di marketing dell'estensione, incentrata sui vantaggi e sulla facilità d'uso."
+  },
+  "actionTitle": {
+    "message": "Cattura con Weave",
+    "description": "Tooltip per il pulsante di azione del browser. Breve, di marca e orientato all'azione."
+  },
+  "optionsTitle": {
+    "message": "Impostazioni di Weave",
+    "description": "Titolo della scheda del browser della pagina delle opzioni."
+  },
+  "optionsHeader": {
+    "message": "Impostazioni",
+    "description": "Intestazione principale nella pagina delle opzioni. Pulita e semplice."
+  },
+  "defaultActionHeader": {
+    "message": "Dopo la cattura...",
+    "description": "Intestazione per l'impostazione dell'azione predefinita. Più intuitiva e orientata al flusso di lavoro."
+  },
+  "defaultActionDescription": {
+    "message": "Scegli cosa fa Weave nel momento in cui una cattura è terminata.",
+    "description": "Descrizione per l'impostazione dell'azione predefinita."
+  },
+  "openViewerLabel": {
+    "message": "Apri visualizzatore",
+    "description": "Etichetta per il pulsante di opzione 'apri nel visualizzatore'. Chiara e diretta."
+  },
+  "downloadLabel": {
+    "message": "Scarica",
+    "description": "Etichetta per il pulsante di opzione 'scarica'. Comprensibile universalmente."
+  },
+  "copyLabel": {
+    "message": "Copia",
+    "description": "Etichetta per il pulsante di opzione 'copia'. Concisa per la coerenza dell'interfaccia utente."
+  },
+  "saveAsHeader": {
+    "message": "Chiedi prima di salvare",
+    "description": "Intestazione per l'interruttore 'salva con nome'. Formulata dal punto di vista dell'utente."
+  },
+  "saveAsDescription": {
+    "message": "Se abilitato, ti verrà chiesto di scegliere un nome di file e una posizione per ogni download.",
+    "description": "Descrizione per l'interruttore 'salva con nome'. Utilizza la voce attiva."
+  },
+  "scrollingHeader": {
+    "message": "Abilita cattura a scorrimento",
+    "description": "Intestazione per l'impostazione dell'interruttore di cattura a scorrimento."
+  },
+  "scrollingDescription": {
+    "message": "Abilita per catturare l'intera pagina a scorrimento. Disabilita per catturare solo l'area attualmente visibile.",
+    "description": "Descrizione per l'interruttore di cattura a scorrimento. Più diretta e imperativa."
+  },
+  "supportHeader": {
+    "message": "Sostieni questo progetto",
+    "description": "Intestazione per la sezione di supporto/sponsorizzazione. Più personale e orientata alla comunità."
+  },
+  "supportDescription": {
+    "message": "Weave è un progetto gratuito e open source. Se lo trovi utile, considera di sostenere il suo continuo sviluppo.",
+    "description": "Descrizione per la sezione di supporto. Evidenzia la proposta di valore (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Sponsorizza su GitHub",
+    "description": "Testo per il pulsante dello sponsor."
+  },
+  "viewerTitle": {
+    "message": "Weave: Cattura completata",
+    "description": "Titolo della scheda del browser della pagina del visualizzatore di screenshot."
+  },
+  "viewerHeader": {
+    "message": "Cattura completata",
+    "description": "Intestazione principale nella pagina del visualizzatore, che conferma il successo."
+  },
+  "viewerDescription": {
+    "message": "Il tuo screenshot a pagina intera è pronto. Qual è il prossimo passo?",
+    "description": "Descrizione nella pagina del visualizzatore, che coinvolge l'utente."
+  },
+  "copyButton": {
+    "message": "Copia immagine",
+    "description": "Testo per il pulsante di copia nella pagina del visualizzatore."
+  },
+  "copiedButton": {
+    "message": "Copiato!",
+    "description": "Testo per il pulsante di copia dopo una copia riuscita, che fornisce un feedback chiaro."
+  },
+  "downloadButton": {
+    "message": "Scarica immagine",
+    "description": "Testo per il pulsante di download nella pagina del visualizzatore."
+  },
+  "downloadingButton": {
+    "message": "Download in corso...",
+    "description": "Testo per il pulsante di download mentre il download è in corso."
+  },
+  "errorButton": {
+    "message": "Fallito",
+    "description": "Testo per un pulsante quando si verifica un errore. Meno allarmante di 'Errore'."
+  },
+  "screenshotAltText": {
+    "message": "Uno screenshot a pagina intera catturato da Weave.",
+    "description": "Testo alternativo per l'immagine dello screenshot, che migliora l'accessibilità e il branding."
+  },
+  "noScreenshotAltText": {
+    "message": "Nessun dato dello screenshot trovato. Torna alla scheda precedente e prova a catturare di nuovo.",
+    "description": "Testo alternativo per l'area dell'immagine quando non è disponibile alcuno screenshot, fornendo un'istruzione chiara."
+  },
+  "copyFailedError": {
+    "message": "Impossibile copiare l'immagine negli appunti. Motivo: $details$",
+    "description": "Messaggio di errore visualizzato quando la copia negli appunti fallisce. Linguaggio più morbido.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Accesso agli appunti negato."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Qualcosa è andato storto durante il processo di cattura. Errore: $details$",
+    "description": "Messaggio di errore generico visualizzato quando lo screenshot fallisce. Più leggibile per l'uomo.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Impossibile creare la tela."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Cattura annullata perché hai navigato altrove. Per una cattura a pagina intera, rimani sulla scheda finché Weave non ha finito.",
+    "description": "Messaggio di errore visualizzato quando l'utente cambia scheda. Spiega *perché* e istruisce educatamente."
+  }
+}

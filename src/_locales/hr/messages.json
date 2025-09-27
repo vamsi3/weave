@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Snimak zaslona i snimanje cijele stranice",
+    "description": "Službeni naziv proširenja. Održava se sažetim radi vidljivosti u web-trgovini i brendiranja."
+  },
+  "extDescription": {
+    "message": "Besprijekorno snimajte i spajajte pomične snimke zaslona cijele stranice jednim klikom. Odmah pregledajte, preuzmite ili kopirajte svoje snimke.",
+    "description": "Marketinški opis proširenja, s naglaskom na prednostima i jednostavnosti korištenja."
+  },
+  "actionTitle": {
+    "message": "Snimi pomoću Weavea",
+    "description": "Opis alata za gumb akcije preglednika. Kratko, brendirano i usmjereno na akciju."
+  },
+  "optionsTitle": {
+    "message": "Postavke Weavea",
+    "description": "Naslov kartice preglednika stranice s opcijama."
+  },
+  "optionsHeader": {
+    "message": "Postavke",
+    "description": "Glavno zaglavlje na stranici s opcijama. Čisto i jednostavno."
+  },
+  "defaultActionHeader": {
+    "message": "Nakon snimanja...",
+    "description": "Zaglavlje za postavku zadane radnje. Intuitivnije i usmjereno na tijek rada."
+  },
+  "defaultActionDescription": {
+    "message": "Odaberite što Weave radi u trenutku kada je snimanje završeno.",
+    "description": "Opis postavke zadane radnje."
+  },
+  "openViewerLabel": {
+    "message": "Otvori preglednik",
+    "description": "Oznaka za radio gumb 'otvori u pregledniku'. Jasno i izravno."
+  },
+  "downloadLabel": {
+    "message": "Preuzmi",
+    "description": "Oznaka za radio gumb 'preuzmi'. Univerzalno razumljivo."
+  },
+  "copyLabel": {
+    "message": "Kopiraj",
+    "description": "Oznaka za radio gumb 'kopiraj'. Sažeto radi dosljednosti korisničkog sučelja."
+  },
+  "saveAsHeader": {
+    "message": "Pitaj prije spremanja",
+    "description": "Zaglavlje za preklopnik 'spremi kao'. Sročeno iz perspektive korisnika."
+  },
+  "saveAsDescription": {
+    "message": "Ako je omogućeno, od vas će se tražiti da odaberete naziv datoteke i lokaciju za svako preuzimanje.",
+    "description": "Opis preklopnika 'spremi kao'. Koristi aktivni glas."
+  },
+  "scrollingHeader": {
+    "message": "Omogući snimanje s pomicanjem",
+    "description": "Zaglavlje za postavku preklopnika za snimanje s pomicanjem."
+  },
+  "scrollingDescription": {
+    "message": "Omogućite za snimanje cijele pomične stranice. Onemogućite za snimanje samo trenutno vidljivog područja.",
+    "description": "Opis preklopnika za snimanje s pomicanjem. Izravniji i imperativniji."
+  },
+  "supportHeader": {
+    "message": "Podržite ovaj projekt",
+    "description": "Zaglavlje za odjeljak za podršku/sponzorstvo. Osobnije i usmjereno na zajednicu."
+  },
+  "supportDescription": {
+    "message": "Weave je besplatan projekt otvorenog koda. Ako smatrate da je koristan, razmislite o podršci njegovom daljnjem razvoju.",
+    "description": "Opis odjeljka za podršku. Ističe vrijednosni prijedlog (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Sponzorirajte na GitHubu",
+    "description": "Tekst za gumb sponzora."
+  },
+  "viewerTitle": {
+    "message": "Weave: Snimanje završeno",
+    "description": "Naslov kartice preglednika stranice za pregled snimki zaslona."
+  },
+  "viewerHeader": {
+    "message": "Snimanje završeno",
+    "description": "Glavno zaglavlje na stranici za pregled, potvrđuje uspjeh."
+  },
+  "viewerDescription": {
+    "message": "Vaš snimak zaslona cijele stranice je spreman. Što je sljedeće?",
+    "description": "Opis na stranici za pregled, angažirajući korisnika."
+  },
+  "copyButton": {
+    "message": "Kopiraj sliku",
+    "description": "Tekst za gumb za kopiranje na stranici za pregled."
+  },
+  "copiedButton": {
+    "message": "Kopirano!",
+    "description": "Tekst za gumb za kopiranje nakon uspješnog kopiranja, pružajući jasnu povratnu informaciju."
+  },
+  "downloadButton": {
+    "message": "Preuzmi sliku",
+    "description": "Tekst za gumb za preuzimanje na stranici za pregled."
+  },
+  "downloadingButton": {
+    "message": "Preuzimanje...",
+    "description": "Tekst za gumb za preuzimanje dok je preuzimanje u tijeku."
+  },
+  "errorButton": {
+    "message": "Neuspješno",
+    "description": "Tekst za gumb kada dođe do pogreške. Manje alarmantno od 'Pogreška'."
+  },
+  "screenshotAltText": {
+    "message": "Snimak zaslona cijele stranice snimljen pomoću Weavea.",
+    "description": "Alternativni tekst za sliku snimke zaslona, poboljšavajući pristupačnost i brendiranje."
+  },
+  "noScreenshotAltText": {
+    "message": "Nisu pronađeni podaci o snimci zaslona. Vratite se na prethodnu karticu i pokušajte ponovno snimiti.",
+    "description": "Alternativni tekst za područje slike kada nema dostupne snimke zaslona, pružajući jasnu uputu."
+  },
+  "copyFailedError": {
+    "message": "Nije moguće kopirati sliku u međuspremnik. Razlog: $details$",
+    "description": "Poruka o pogrešci koja se prikazuje kada kopiranje u međuspremnik ne uspije. Blaži jezik.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Pristup međuspremniku je odbijen."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Nešto je pošlo po zlu tijekom procesa snimanja. Pogreška: $details$",
+    "description": "Generička poruka o pogrešci koja se prikazuje kada snimanje zaslona ne uspije. Čitljivije za ljude.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Nije uspjelo stvaranje platna."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Snimanje je otkazano jer ste se udaljili. Za snimanje cijele stranice, ostanite na kartici dok Weave ne završi.",
+    "description": "Poruka o pogrešci koja se prikazuje kada korisnik promijeni kartice. Objašnjava *zašto* i pristojno upućuje."
+  }
+}

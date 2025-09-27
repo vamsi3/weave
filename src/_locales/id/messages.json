@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Tangkapan Layar & Pengambilan Halaman Penuh",
+    "description": "Nama resmi ekstensi. Dibuat ringkas untuk visibilitas toko web dan branding."
+  },
+  "extDescription": {
+    "message": "Tangkap dan gabungkan tangkapan layar halaman penuh yang dapat digulir dengan mulus dalam satu klik. Lihat, unduh, atau salin hasil tangkapan Anda secara instan.",
+    "description": "Deskripsi pemasaran ekstensi, berfokus pada manfaat dan kemudahan penggunaan."
+  },
+  "actionTitle": {
+    "message": "Ambil dengan Weave",
+    "description": "Tooltip untuk tombol aksi browser. Singkat, bermerek, dan berorientasi pada aksi."
+  },
+  "optionsTitle": {
+    "message": "Pengaturan Weave",
+    "description": "Judul tab browser halaman opsi."
+  },
+  "optionsHeader": {
+    "message": "Pengaturan",
+    "description": "Header utama di halaman opsi. Bersih dan sederhana."
+  },
+  "defaultActionHeader": {
+    "message": "Setelah Mengambil...",
+    "description": "Header untuk pengaturan aksi default. Lebih intuitif dan berorientasi alur kerja."
+  },
+  "defaultActionDescription": {
+    "message": "Pilih apa yang dilakukan Weave saat pengambilan selesai.",
+    "description": "Deskripsi untuk pengaturan aksi default."
+  },
+  "openViewerLabel": {
+    "message": "Buka Penampil",
+    "description": "Label untuk tombol radio 'buka di penampil'. Jelas dan langsung."
+  },
+  "downloadLabel": {
+    "message": "Unduh",
+    "description": "Label untuk tombol radio 'unduh'. Dipahami secara universal."
+  },
+  "copyLabel": {
+    "message": "Salin",
+    "description": "Label untuk tombol radio 'salin'. Ringkas untuk konsistensi UI."
+  },
+  "saveAsHeader": {
+    "message": "Tanya Sebelum Menyimpan",
+    "description": "Header untuk sakelar 'simpan sebagai'. Disusun dari perspektif pengguna."
+  },
+  "saveAsDescription": {
+    "message": "Jika diaktifkan, Anda akan diminta untuk memilih nama file dan lokasi untuk setiap unduhan.",
+    "description": "Deskripsi untuk sakelar 'simpan sebagai'. Menggunakan suara aktif."
+  },
+  "scrollingHeader": {
+    "message": "Aktifkan Pengambilan Bergulir",
+    "description": "Header untuk pengaturan sakelar pengambilan bergulir."
+  },
+  "scrollingDescription": {
+    "message": "Aktifkan untuk mengambil seluruh halaman yang bergulir. Nonaktifkan untuk mengambil hanya area yang terlihat saat ini.",
+    "description": "Deskripsi untuk sakelar pengambilan bergulir. Lebih langsung dan imperatif."
+  },
+  "supportHeader": {
+    "message": "Dukung Proyek Ini",
+    "description": "Header untuk bagian dukungan/sponsor. Lebih personal dan berfokus pada komunitas."
+  },
+  "supportDescription": {
+    "message": "Weave adalah proyek sumber terbuka dan gratis. Jika Anda merasa ini berguna, mohon pertimbangkan untuk mendukung pengembangan berkelanjutannya.",
+    "description": "Deskripsi untuk bagian dukungan. Menyoroti proposisi nilai (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Sponsor di GitHub",
+    "description": "Teks untuk tombol sponsor."
+  },
+  "viewerTitle": {
+    "message": "Weave: Pengambilan Selesai",
+    "description": "Judul tab browser halaman penampil tangkapan layar."
+  },
+  "viewerHeader": {
+    "message": "Pengambilan Selesai",
+    "description": "Header utama di halaman penampil, mengonfirmasi keberhasilan."
+  },
+  "viewerDescription": {
+    "message": "Tangkapan layar halaman penuh Anda sudah siap. Apa selanjutnya?",
+    "description": "Deskripsi di halaman penampil, melibatkan pengguna."
+  },
+  "copyButton": {
+    "message": "Salin Gambar",
+    "description": "Teks untuk tombol salin di halaman penampil."
+  },
+  "copiedButton": {
+    "message": "Tersalin!",
+    "description": "Teks untuk tombol salin setelah penyalinan berhasil, memberikan umpan balik yang jelas."
+  },
+  "downloadButton": {
+    "message": "Unduh Gambar",
+    "description": "Teks untuk tombol unduh di halaman penampil."
+  },
+  "downloadingButton": {
+    "message": "Mengunduh...",
+    "description": "Teks untuk tombol unduh saat pengunduhan sedang berlangsung."
+  },
+  "errorButton": {
+    "message": "Gagal",
+    "description": "Teks untuk tombol saat terjadi kesalahan. Kurang mengkhawatirkan daripada 'Kesalahan'."
+  },
+  "screenshotAltText": {
+    "message": "Tangkapan layar halaman penuh yang diambil oleh Weave.",
+    "description": "Teks alt untuk gambar tangkapan layar, meningkatkan aksesibilitas dan branding."
+  },
+  "noScreenshotAltText": {
+    "message": "Data tangkapan layar tidak ditemukan. Harap kembali ke tab sebelumnya dan coba ambil lagi.",
+    "description": "Teks alt untuk area gambar saat tidak ada tangkapan layar yang tersedia, memberikan instruksi yang jelas."
+  },
+  "copyFailedError": {
+    "message": "Tidak dapat menyalin gambar ke papan klip. Alasan: $details$",
+    "description": "Pesan kesalahan yang ditampilkan saat penyalinan ke papan klip gagal. Bahasa yang lebih lembut.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Akses papan klip ditolak."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Terjadi kesalahan selama proses pengambilan. Kesalahan: $details$",
+    "description": "Pesan kesalahan generik yang ditampilkan saat tangkapan layar gagal. Lebih mudah dibaca manusia.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Gagal membuat kanvas."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Pengambilan dibatalkan karena Anda bernavigasi. Untuk pengambilan halaman penuh, harap tetap di tab hingga Weave selesai.",
+    "description": "Pesan kesalahan yang ditampilkan saat pengguna beralih tab. Menjelaskan *mengapa* dan memberikan instruksi dengan sopan."
+  }
+}

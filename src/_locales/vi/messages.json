@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Chụp ảnh màn hình và ghi lại toàn trang",
+    "description": "Tên chính thức của tiện ích. Giữ ngắn gọn để dễ nhìn thấy trên cửa hàng web và xây dựng thương hiệu."
+  },
+  "extDescription": {
+    "message": "Chụp và ghép ảnh màn hình cuộn, toàn trang một cách liền mạch chỉ bằng một cú nhấp chuột. Xem, tải xuống hoặc sao chép ảnh chụp của bạn ngay lập tức.",
+    "description": "Mô tả tiếp thị của tiện ích, tập trung vào lợi ích và tính dễ sử dụng."
+  },
+  "actionTitle": {
+    "message": "Chụp bằng Weave",
+    "description": "Chú giải công cụ cho nút hành động của trình duyệt. Ngắn gọn, có thương hiệu và hướng đến hành động."
+  },
+  "optionsTitle": {
+    "message": "Cài đặt Weave",
+    "description": "Tiêu đề tab trình duyệt của trang tùy chọn."
+  },
+  "optionsHeader": {
+    "message": "Cài đặt",
+    "description": "Tiêu đề chính trên trang tùy chọn. Sạch sẽ và đơn giản."
+  },
+  "defaultActionHeader": {
+    "message": "Sau khi chụp...",
+    "description": "Tiêu đề cho cài đặt hành động mặc định. Trực quan hơn và hướng đến quy trình làm việc."
+  },
+  "defaultActionDescription": {
+    "message": "Chọn những gì Weave sẽ làm ngay khi quá trình chụp hoàn tất.",
+    "description": "Mô tả cho cài đặt hành động mặc định."
+  },
+  "openViewerLabel": {
+    "message": "Mở trong trình xem",
+    "description": "Nhãn cho nút radio 'mở trong trình xem'. Rõ ràng và trực tiếp."
+  },
+  "downloadLabel": {
+    "message": "Tải xuống",
+    "description": "Nhãn cho nút radio 'tải xuống'. Được hiểu rộng rãi."
+  },
+  "copyLabel": {
+    "message": "Sao chép",
+    "description": "Nhãn cho nút radio 'sao chép'. Ngắn gọn để đảm bảo tính nhất quán của giao diện người dùng."
+  },
+  "saveAsHeader": {
+    "message": "Hỏi trước khi lưu",
+    "description": "Tiêu đề cho nút bật/tắt 'lưu dưới dạng'. Diễn đạt theo quan điểm của người dùng."
+  },
+  "saveAsDescription": {
+    "message": "Nếu được bật, bạn sẽ được nhắc chọn tên tệp và vị trí cho mỗi lần tải xuống.",
+    "description": "Mô tả cho nút bật/tắt 'lưu dưới dạng'. Sử dụng giọng nói chủ động."
+  },
+  "scrollingHeader": {
+    "message": "Bật chụp cuộn",
+    "description": "Tiêu đề cho cài đặt nút bật/tắt chụp cuộn."
+  },
+  "scrollingDescription": {
+    "message": "Bật để chụp toàn bộ trang cuộn. Tắt để chỉ chụp khu vực hiện đang hiển thị.",
+    "description": "Mô tả cho nút bật/tắt chụp cuộn. Trực tiếp và mệnh lệnh hơn."
+  },
+  "supportHeader": {
+    "message": "Hỗ trợ dự án này",
+    "description": "Tiêu đề cho phần hỗ trợ/tài trợ. Cá nhân hơn và tập trung vào cộng đồng."
+  },
+  "supportDescription": {
+    "message": "Weave là một dự án mã nguồn mở và miễn phí. Nếu bạn thấy nó hữu ích, vui lòng xem xét việc hỗ trợ sự phát triển liên tục của nó.",
+    "description": "Mô tả cho phần hỗ trợ. Nêu bật đề xuất giá trị (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Tài trợ trên GitHub",
+    "description": "Văn bản cho nút tài trợ."
+  },
+  "viewerTitle": {
+    "message": "Weave: Chụp hoàn tất",
+    "description": "Tiêu đề tab trình duyệt của trang xem ảnh chụp màn hình."
+  },
+  "viewerHeader": {
+    "message": "Chụp hoàn tất",
+    "description": "Tiêu đề chính trên trang xem, xác nhận thành công."
+  },
+  "viewerDescription": {
+    "message": "Ảnh chụp màn hình toàn trang của bạn đã sẵn sàng. Tiếp theo là gì?",
+    "description": "Mô tả trên trang xem, thu hút người dùng."
+  },
+  "copyButton": {
+    "message": "Sao chép hình ảnh",
+    "description": "Văn bản cho nút sao chép trên trang xem."
+  },
+  "copiedButton": {
+    "message": "Đã sao chép!",
+    "description": "Văn bản cho nút sao chép sau khi sao chép thành công, cung cấp phản hồi rõ ràng."
+  },
+  "downloadButton": {
+    "message": "Tải xuống hình ảnh",
+    "description": "Văn bản cho nút tải xuống trên trang xem."
+  },
+  "downloadingButton": {
+    "message": "Đang tải xuống...",
+    "description": "Văn bản cho nút tải xuống trong khi đang tải xuống."
+  },
+  "errorButton": {
+    "message": "Thất bại",
+    "description": "Văn bản cho một nút khi xảy ra lỗi. Ít đáng báo động hơn 'Lỗi'."
+  },
+  "screenshotAltText": {
+    "message": "Ảnh chụp màn hình toàn trang được chụp bởi Weave.",
+    "description": "Văn bản thay thế cho hình ảnh chụp màn hình, cải thiện khả năng truy cập và xây dựng thương hiệu."
+  },
+  "noScreenshotAltText": {
+    "message": "Không tìm thấy dữ liệu ảnh chụp màn hình. Vui lòng quay lại tab trước và thử chụp lại.",
+    "description": "Văn bản thay thế cho khu vực hình ảnh khi không có ảnh chụp màn hình, cung cấp hướng dẫn rõ ràng."
+  },
+  "copyFailedError": {
+    "message": "Không thể sao chép hình ảnh vào khay nhớ tạm. Lý do: $details$",
+    "description": "Thông báo lỗi hiển thị khi sao chép vào khay nhớ tạm không thành công. Ngôn ngữ nhẹ nhàng hơn.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Quyền truy cập khay nhớ tạm bị từ chối."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Đã xảy ra lỗi trong quá trình chụp. Lỗi: $details$",
+    "description": "Thông báo lỗi chung hiển thị khi chụp ảnh màn hình không thành công. Dễ đọc hơn đối với con người.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Không thể tạo canvas."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Quá trình chụp đã bị hủy vì bạn đã điều hướng đi nơi khác. Để chụp toàn trang, vui lòng ở lại tab cho đến khi Weave hoàn tất.",
+    "description": "Thông báo lỗi hiển thị khi người dùng chuyển tab. Giải thích *tại sao* và hướng dẫn một cách lịch sự."
+  }
+}

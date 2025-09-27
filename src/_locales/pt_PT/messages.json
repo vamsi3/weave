@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Captura de ecrã e captura de página inteira",
+    "description": "O nome oficial da extensão. Mantido conciso para visibilidade na loja da web e branding."
+  },
+  "extDescription": {
+    "message": "Capture e una capturas de ecrã de rolagem de página inteira sem problemas com um único clique. Visualize, descarregue ou copie as suas capturas instantaneamente.",
+    "description": "A descrição de marketing da extensão, com foco nos benefícios e na facilidade de utilização."
+  },
+  "actionTitle": {
+    "message": "Capturar com Weave",
+    "description": "Dica de ferramenta para o botão de ação do navegador. Curto, com marca e orientado para a ação."
+  },
+  "optionsTitle": {
+    "message": "Definições do Weave",
+    "description": "Título do separador do navegador da página de opções."
+  },
+  "optionsHeader": {
+    "message": "Definições",
+    "description": "Cabeçalho principal na página de opções. Limpo e simples."
+  },
+  "defaultActionHeader": {
+    "message": "Após a captura...",
+    "description": "Cabeçalho para a definição de ação padrão. Mais intuitivo e orientado para o fluxo de trabalho."
+  },
+  "defaultActionDescription": {
+    "message": "Escolha o que o Weave faz no momento em que uma captura é concluída.",
+    "description": "Descrição para a definição de ação padrão."
+  },
+  "openViewerLabel": {
+    "message": "Abrir visualizador",
+    "description": "Rótulo para o botão de opção 'abrir no visualizador'. Claro e direto."
+  },
+  "downloadLabel": {
+    "message": "Descarregar",
+    "description": "Rótulo para o botão de opção 'descarregar'. Universalmente compreendido."
+  },
+  "copyLabel": {
+    "message": "Copiar",
+    "description": "Rótulo para o botão de opção 'copiar'. Conciso para consistência da interface do utilizador."
+  },
+  "saveAsHeader": {
+    "message": "Perguntar antes de guardar",
+    "description": "Cabeçalho para o botão de alternância 'guardar como'. Fraseado da perspetiva do utilizador."
+  },
+  "saveAsDescription": {
+    "message": "Se ativado, ser-lhe-á pedido que escolha um nome de ficheiro e uma localização para cada transferência.",
+    "description": "Descrição para o botão de alternância 'guardar como'. Utiliza a voz ativa."
+  },
+  "scrollingHeader": {
+    "message": "Ativar captura de rolagem",
+    "description": "Cabeçalho para a definição do botão de alternância de captura de rolagem."
+  },
+  "scrollingDescription": {
+    "message": "Ative para capturar a página de rolagem inteira. Desative para capturar apenas a área visível no momento.",
+    "description": "Descrição para o botão de alternância de captura de rolagem. Mais direto e imperativo."
+  },
+  "supportHeader": {
+    "message": "Apoie este projeto",
+    "description": "Cabeçalho para a secção de suporte/patrocínio. Mais pessoal e focado na comunidade."
+  },
+  "supportDescription": {
+    "message": "Weave é um projeto gratuito e de código aberto. Se o considera útil, por favor, considere apoiar o seu desenvolvimento contínuo.",
+    "description": "Descrição para a secção de suporte. Destaca a proposta de valor (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Patrocinar no GitHub",
+    "description": "Texto para o botão de patrocinador."
+  },
+  "viewerTitle": {
+    "message": "Weave: Captura concluída",
+    "description": "Título do separador do navegador da página do visualizador de captura de ecrã."
+  },
+  "viewerHeader": {
+    "message": "Captura concluída",
+    "description": "Cabeçalho principal na página do visualizador, confirmando o sucesso."
+  },
+  "viewerDescription": {
+    "message": "A sua captura de ecrã de página inteira está pronta. Qual o próximo passo?",
+    "description": "Descrição na página do visualizador, envolvendo o utilizador."
+  },
+  "copyButton": {
+    "message": "Copiar imagem",
+    "description": "Texto para o botão de copiar na página do visualizador."
+  },
+  "copiedButton": {
+    "message": "Copiado!",
+    "description": "Texto para o botão de copiar após uma cópia bem-sucedida, fornecendo feedback claro."
+  },
+  "downloadButton": {
+    "message": "Descarregar imagem",
+    "description": "Texto para o botão de descarregar na página do visualizador."
+  },
+  "downloadingButton": {
+    "message": "A descarregar...",
+    "description": "Texto para o botão de descarregar enquanto a transferência está em andamento."
+  },
+  "errorButton": {
+    "message": "Falhou",
+    "description": "Texto para um botão quando ocorre um erro. Menos alarmante do que 'Erro'."
+  },
+  "screenshotAltText": {
+    "message": "Uma captura de ecrã de página inteira capturada pelo Weave.",
+    "description": "Texto alternativo para a imagem da captura de ecrã, melhorando a acessibilidade e o branding."
+  },
+  "noScreenshotAltText": {
+    "message": "Nenhuns dados de captura de ecrã encontrados. Por favor, retorne ao separador anterior e tente capturar novamente.",
+    "description": "Texto alternativo para a área da imagem quando nenhuma captura de ecrã está disponível, fornecendo uma instrução clara."
+  },
+  "copyFailedError": {
+    "message": "Não foi possível copiar a imagem para a área de transferência. Motivo: $details$",
+    "description": "Mensagem de erro exibida quando a cópia para a área de transferência falha. Linguagem mais suave.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Acesso à área de transferência negado."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Algo correu mal durante o processo de captura. Erro: $details$",
+    "description": "Mensagem de erro genérica exibida quando a captura de ecrã falha. Mais legível por humanos.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Falha ao criar a tela."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Captura cancelada porque navegou para outro lugar. Para uma captura de página inteira, por favor, permaneça no separador até que o Weave termine.",
+    "description": "Mensagem de erro exibida quando o utilizador troca de separador. Explica *porquê* e instrui educadamente."
+  }
+}

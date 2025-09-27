@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Tangkapan Skrin & Rakaman Halaman Penuh",
+    "description": "Nama rasmi sambungan. Dikekalkan ringkas untuk keterlihatan kedai web dan penjenamaan."
+  },
+  "extDescription": {
+    "message": "Rakam dan jahit tangkapan skrin halaman penuh yang menatal dengan lancar dalam satu klik. Lihat, muat turun atau salin rakaman anda serta-merta.",
+    "description": "Penerangan pemasaran sambungan, memfokuskan pada faedah dan kemudahan penggunaan."
+  },
+  "actionTitle": {
+    "message": "Rakam dengan Weave",
+    "description": "Petua alat untuk butang tindakan penyemak imbas. Ringkas, berjenama dan berorientasikan tindakan."
+  },
+  "optionsTitle": {
+    "message": "Tetapan Weave",
+    "description": "Tajuk tab penyemak imbas halaman pilihan."
+  },
+  "optionsHeader": {
+    "message": "Tetapan",
+    "description": "Pengepala utama pada halaman pilihan. Bersih dan ringkas."
+  },
+  "defaultActionHeader": {
+    "message": "Selepas Merakam...",
+    "description": "Pengepala untuk tetapan tindakan lalai. Lebih intuitif dan berorientasikan aliran kerja."
+  },
+  "defaultActionDescription": {
+    "message": "Pilih apa yang Weave lakukan sebaik sahaja rakaman selesai.",
+    "description": "Penerangan untuk tetapan tindakan lalai."
+  },
+  "openViewerLabel": {
+    "message": "Buka Pemapar",
+    "description": "Label untuk butang radio 'buka dalam pemapar'. Jelas dan terus."
+  },
+  "downloadLabel": {
+    "message": "Muat turun",
+    "description": "Label untuk butang radio 'muat turun'. Difahami secara universal."
+  },
+  "copyLabel": {
+    "message": "Salin",
+    "description": "Label untuk butang radio 'salin'. Ringkas untuk ketekalan UI."
+  },
+  "saveAsHeader": {
+    "message": "Tanya Sebelum Menyimpan",
+    "description": "Pengepala untuk togol 'simpan sebagai'. Diungkapkan dari perspektif pengguna."
+  },
+  "saveAsDescription": {
+    "message": "Jika didayakan, anda akan digesa untuk memilih nama fail dan lokasi bagi setiap muat turun.",
+    "description": "Penerangan untuk togol 'simpan sebagai'. Menggunakan suara aktif."
+  },
+  "scrollingHeader": {
+    "message": "Dayakan Rakaman Menatal",
+    "description": "Pengepala untuk tetapan togol rakaman menatal."
+  },
+  "scrollingDescription": {
+    "message": "Dayakan untuk merakam keseluruhan halaman menatal. Lumpuhkan untuk merakam hanya kawasan yang kelihatan pada masa ini.",
+    "description": "Penerangan untuk togol rakaman menatal. Lebih terus dan imperatif."
+  },
+  "supportHeader": {
+    "message": "Sokong Projek Ini",
+    "description": "Pengepala untuk bahagian sokongan/penajaan. Lebih peribadi dan berfokuskan komuniti."
+  },
+  "supportDescription": {
+    "message": "Weave ialah projek sumber terbuka dan percuma. Jika anda mendapatinya berguna, sila pertimbangkan untuk menyokong pembangunannya yang berterusan.",
+    "description": "Penerangan untuk bahagian sokongan. Menyerlahkan proposisi nilai (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Taja di GitHub",
+    "description": "Teks untuk butang penaja."
+  },
+  "viewerTitle": {
+    "message": "Weave: Rakaman Selesai",
+    "description": "Tajuk tab penyemak imbas halaman pemapar tangkapan skrin."
+  },
+  "viewerHeader": {
+    "message": "Rakaman Selesai",
+    "description": "Pengepala utama pada halaman pemapar, mengesahkan kejayaan."
+  },
+  "viewerDescription": {
+    "message": "Tangkapan skrin halaman penuh anda sudah sedia. Apa seterusnya?",
+    "description": "Penerangan pada halaman pemapar, melibatkan pengguna."
+  },
+  "copyButton": {
+    "message": "Salin Imej",
+    "description": "Teks untuk butang salin pada halaman pemapar."
+  },
+  "copiedButton": {
+    "message": "Disalin!",
+    "description": "Teks untuk butang salin selepas salinan berjaya, memberikan maklum balas yang jelas."
+  },
+  "downloadButton": {
+    "message": "Muat Turun Imej",
+    "description": "Teks untuk butang muat turun pada halaman pemapar."
+  },
+  "downloadingButton": {
+    "message": "Memuat turun...",
+    "description": "Teks untuk butang muat turun semasa muat turun sedang berjalan."
+  },
+  "errorButton": {
+    "message": "Gagal",
+    "description": "Teks untuk butang apabila ralat berlaku. Kurang membimbangkan daripada 'Ralat'."
+  },
+  "screenshotAltText": {
+    "message": "Tangkapan skrin halaman penuh yang dirakam oleh Weave.",
+    "description": "Teks alt untuk imej tangkapan skrin, meningkatkan kebolehcapaian dan penjenamaan."
+  },
+  "noScreenshotAltText": {
+    "message": "Tiada data tangkapan skrin ditemui. Sila kembali ke tab sebelumnya dan cuba rakam semula.",
+    "description": "Teks alt untuk kawasan imej apabila tiada tangkapan skrin tersedia, memberikan arahan yang jelas."
+  },
+  "copyFailedError": {
+    "message": "Tidak dapat menyalin imej ke papan keratan. Sebab: $details$",
+    "description": "Mesej ralat ditunjukkan apabila penyalinan ke papan keratan gagal. Bahasa yang lebih lembut.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Akses papan keratan ditolak."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Sesuatu yang tidak kena berlaku semasa proses rakaman. Ralat: $details$",
+    "description": "Mesej ralat generik ditunjukkan apabila tangkapan skrin gagal. Lebih mudah dibaca oleh manusia.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Gagal mencipta kanvas."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Rakaman dibatalkan kerana anda menavigasi keluar. Untuk rakaman halaman penuh, sila kekal di tab sehingga Weave selesai.",
+    "description": "Mesej ralat ditunjukkan apabila pengguna menukar tab. Menerangkan *mengapa* dan memberi arahan dengan sopan."
+  }
+}

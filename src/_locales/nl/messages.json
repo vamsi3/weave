@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Volledige pagina screenshot & opname",
+    "description": "De officiële naam van de extensie. Beknopt gehouden voor zichtbaarheid in de webwinkel en branding."
+  },
+  "extDescription": {
+    "message": "Naadloos scrollende, volledige pagina screenshots vastleggen en samenvoegen met één klik. Bekijk, download of kopieer uw opnames direct.",
+    "description": "De marketingbeschrijving van de extensie, gericht op voordelen en gebruiksgemak."
+  },
+  "actionTitle": {
+    "message": "Vastleggen met Weave",
+    "description": "Tooltip voor de actieknop van de browser. Kort, merkgebonden en actiegericht."
+  },
+  "optionsTitle": {
+    "message": "Weave-instellingen",
+    "description": "Titel van het browsertabblad van de optiepagina."
+  },
+  "optionsHeader": {
+    "message": "Instellingen",
+    "description": "Hoofdkop op de optiepagina. Schoon en eenvoudig."
+  },
+  "defaultActionHeader": {
+    "message": "Na het vastleggen...",
+    "description": "Kop voor de standaardactie-instelling. Intuïtiever en workflowgericht."
+  },
+  "defaultActionDescription": {
+    "message": "Kies wat Weave doet op het moment dat een opname is voltooid.",
+    "description": "Beschrijving van de standaardactie-instelling."
+  },
+  "openViewerLabel": {
+    "message": "Viewer openen",
+    "description": "Label voor de radioknop 'openen in viewer'. Duidelijk en direct."
+  },
+  "downloadLabel": {
+    "message": "Downloaden",
+    "description": "Label voor de radioknop 'downloaden'. Universeel begrepen."
+  },
+  "copyLabel": {
+    "message": "Kopiëren",
+    "description": "Label voor de radioknop 'kopiëren'. Beknopt voor UI-consistentie."
+  },
+  "saveAsHeader": {
+    "message": "Vragen voor het opslaan",
+    "description": "Kop voor de schakelaar 'opslaan als'. Geformuleerd vanuit het perspectief van de gebruiker."
+  },
+  "saveAsDescription": {
+    "message": "Indien ingeschakeld, wordt u gevraagd een bestandsnaam en locatie te kiezen voor elke download.",
+    "description": "Beschrijving van de schakelaar 'opslaan als'. Gebruikt actieve stem."
+  },
+  "scrollingHeader": {
+    "message": "Scrollende opname inschakelen",
+    "description": "Kop voor de instelling van de scrollende opnameschakelaar."
+  },
+  "scrollingDescription": {
+    "message": "Inschakelen om de volledige scrollende pagina vast te leggen. Uitschakelen om alleen het momenteel zichtbare gebied vast te leggen.",
+    "description": "Beschrijving van de scrollende opnameschakelaar. Directer en dwingender."
+  },
+  "supportHeader": {
+    "message": "Steun dit project",
+    "description": "Kop voor de sectie ondersteuning/sponsoring. Persoonlijker en gemeenschapsgericht."
+  },
+  "supportDescription": {
+    "message": "Weave is een gratis, open-source project. Als u het nuttig vindt, overweeg dan om de voortdurende ontwikkeling ervan te ondersteunen.",
+    "description": "Beschrijving van de ondersteuningssectie. Benadrukt de waardepropositie (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Sponsoren op GitHub",
+    "description": "Tekst voor de sponsorknop."
+  },
+  "viewerTitle": {
+    "message": "Weave: Opname voltooid",
+    "description": "Titel van het browsertabblad van de screenshotviewerpagina."
+  },
+  "viewerHeader": {
+    "message": "Opname voltooid",
+    "description": "Hoofdkop op de viewerpagina, ter bevestiging van succes."
+  },
+  "viewerDescription": {
+    "message": "Uw volledige pagina screenshot is klaar. Wat nu?",
+    "description": "Beschrijving op de viewerpagina, die de gebruiker betrekt."
+  },
+  "copyButton": {
+    "message": "Afbeelding kopiëren",
+    "description": "Tekst voor de kopieerknop op de viewerpagina."
+  },
+  "copiedButton": {
+    "message": "Gekopieerd!",
+    "description": "Tekst voor de kopieerknop na een succesvolle kopie, die duidelijke feedback geeft."
+  },
+  "downloadButton": {
+    "message": "Afbeelding downloaden",
+    "description": "Tekst voor de downloadknop op de viewerpagina."
+  },
+  "downloadingButton": {
+    "message": "Aan het downloaden...",
+    "description": "Tekst voor de downloadknop terwijl de download bezig is."
+  },
+  "errorButton": {
+    "message": "Mislukt",
+    "description": "Tekst voor een knop wanneer er een fout optreedt. Minder alarmerend dan 'Fout'."
+  },
+  "screenshotAltText": {
+    "message": "Een volledige pagina screenshot vastgelegd door Weave.",
+    "description": "Alt-tekst voor de screenshotafbeelding, die de toegankelijkheid en branding verbetert."
+  },
+  "noScreenshotAltText": {
+    "message": "Geen screenshotgegevens gevonden. Ga terug naar het vorige tabblad en probeer opnieuw vast te leggen.",
+    "description": "Alt-tekst voor het afbeeldingsgebied wanneer er geen screenshot beschikbaar is, met een duidelijke instructie."
+  },
+  "copyFailedError": {
+    "message": "Kon afbeelding niet naar het klembord kopiëren. Reden: $details$",
+    "description": "Foutmelding die wordt weergegeven wanneer het kopiëren naar het klembord mislukt. Zachtere taal.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Toegang tot klembord geweigerd."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Er is iets misgegaan tijdens het opnameproces. Fout: $details$",
+    "description": "Algemene foutmelding die wordt weergegeven wanneer het maken van een screenshot mislukt. Beter leesbaar voor mensen.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Kan canvas niet maken."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Opname geannuleerd omdat u wegging. Blijf voor een volledige pagina-opname op het tabblad totdat Weave klaar is.",
+    "description": "Foutmelding die wordt weergegeven wanneer de gebruiker van tabblad wisselt. Legt uit *waarom* en geeft beleefd instructies."
+  }
+}

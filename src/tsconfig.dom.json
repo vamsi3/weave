@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "outDir": "../dist",
+    "tsBuildInfoFile": "../.tsbuildinfo/dom.tsbuildinfo"
+  },
+  "include": [
+    "content/index.ts",
+    "options/index.ts",
+    "viewer/index.ts",
+    "types/index.d.ts"
+  ]
+}

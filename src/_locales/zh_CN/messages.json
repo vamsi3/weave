@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave：全页截图和捕获",
+    "description": "扩展的官方名称。为在网络商店中的可见性和品牌推广而保持简洁。"
+  },
+  "extDescription": {
+    "message": "一键无缝捕获和拼接滚动全页截图。立即查看、下载或复制您的捕获内容。",
+    "description": "扩展的营销描述，重点介绍其优势和易用性。"
+  },
+  "actionTitle": {
+    "message": "使用 Weave 捕获",
+    "description": "浏览器操作按钮的工具提示。简短、有品牌特色且以操作为导向。"
+  },
+  "optionsTitle": {
+    "message": "Weave 设置",
+    "description": "选项页的浏览器标签页标题。"
+  },
+  "optionsHeader": {
+    "message": "设置",
+    "description": "选项页上的主标题。简洁明了。"
+  },
+  "defaultActionHeader": {
+    "message": "捕获后...",
+    "description": "默认操作设置的标题。更直观、更注重工作流程。"
+  },
+  "defaultActionDescription": {
+    "message": "选择 Weave 在捕获完成时执行的操作。",
+    "description": "默认操作设置的描述。"
+  },
+  "openViewerLabel": {
+    "message": "在查看器中打开",
+    "description": "“在查看器中打开”单选按钮的标签。清晰直接。"
+  },
+  "downloadLabel": {
+    "message": "下载",
+    "description": "“下载”单选按钮的标签。通用易懂。"
+  },
+  "copyLabel": {
+    "message": "复制",
+    "description": "“复制”单选按钮的标签。为保持 UI 一致性而设计得简洁。"
+  },
+  "saveAsHeader": {
+    "message": "保存前询问",
+    "description": "“另存为”开关的标题。从用户的角度进行措辞。"
+  },
+  "saveAsDescription": {
+    "message": "如果启用，系统将提示您为每次下载选择文件名和位置。",
+    "description": "“另存为”开关的描述。使用主动语态。"
+  },
+  "scrollingHeader": {
+    "message": "启用滚动捕获",
+    "description": "滚动捕获开关设置的标题。"
+  },
+  "scrollingDescription": {
+    "message": "启用以捕获整个滚动页面。禁用以仅捕获当前可见区域。",
+    "description": "滚动捕获开关的描述。更直接、更具命令性。"
+  },
+  "supportHeader": {
+    "message": "支持此项目",
+    "description": "支持/赞助部分的标题。更具个性化和社区导向。"
+  },
+  "supportDescription": {
+    "message": "Weave 是一个免费的开源项目。如果您觉得它有用，请考虑支持其持续发展。",
+    "description": "支持部分的描述。突出其价值主张（FOSS）。"
+  },
+  "sponsorButton": {
+    "message": "在 GitHub 上赞助",
+    "description": "赞助按钮的文本。"
+  },
+  "viewerTitle": {
+    "message": "Weave：捕获完成",
+    "description": "截图查看器页的浏览器标签页标题。"
+  },
+  "viewerHeader": {
+    "message": "捕获完成",
+    "description": "查看器页面上的主标题，确认成功。"
+  },
+  "viewerDescription": {
+    "message": "您的全页截图已准备就绪。下一步做什么？",
+    "description": "查看器页面上的描述，吸引用户参与。"
+  },
+  "copyButton": {
+    "message": "复制图像",
+    "description": "查看器页面上复制按钮的文本。"
+  },
+  "copiedButton": {
+    "message": "已复制！",
+    "description": "成功复制后复制按钮的文本，提供清晰的反馈。"
+  },
+  "downloadButton": {
+    "message": "下载图像",
+    "description": "查看器页面上下载按钮的文本。"
+  },
+  "downloadingButton": {
+    "message": "正在下载...",
+    "description": "下载过程中下载按钮的文本。"
+  },
+  "errorButton": {
+    "message": "失败",
+    "description": "发生错误时按钮的文本。比“错误”更温和。"
+  },
+  "screenshotAltText": {
+    "message": "由 Weave 捕获的全页截图。",
+    "description": "截图图像的替代文本，提高可访问性和品牌形象。"
+  },
+  "noScreenshotAltText": {
+    "message": "未找到截图数据。请返回上一个标签页并重试捕获。",
+    "description": "没有可用截图时图像区域的替代文本，提供明确的指示。"
+  },
+  "copyFailedError": {
+    "message": "无法将图像复制到剪贴板。原因：$details$",
+    "description": "复制到剪贴板失败时显示的错误消息。措辞更温和。",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "剪贴板访问被拒绝。"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "捕获过程中出现问题。错误：$details$",
+    "description": "截图失败时显示的通用错误消息。更易于人类阅读。",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "无法创建画布。"
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "由于您导航离开，捕获已取消。要进行全页捕获，请停留在该标签页上，直到 Weave 完成。",
+    "description": "用户切换标签页时显示的错误消息。解释了*原因*并礼貌地给出指示。"
+  }
+}

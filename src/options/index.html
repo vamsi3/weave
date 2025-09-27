@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- Using predefined messages to set language and direction automatically -->
+<html lang="__MSG_@@ui_locale__" dir="__MSG_@@bidi_dir__">
+  <head>
+    <meta charset="UTF-8" />
+    <title data-i18n="optionsTitle"></title>
+    <link rel="stylesheet" href="../assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 data-i18n="optionsHeader"></h1>
+
+      <div class="options-section">
+        <div class="description">
+          <h2 data-i18n="defaultActionHeader"></h2>
+          <p data-i18n="defaultActionDescription"></p>
+        </div>
+        <div class="control-wrapper">
+          <div class="segmented-button">
+            <div class="selection-indicator"></div>
+            <input
+              type="radio"
+              id="action-open"
+              name="defaultAction"
+              value="open"
+              checked
+            />
+            <label for="action-open" data-i18n="openViewerLabel"></label>
+
+            <input
+              type="radio"
+              id="action-download"
+              name="defaultAction"
+              value="download"
+            />
+            <label for="action-download" data-i18n="downloadLabel"></label>
+
+            <input
+              type="radio"
+              id="action-copy"
+              name="defaultAction"
+              value="copy"
+            />
+            <label for="action-copy" data-i18n="copyLabel"></label>
+          </div>
+        </div>
+      </div>
+
+      <div class="options-section">
+        <div class="description">
+          <h2 data-i18n="saveAsHeader"></h2>
+          <p data-i18n="saveAsDescription"></p>
+        </div>
+        <div class="control-wrapper">
+          <label class="toggle-control" for="saveAs">
+            <input type="checkbox" id="saveAs" checked />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="options-section">
+        <div class="description">
+          <h2 data-i18n="scrollingHeader"></h2>
+          <p data-i18n="scrollingDescription"></p>
+        </div>
+        <div class="control-wrapper">
+          <label class="toggle-control" for="scrollingEnabled">
+            <input type="checkbox" id="scrollingEnabled" checked />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="options-section">
+        <div class="description">
+          <h2 data-i18n="supportHeader"></h2>
+          <p data-i18n="supportDescription"></p>
+        </div>
+        <div class="control-wrapper">
+          <a
+            href="https://github.com/sponsors/vamsi3"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button primary"
+            data-i18n="sponsorButton"
+          ></a>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

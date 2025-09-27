@@ -1,6 +1,6 @@
 # Privacy Policy for Weave
 
-**Last Updated:** September 21, 2025
+**Last Updated:** September 28, 2025
 
 Weave ("we," "us," or "our") is a browser extension designed with user privacy as a core principle. This Privacy Policy explains our commitment to protecting your privacy.
 
@@ -19,7 +19,6 @@ Weave requests a minimal set of permissions required for its core functionality:
 *   **activeTab & scripting:** To capture the content of the current webpage when you activate the extension.
 *   **storage:** To temporarily hold the screenshot data on your local machine before it is displayed or saved. This data is not synced or sent anywhere.
 *   **downloads:** To allow you to save the final screenshot image to your computer.
-*   **offscreen:** To securely copy the image to your clipboard.
 
 ## 4. Open Source
 

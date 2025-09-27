@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Captura de tela e captura de página inteira",
+    "description": "O nome oficial da extensão. Mantido conciso para visibilidade na loja da web e branding."
+  },
+  "extDescription": {
+    "message": "Capture e una capturas de tela de rolagem de página inteira sem problemas com um único clique. Visualize, baixe ou copie suas capturas instantaneamente.",
+    "description": "A descrição de marketing da extensão, com foco nos benefícios e na facilidade de uso."
+  },
+  "actionTitle": {
+    "message": "Capturar com Weave",
+    "description": "Dica de ferramenta para o botão de ação do navegador. Curto, com marca e orientado para a ação."
+  },
+  "optionsTitle": {
+    "message": "Configurações do Weave",
+    "description": "Título da guia do navegador da página de opções."
+  },
+  "optionsHeader": {
+    "message": "Configurações",
+    "description": "Cabeçalho principal na página de opções. Limpo e simples."
+  },
+  "defaultActionHeader": {
+    "message": "Após a captura...",
+    "description": "Cabeçalho para a configuração de ação padrão. Mais intuitivo e orientado ao fluxo de trabalho."
+  },
+  "defaultActionDescription": {
+    "message": "Escolha o que o Weave faz no momento em que uma captura é concluída.",
+    "description": "Descrição para a configuração de ação padrão."
+  },
+  "openViewerLabel": {
+    "message": "Abrir visualizador",
+    "description": "Rótulo para o botão de opção 'abrir no visualizador'. Claro e direto."
+  },
+  "downloadLabel": {
+    "message": "Baixar",
+    "description": "Rótulo para o botão de opção 'baixar'. Universalmente compreendido."
+  },
+  "copyLabel": {
+    "message": "Copiar",
+    "description": "Rótulo para o botão de opção 'copiar'. Conciso para consistência da interface do usuário."
+  },
+  "saveAsHeader": {
+    "message": "Perguntar antes de salvar",
+    "description": "Cabeçalho para o botão de alternância 'salvar como'. Fraseado da perspectiva do usuário."
+  },
+  "saveAsDescription": {
+    "message": "Se ativado, você será solicitado a escolher um nome de arquivo e um local para cada download.",
+    "description": "Descrição para o botão de alternância 'salvar como'. Usa voz ativa."
+  },
+  "scrollingHeader": {
+    "message": "Ativar captura de rolagem",
+    "description": "Cabeçalho para a configuração do botão de alternância de captura de rolagem."
+  },
+  "scrollingDescription": {
+    "message": "Ative para capturar a página de rolagem inteira. Desative para capturar apenas a área visível no momento.",
+    "description": "Descrição para o botão de alternância de captura de rolagem. Mais direto e imperativo."
+  },
+  "supportHeader": {
+    "message": "Apoie este projeto",
+    "description": "Cabeçalho para a seção de suporte/patrocínio. Mais pessoal e focado na comunidade."
+  },
+  "supportDescription": {
+    "message": "Weave é um projeto gratuito e de código aberto. Se você o considera útil, por favor, considere apoiar seu desenvolvimento contínuo.",
+    "description": "Descrição para a seção de suporte. Destaca a proposta de valor (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Patrocinar no GitHub",
+    "description": "Texto para o botão de patrocinador."
+  },
+  "viewerTitle": {
+    "message": "Weave: Captura concluída",
+    "description": "Título da guia do navegador da página do visualizador de captura de tela."
+  },
+  "viewerHeader": {
+    "message": "Captura concluída",
+    "description": "Cabeçalho principal na página do visualizador, confirmando o sucesso."
+  },
+  "viewerDescription": {
+    "message": "Sua captura de tela de página inteira está pronta. Qual o próximo passo?",
+    "description": "Descrição na página do visualizador, envolvendo o usuário."
+  },
+  "copyButton": {
+    "message": "Copiar imagem",
+    "description": "Texto para o botão de copiar na página do visualizador."
+  },
+  "copiedButton": {
+    "message": "Copiado!",
+    "description": "Texto para o botão de copiar após uma cópia bem-sucedida, fornecendo feedback claro."
+  },
+  "downloadButton": {
+    "message": "Baixar imagem",
+    "description": "Texto para o botão de download na página do visualizador."
+  },
+  "downloadingButton": {
+    "message": "Baixando...",
+    "description": "Texto para o botão de download enquanto o download está em andamento."
+  },
+  "errorButton": {
+    "message": "Falhou",
+    "description": "Texto para um botão quando ocorre um erro. Menos alarmante do que 'Erro'."
+  },
+  "screenshotAltText": {
+    "message": "Uma captura de tela de página inteira capturada pelo Weave.",
+    "description": "Texto alternativo para a imagem da captura de tela, melhorando a acessibilidade e o branding."
+  },
+  "noScreenshotAltText": {
+    "message": "Nenhum dado de captura de tela encontrado. Por favor, retorne à guia anterior e tente capturar novamente.",
+    "description": "Texto alternativo para a área da imagem quando nenhuma captura de tela está disponível, fornecendo uma instrução clara."
+  },
+  "copyFailedError": {
+    "message": "Não foi possível copiar a imagem para a área de transferência. Motivo: $details$",
+    "description": "Mensagem de erro exibida quando a cópia para a área de transferência falha. Linguagem mais suave.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Acesso à área de transferência negado."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Algo deu errado durante o processo de captura. Erro: $details$",
+    "description": "Mensagem de erro genérica exibida quando a captura de tela falha. Mais legível por humanos.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Falha ao criar a tela."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Captura cancelada porque você navegou para outro lugar. Para uma captura de página inteira, por favor, permaneça na guia até que o Weave termine.",
+    "description": "Mensagem de erro exibida quando o usuário troca de guia. Explica *por que* e instrui educadamente."
+  }
+}

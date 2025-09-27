@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Helskärmsbild och inspelning",
+    "description": "Det officiella namnet på tillägget. Hålls kortfattat för synlighet i webbutiken och varumärkesbyggande."
+  },
+  "extDescription": {
+    "message": "Fånga och sy ihop rullande helskärmsbilder sömlöst med ett enda klick. Visa, ladda ner eller kopiera dina inspelningar direkt.",
+    "description": "Marknadsföringsbeskrivningen av tillägget, med fokus på fördelar och användarvänlighet."
+  },
+  "actionTitle": {
+    "message": "Fånga med Weave",
+    "description": "Verktygstips för webbläsarens åtgärdsknapp. Kort, märkesprofilerat och åtgärdsinriktat."
+  },
+  "optionsTitle": {
+    "message": "Weave-inställningar",
+    "description": "Titel på webbläsarfliken för alternativsidan."
+  },
+  "optionsHeader": {
+    "message": "Inställningar",
+    "description": "Huvudrubrik på alternativsidan. Rent och enkelt."
+  },
+  "defaultActionHeader": {
+    "message": "Efter inspelning...",
+    "description": "Rubrik för standardåtgärdsinställningen. Mer intuitiv och arbetsflödesinriktad."
+  },
+  "defaultActionDescription": {
+    "message": "Välj vad Weave ska göra i det ögonblick en inspelning är klar.",
+    "description": "Beskrivning för standardåtgärdsinställningen."
+  },
+  "openViewerLabel": {
+    "message": "Öppna visningsprogram",
+    "description": "Etikett för radioknappen 'öppna i visningsprogram'. Tydlig och direkt."
+  },
+  "downloadLabel": {
+    "message": "Ladda ner",
+    "description": "Etikett för radioknappen 'ladda ner'. Universellt förstådd."
+  },
+  "copyLabel": {
+    "message": "Kopiera",
+    "description": "Etikett för radioknappen 'kopiera'. Kortfattad för UI-konsistens."
+  },
+  "saveAsHeader": {
+    "message": "Fråga innan du sparar",
+    "description": "Rubrik för 'spara som'-växeln. Formulerad från användarens perspektiv."
+  },
+  "saveAsDescription": {
+    "message": "Om aktiverat, kommer du att bli ombedd att välja ett filnamn och en plats för varje nedladdning.",
+    "description": "Beskrivning för 'spara som'-växeln. Använder aktiv röst."
+  },
+  "scrollingHeader": {
+    "message": "Aktivera rullande inspelning",
+    "description": "Rubrik för inställningen för rullande inspelningsväxel."
+  },
+  "scrollingDescription": {
+    "message": "Aktivera för att fånga hela den rullande sidan. Inaktivera för att bara fånga det synliga området.",
+    "description": "Beskrivning för rullande inspelningsväxel. Mer direkt och befallande."
+  },
+  "supportHeader": {
+    "message": "Stöd detta projekt",
+    "description": "Rubrik för support/sponsringsavsnittet. Mer personligt och gemenskapsfokuserat."
+  },
+  "supportDescription": {
+    "message": "Weave är ett gratis projekt med öppen källkod. Om du tycker att det är användbart, överväg att stödja dess fortsatta utveckling.",
+    "description": "Beskrivning för supportavsnittet. Framhäver värdeförslaget (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Sponsra på GitHub",
+    "description": "Text för sponsorknappen."
+  },
+  "viewerTitle": {
+    "message": "Weave: Inspelning slutförd",
+    "description": "Titel på webbläsarfliken för skärmbildsvisningssidan."
+  },
+  "viewerHeader": {
+    "message": "Inspelning slutförd",
+    "description": "Huvudrubrik på visningssidan, som bekräftar framgång."
+  },
+  "viewerDescription": {
+    "message": "Din helskärmsbild är klar. Vad händer nu?",
+    "description": "Beskrivning på visningssidan, som engagerar användaren."
+  },
+  "copyButton": {
+    "message": "Kopiera bild",
+    "description": "Text för kopieringsknappen på visningssidan."
+  },
+  "copiedButton": {
+    "message": "Kopierad!",
+    "description": "Text för kopieringsknappen efter en lyckad kopiering, som ger tydlig feedback."
+  },
+  "downloadButton": {
+    "message": "Ladda ner bild",
+    "description": "Text för nedladdningsknappen på visningssidan."
+  },
+  "downloadingButton": {
+    "message": "Laddar ner...",
+    "description": "Text för nedladdningsknappen medan nedladdningen pågår."
+  },
+  "errorButton": {
+    "message": "Misslyckades",
+    "description": "Text för en knapp när ett fel uppstår. Mindre alarmerande än 'Fel'."
+  },
+  "screenshotAltText": {
+    "message": "En helskärmsbild tagen av Weave.",
+    "description": "Alternativ text för skärmbilden, som förbättrar tillgänglighet och varumärkesbyggande."
+  },
+  "noScreenshotAltText": {
+    "message": "Ingen skärmbildsdata hittades. Gå tillbaka till föregående flik och försök spela in igen.",
+    "description": "Alternativ text för bildområdet när ingen skärmbild är tillgänglig, vilket ger en tydlig instruktion."
+  },
+  "copyFailedError": {
+    "message": "Kunde inte kopiera bilden till urklipp. Orsak: $details$",
+    "description": "Felmeddelande som visas när kopiering till urklipp misslyckas. Mjukare språk.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Åtkomst till urklipp nekad."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Något gick fel under inspelningsprocessen. Fel: $details$",
+    "description": "Allmänt felmeddelande som visas när skärmbilden misslyckas. Mer läsbart för människor.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Kunde inte skapa duk."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Inspelningen avbröts eftersom du navigerade bort. För en helsidesinspelning, stanna kvar på fliken tills Weave är klar.",
+    "description": "Felmeddelande som visas när användaren byter flik. Förklarar *varför* och instruerar artigt."
+  }
+}

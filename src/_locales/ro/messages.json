@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Captură de ecran și captură de pagină întreagă",
+    "description": "Numele oficial al extensiei. Păstrat concis pentru vizibilitatea în magazinul web și branding."
+  },
+  "extDescription": {
+    "message": "Capturați și îmbinați fără probleme capturi de ecran cu defilare, de pagină întreagă, cu un singur clic. Vizualizați, descărcați sau copiați capturile instantaneu.",
+    "description": "Descrierea de marketing a extensiei, axată pe beneficii și ușurința în utilizare."
+  },
+  "actionTitle": {
+    "message": "Capturați cu Weave",
+    "description": "Sfat pentru butonul de acțiune al browserului. Scurt, de marcă și orientat spre acțiune."
+  },
+  "optionsTitle": {
+    "message": "Setări Weave",
+    "description": "Titlul filei browserului paginii de opțiuni."
+  },
+  "optionsHeader": {
+    "message": "Setări",
+    "description": "Antet principal pe pagina de opțiuni. Curat și simplu."
+  },
+  "defaultActionHeader": {
+    "message": "După capturare...",
+    "description": "Antet pentru setarea acțiunii implicite. Mai intuitiv și orientat spre fluxul de lucru."
+  },
+  "defaultActionDescription": {
+    "message": "Alegeți ce face Weave în momentul în care se finalizează o captură.",
+    "description": "Descriere pentru setarea acțiunii implicite."
+  },
+  "openViewerLabel": {
+    "message": "Deschideți vizualizatorul",
+    "description": "Etichetă pentru butonul radio 'deschideți în vizualizator'. Clar și direct."
+  },
+  "downloadLabel": {
+    "message": "Descărcați",
+    "description": "Etichetă pentru butonul radio 'descărcați'. Înțeles universal."
+  },
+  "copyLabel": {
+    "message": "Copiați",
+    "description": "Etichetă pentru butonul radio 'copiați'. Concis pentru coerența interfeței de utilizare."
+  },
+  "saveAsHeader": {
+    "message": "Întrebați înainte de a salva",
+    "description": "Antet pentru comutatorul 'salvați ca'. Exprimat din perspectiva utilizatorului."
+  },
+  "saveAsDescription": {
+    "message": "Dacă este activat, vi se va solicita să alegeți un nume de fișier și o locație pentru fiecare descărcare.",
+    "description": "Descriere pentru comutatorul 'salvați ca'. Utilizează diateza activă."
+  },
+  "scrollingHeader": {
+    "message": "Activați captura cu defilare",
+    "description": "Antet pentru setarea comutatorului de captură cu defilare."
+  },
+  "scrollingDescription": {
+    "message": "Activați pentru a captura întreaga pagină cu defilare. Dezactivați pentru a captura doar zona vizibilă în prezent.",
+    "description": "Descriere pentru comutatorul de captură cu defilare. Mai directă și imperativă."
+  },
+  "supportHeader": {
+    "message": "Susțineți acest proiect",
+    "description": "Antet pentru secțiunea de asistență/sponsorizare. Mai personal și axat pe comunitate."
+  },
+  "supportDescription": {
+    "message": "Weave este un proiect gratuit, cu sursă deschisă. Dacă îl considerați util, vă rugăm să luați în considerare sprijinirea dezvoltării sale continue.",
+    "description": "Descriere pentru secțiunea de asistență. Evidențiază propunerea de valoare (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Sponsorizați pe GitHub",
+    "description": "Text pentru butonul de sponsorizare."
+  },
+  "viewerTitle": {
+    "message": "Weave: Captură finalizată",
+    "description": "Titlul filei browserului paginii de vizualizare a capturii de ecran."
+  },
+  "viewerHeader": {
+    "message": "Captură finalizată",
+    "description": "Antet principal pe pagina de vizualizare, confirmând succesul."
+  },
+  "viewerDescription": {
+    "message": "Captura dvs. de ecran de pagină întreagă este gata. Ce urmează?",
+    "description": "Descriere pe pagina de vizualizare, implicând utilizatorul."
+  },
+  "copyButton": {
+    "message": "Copiați imaginea",
+    "description": "Text pentru butonul de copiere de pe pagina de vizualizare."
+  },
+  "copiedButton": {
+    "message": "Copiat!",
+    "description": "Text pentru butonul de copiere după o copiere reușită, oferind feedback clar."
+  },
+  "downloadButton": {
+    "message": "Descărcați imaginea",
+    "description": "Text pentru butonul de descărcare de pe pagina de vizualizare."
+  },
+  "downloadingButton": {
+    "message": "Se descarcă...",
+    "description": "Text pentru butonul de descărcare în timp ce descărcarea este în curs."
+  },
+  "errorButton": {
+    "message": "Eșuat",
+    "description": "Text pentru un buton atunci când apare o eroare. Mai puțin alarmant decât 'Eroare'."
+  },
+  "screenshotAltText": {
+    "message": "O captură de ecran de pagină întreagă capturată de Weave.",
+    "description": "Text alternativ pentru imaginea capturii de ecran, îmbunătățind accesibilitatea și brandingul."
+  },
+  "noScreenshotAltText": {
+    "message": "Nu s-au găsit date de captură de ecran. Vă rugăm să reveniți la fila anterioară și să încercați să capturați din nou.",
+    "description": "Text alternativ pentru zona imaginii atunci când nu este disponibilă nicio captură de ecran, oferind o instrucțiune clară."
+  },
+  "copyFailedError": {
+    "message": "Nu s-a putut copia imaginea în clipboard. Motiv: $details$",
+    "description": "Mesaj de eroare afișat la eșuarea copierii în clipboard. Limbaj mai blând.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Accesul la clipboard a fost refuzat."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Ceva nu a mers bine în timpul procesului de capturare. Eroare: $details$",
+    "description": "Mesaj de eroare generic afișat la eșuarea capturii de ecran. Mai ușor de citit de către om.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Crearea pânzei a eșuat."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Captura a fost anulată deoarece ați navigat în altă parte. Pentru o captură de pagină întreagă, vă rugăm să rămâneți pe filă până când Weave termină.",
+    "description": "Mesaj de eroare afișat atunci când utilizatorul schimbă filele. Explică *de ce* și instruiește politicos."
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Skjermbilde og opptak av hele siden",
+    "description": "Det offisielle navnet på utvidelsen. Holdes kortfattet for synlighet i nettbutikken og merkevarebygging."
+  },
+  "extDescription": {
+    "message": "Ta og sy sammen rullende skjermbilder av hele siden sømløst med ett klikk. Se, last ned eller kopier opptakene dine umiddelbart.",
+    "description": "Markedsføringsbeskrivelsen av utvidelsen, med fokus på fordeler og brukervennlighet."
+  },
+  "actionTitle": {
+    "message": "Ta opptak med Weave",
+    "description": "Verktøytips for handlingsknappen i nettleseren. Kort, merket og handlingsorientert."
+  },
+  "optionsTitle": {
+    "message": "Weave-innstillinger",
+    "description": "Tittelen på nettleserfanen for alternativsiden."
+  },
+  "optionsHeader": {
+    "message": "Innstillinger",
+    "description": "Hovedoverskrift på alternativsiden. Rent og enkelt."
+  },
+  "defaultActionHeader": {
+    "message": "Etter opptak...",
+    "description": "Overskrift for standardhandlingsinnstillingen. Mer intuitiv og arbeidsflytorientert."
+  },
+  "defaultActionDescription": {
+    "message": "Velg hva Weave skal gjøre i det øyeblikket et opptak er ferdig.",
+    "description": "Beskrivelse for standardhandlingsinnstillingen."
+  },
+  "openViewerLabel": {
+    "message": "Åpne visningsprogram",
+    "description": "Etikett for radioknappen 'åpne i visningsprogram'. Tydelig og direkte."
+  },
+  "downloadLabel": {
+    "message": "Last ned",
+    "description": "Etikett for radioknappen 'last ned'. Universelt forstått."
+  },
+  "copyLabel": {
+    "message": "Kopier",
+    "description": "Etikett for radioknappen 'kopier'. Kortfattet for UI-konsistens."
+  },
+  "saveAsHeader": {
+    "message": "Spør før du lagrer",
+    "description": "Overskrift for 'lagre som'-bryteren. Formulert fra brukerens perspektiv."
+  },
+  "saveAsDescription": {
+    "message": "Hvis aktivert, blir du bedt om å velge et filnavn og en plassering for hver nedlasting.",
+    "description": "Beskrivelse for 'lagre som'-bryteren. Bruker aktiv stemme."
+  },
+  "scrollingHeader": {
+    "message": "Aktiver rullende opptak",
+    "description": "Overskrift for innstillingen for rullende opptaksbryter."
+  },
+  "scrollingDescription": {
+    "message": "Aktiver for å ta opp hele den rullende siden. Deaktiver for å ta opp bare det synlige området.",
+    "description": "Beskrivelse for rullende opptaksbryter. Mer direkte og bydende."
+  },
+  "supportHeader": {
+    "message": "Støtt dette prosjektet",
+    "description": "Overskrift for støtte-/sponsorseksjonen. Mer personlig og samfunnsfokusert."
+  },
+  "supportDescription": {
+    "message": "Weave er et gratis prosjekt med åpen kildekode. Hvis du synes det er nyttig, kan du vurdere å støtte den fortsatte utviklingen.",
+    "description": "Beskrivelse for støtteseksjonen. Fremhever verdiforslaget (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Spons på GitHub",
+    "description": "Tekst for sponsorknappen."
+  },
+  "viewerTitle": {
+    "message": "Weave: Opptak fullført",
+    "description": "Tittelen på nettleserfanen for visningssiden for skjermbilder."
+  },
+  "viewerHeader": {
+    "message": "Opptak fullført",
+    "description": "Hovedoverskrift på visningssiden, som bekrefter suksess."
+  },
+  "viewerDescription": {
+    "message": "Skjermbildet ditt av hele siden er klart. Hva er neste steg?",
+    "description": "Beskrivelse på visningssiden, som engasjerer brukeren."
+  },
+  "copyButton": {
+    "message": "Kopier bilde",
+    "description": "Tekst for kopieringsknappen på visningssiden."
+  },
+  "copiedButton": {
+    "message": "Kopiert!",
+    "description": "Tekst for kopieringsknappen etter en vellykket kopiering, som gir tydelig tilbakemelding."
+  },
+  "downloadButton": {
+    "message": "Last ned bilde",
+    "description": "Tekst for nedlastingsknappen på visningssiden."
+  },
+  "downloadingButton": {
+    "message": "Laster ned...",
+    "description": "Tekst for nedlastingsknappen mens nedlastingen pågår."
+  },
+  "errorButton": {
+    "message": "Mislyktes",
+    "description": "Tekst for en knapp når det oppstår en feil. Mindre alarmerende enn 'Feil'."
+  },
+  "screenshotAltText": {
+    "message": "Et skjermbilde av hele siden tatt av Weave.",
+    "description": "Alternativ tekst for skjermbildet, som forbedrer tilgjengelighet og merkevarebygging."
+  },
+  "noScreenshotAltText": {
+    "message": "Ingen skjermbildedata funnet. Gå tilbake til forrige fane og prøv å ta opptak på nytt.",
+    "description": "Alternativ tekst for bildeområdet når ingen skjermbilder er tilgjengelige, og gir en tydelig instruksjon."
+  },
+  "copyFailedError": {
+    "message": "Kunne ikke kopiere bildet til utklippstavlen. Årsak: $details$",
+    "description": "Feilmelding som vises når kopiering til utklippstavlen mislykkes. Mykere språk.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Tilgang til utklippstavlen nektet."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Noe gikk galt under opptaksprosessen. Feil: $details$",
+    "description": "Generisk feilmelding som vises når skjermbildet mislykkes. Mer leselig for mennesker.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Kunne ikke opprette lerret."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Opptaket ble avbrutt fordi du navigerte bort. For et opptak av hele siden, vennligst bli på fanen til Weave er ferdig.",
+    "description": "Feilmelding som vises når brukeren bytter fane. Forklarer *hvorfor* og instruerer høflig."
+  }
+}

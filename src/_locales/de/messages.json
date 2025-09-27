@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Ganzseiten-Screenshot & Aufnahme",
+    "description": "Der offizielle Name der Erweiterung. Kurz gehalten für die Sichtbarkeit im Web Store und das Branding."
+  },
+  "extDescription": {
+    "message": "Nahtlos scrollende Ganzseiten-Screenshots mit einem Klick aufnehmen und zusammenfügen. Ihre Aufnahmen sofort anzeigen, herunterladen oder kopieren.",
+    "description": "Die Marketingbeschreibung der Erweiterung, die sich auf Vorteile und Benutzerfreundlichkeit konzentriert."
+  },
+  "actionTitle": {
+    "message": "Mit Weave aufnehmen",
+    "description": "Tooltip für die Aktionsschaltfläche des Browsers. Kurz, markenbezogen und aktionsorientiert."
+  },
+  "optionsTitle": {
+    "message": "Weave-Einstellungen",
+    "description": "Titel des Browser-Tabs der Einstellungsseite."
+  },
+  "optionsHeader": {
+    "message": "Einstellungen",
+    "description": "Hauptüberschrift auf der Einstellungsseite. Sauber und einfach."
+  },
+  "defaultActionHeader": {
+    "message": "Nach der Aufnahme...",
+    "description": "Überschrift für die Standardaktionseinstellung. Intuitiver und arbeitsablauforientiert."
+  },
+  "defaultActionDescription": {
+    "message": "Wählen Sie, was Weave tut, sobald eine Aufnahme abgeschlossen ist.",
+    "description": "Beschreibung für die Standardaktionseinstellung."
+  },
+  "openViewerLabel": {
+    "message": "Viewer öffnen",
+    "description": "Beschriftung für den Radio-Button 'im Viewer öffnen'. Klar und direkt."
+  },
+  "downloadLabel": {
+    "message": "Herunterladen",
+    "description": "Beschriftung für den Radio-Button 'herunterladen'. Allgemein verständlich."
+  },
+  "copyLabel": {
+    "message": "Kopieren",
+    "description": "Beschriftung für den Radio-Button 'kopieren'. Prägnant für die Konsistenz der Benutzeroberfläche."
+  },
+  "saveAsHeader": {
+    "message": "Vor dem Speichern fragen",
+    "description": "Überschrift für den Umschalter 'Speichern unter'. Aus der Perspektive des Benutzers formuliert."
+  },
+  "saveAsDescription": {
+    "message": "Wenn aktiviert, werden Sie aufgefordert, für jeden Download einen Dateinamen und einen Speicherort auszuwählen.",
+    "description": "Beschreibung für den Umschalter 'Speichern unter'. Verwendet die aktive Stimme."
+  },
+  "scrollingHeader": {
+    "message": "Scroll-Aufnahme aktivieren",
+    "description": "Überschrift für die Einstellung des Scroll-Aufnahme-Umschalters."
+  },
+  "scrollingDescription": {
+    "message": "Aktivieren, um die gesamte scrollende Seite zu erfassen. Deaktivieren, um nur den aktuell sichtbaren Bereich zu erfassen.",
+    "description": "Beschreibung für den Scroll-Aufnahme-Umschalter. Direkter und gebieterischer."
+  },
+  "supportHeader": {
+    "message": "Dieses Projekt unterstützen",
+    "description": "Überschrift für den Support-/Sponsoring-Bereich. Persönlicher und gemeinschaftsorientiert."
+  },
+  "supportDescription": {
+    "message": "Weave ist ein kostenloses Open-Source-Projekt. Wenn Sie es nützlich finden, unterstützen Sie bitte seine Weiterentwicklung.",
+    "description": "Beschreibung für den Support-Bereich. Hebt das Wertversprechen (FOSS) hervor."
+  },
+  "sponsorButton": {
+    "message": "Auf GitHub sponsern",
+    "description": "Text für die Sponsoring-Schaltfläche."
+  },
+  "viewerTitle": {
+    "message": "Weave: Aufnahme abgeschlossen",
+    "description": "Titel des Browser-Tabs der Screenshot-Viewer-Seite."
+  },
+  "viewerHeader": {
+    "message": "Aufnahme abgeschlossen",
+    "description": "Hauptüberschrift auf der Viewer-Seite, die den Erfolg bestätigt."
+  },
+  "viewerDescription": {
+    "message": "Ihr Ganzseiten-Screenshot ist fertig. Was kommt als Nächstes?",
+    "description": "Beschreibung auf der Viewer-Seite, die den Benutzer anspricht."
+  },
+  "copyButton": {
+    "message": "Bild kopieren",
+    "description": "Text für die Kopieren-Schaltfläche auf der Viewer-Seite."
+  },
+  "copiedButton": {
+    "message": "Kopiert!",
+    "description": "Text für die Kopieren-Schaltfläche nach erfolgreichem Kopieren, der klares Feedback gibt."
+  },
+  "downloadButton": {
+    "message": "Bild herunterladen",
+    "description": "Text für die Herunterladen-Schaltfläche auf der Viewer-Seite."
+  },
+  "downloadingButton": {
+    "message": "Wird heruntergeladen...",
+    "description": "Text für die Herunterladen-Schaltfläche, während der Download läuft."
+  },
+  "errorButton": {
+    "message": "Fehlgeschlagen",
+    "description": "Text für eine Schaltfläche, wenn ein Fehler auftritt. Weniger alarmierend als 'Fehler'."
+  },
+  "screenshotAltText": {
+    "message": "Ein von Weave aufgenommener Ganzseiten-Screenshot.",
+    "description": "Alternativtext für das Screenshot-Bild, der die Zugänglichkeit und das Branding verbessert."
+  },
+  "noScreenshotAltText": {
+    "message": "Keine Screenshot-Daten gefunden. Bitte kehren Sie zum vorherigen Tab zurück und versuchen Sie die Aufnahme erneut.",
+    "description": "Alternativtext für den Bildbereich, wenn kein Screenshot verfügbar ist, der eine klare Anweisung gibt."
+  },
+  "copyFailedError": {
+    "message": "Bild konnte nicht in die Zwischenablage kopiert werden. Grund: $details$",
+    "description": "Fehlermeldung, die angezeigt wird, wenn das Kopieren in die Zwischenablage fehlschlägt. Mildere Sprache.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Zugriff auf die Zwischenablage verweigert."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Während des Aufnahmeprozesses ist etwas schiefgegangen. Fehler: $details$",
+    "description": "Allgemeine Fehlermeldung, die angezeigt wird, wenn das Screenshotten fehlschlägt. Menschlicher lesbar.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Leinwand konnte nicht erstellt werden."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Aufnahme abgebrochen, da Sie die Seite verlassen haben. Für eine Ganzseiten-Aufnahme bleiben Sie bitte auf dem Tab, bis Weave fertig ist.",
+    "description": "Fehlermeldung, die angezeigt wird, wenn der Benutzer die Tabs wechselt. Erklärt *warum* und gibt höflich Anweisungen."
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Koko sivun kuvakaappaus & kaappaus",
+    "description": "Laajennuksen virallinen nimi. Pidetty ytimekkäänä verkkokaupan näkyvyyden ja brändäyksen vuoksi."
+  },
+  "extDescription": {
+    "message": "Kaappaa ja yhdistä saumattomasti vieritettäviä, koko sivun kuvakaappauksia yhdellä napsautuksella. Tarkastele, lataa tai kopioi kaappauksiasi välittömästi.",
+    "description": "Laajennuksen markkinointikuvaus, joka keskittyy etuihin ja helppokäyttöisyyteen."
+  },
+  "actionTitle": {
+    "message": "Kaappaa Weavella",
+    "description": "Työkaluvihje selaimen toimintopainikkeelle. Lyhyt, brändätty ja toimintalähtöinen."
+  },
+  "optionsTitle": {
+    "message": "Weave-asetukset",
+    "description": "Asetussivun selainvälilehden otsikko."
+  },
+  "optionsHeader": {
+    "message": "Asetukset",
+    "description": "Pääotsikko asetussivulla. Siisti ja yksinkertainen."
+  },
+  "defaultActionHeader": {
+    "message": "Kaappauksen jälkeen...",
+    "description": "Oletustoiminnon asetuksen otsikko. Intuitiivisempi ja työnkulkuun suuntautunut."
+  },
+  "defaultActionDescription": {
+    "message": "Valitse, mitä Weave tekee kaappauksen päätyttyä.",
+    "description": "Oletustoiminnon asetuksen kuvaus."
+  },
+  "openViewerLabel": {
+    "message": "Avaa katselin",
+    "description": "Selite 'avaa katselimessa' -valintaruudulle. Selkeä ja suora."
+  },
+  "downloadLabel": {
+    "message": "Lataa",
+    "description": "Selite 'lataa' -valintaruudulle. Yleisesti ymmärretty."
+  },
+  "copyLabel": {
+    "message": "Kopioi",
+    "description": "Selite 'kopioi' -valintaruudulle. Ytimekäs käyttöliittymän yhtenäisyyden vuoksi."
+  },
+  "saveAsHeader": {
+    "message": "Kysy ennen tallentamista",
+    "description": "Otsikko 'tallenna nimellä' -kytkimelle. Muotoiltu käyttäjän näkökulmasta."
+  },
+  "saveAsDescription": {
+    "message": "Jos käytössä, sinua pyydetään valitsemaan tiedostonimi ja sijainti jokaiselle lataukselle.",
+    "description": "Kuvaus 'tallenna nimellä' -kytkimelle. Käyttää aktiivista ääntä."
+  },
+  "scrollingHeader": {
+    "message": "Ota vieritettävä kaappaus käyttöön",
+    "description": "Otsikko vieritettävän kaappauksen kytkinasetukselle."
+  },
+  "scrollingDescription": {
+    "message": "Ota käyttöön koko vieritettävän sivun kaappaamiseksi. Poista käytöstä kaapataksesi vain tällä hetkellä näkyvän alueen.",
+    "description": "Kuvaus vieritettävän kaappauksen kytkimelle. Suorempi ja käskevämpi."
+  },
+  "supportHeader": {
+    "message": "Tue tätä projektia",
+    "description": "Otsikko tuki-/sponsorointiosiolle. Henkilökohtaisempi ja yhteisökeskeisempi."
+  },
+  "supportDescription": {
+    "message": "Weave on ilmainen, avoimen lähdekoodin projekti. Jos pidät sitä hyödyllisenä, harkitse sen jatkuvan kehityksen tukemista.",
+    "description": "Kuvaus tukiosiolle. Korostaa arvolupausta (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Sponsoroi GitHubissa",
+    "description": "Teksti sponsoripainikkeelle."
+  },
+  "viewerTitle": {
+    "message": "Weave: Kaappaus valmis",
+    "description": "Kuvakaappauksen katselusivun selainvälilehden otsikko."
+  },
+  "viewerHeader": {
+    "message": "Kaappaus valmis",
+    "description": "Pääotsikko katselusivulla, vahvistaa onnistumisen."
+  },
+  "viewerDescription": {
+    "message": "Koko sivun kuvakaappauksesi on valmis. Mitä seuraavaksi?",
+    "description": "Kuvaus katselusivulla, joka sitouttaa käyttäjän."
+  },
+  "copyButton": {
+    "message": "Kopioi kuva",
+    "description": "Teksti kopiointipainikkeelle katselusivulla."
+  },
+  "copiedButton": {
+    "message": "Kopioitu!",
+    "description": "Teksti kopiointipainikkeelle onnistuneen kopioinnin jälkeen, antaa selkeää palautetta."
+  },
+  "downloadButton": {
+    "message": "Lataa kuva",
+    "description": "Teksti latauspainikkeelle katselusivulla."
+  },
+  "downloadingButton": {
+    "message": "Ladataan...",
+    "description": "Teksti latauspainikkeelle latauksen ollessa käynnissä."
+  },
+  "errorButton": {
+    "message": "Epäonnistui",
+    "description": "Teksti painikkeelle, kun virhe tapahtuu. Vähemmän hälyttävä kuin 'Virhe'."
+  },
+  "screenshotAltText": {
+    "message": "Weaven kaappaama koko sivun kuvakaappaus.",
+    "description": "Vaihtoehtoinen teksti kuvakaappaukselle, parantaa saavutettavuutta ja brändäystä."
+  },
+  "noScreenshotAltText": {
+    "message": "Kuvakaappaustietoja ei löytynyt. Palaa edelliselle välilehdelle ja yritä kaapata uudelleen.",
+    "description": "Vaihtoehtoinen teksti kuva-alueelle, kun kuvakaappausta ei ole saatavilla, antaa selkeän ohjeen."
+  },
+  "copyFailedError": {
+    "message": "Kuvaa ei voitu kopioida leikepöydälle. Syy: $details$",
+    "description": "Virheilmoitus, joka näytetään, kun kopiointi leikepöydälle epäonnistuu. Pehmeämpi kieli.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Leikepöydän käyttö estetty."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Jokin meni vikaan kaappausprosessin aikana. Virhe: $details$",
+    "description": "Yleinen virheilmoitus, joka näytetään, kun kuvakaappaus epäonnistuu. Ihmisluettavampi.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Kanvaksen luominen epäonnistui."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Kaappaus peruutettiin, koska siirryit pois. Koko sivun kaappausta varten pysy välilehdellä, kunnes Weave on valmis.",
+    "description": "Virheilmoitus, joka näytetään, kun käyttäjä vaihtaa välilehteä. Selittää *miksi* ja ohjeistaa kohteliaasti."
+  }
+}

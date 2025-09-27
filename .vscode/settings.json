@@ -1,0 +1,52 @@
+{
+  // These settings are specific to the "Weave" project and will override
+  // user settings to ensure a consistent development environment.
+
+  // --- Biome Linter & Formatter Integration ---
+  // These settings ensure that the editor's behavior perfectly matches the
+  // project's Biome configuration.
+
+  // Set Biome as the default formatter for all supported languages.
+  // This prevents conflicts with other formatters like Prettier.
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.formatOnSave": true,
+
+  // Enable code actions (like organizing imports) on save, handled by Biome.
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "explicit"
+  },
+
+  // Apply these Biome settings specifically to the languages Biome handles.
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+
+  // --- TypeScript Configuration ---
+
+  // Ensure VS Code uses the project's specific version of TypeScript from node_modules.
+  // This guarantees that the editor's type-checking matches the build process.
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  // --- Editor & Project Settings ---
+
+  "editor.wordWrap": "on",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // Exclude the same directories from VS Code's search functionality to improve performance.
+  "search.exclude": {
+    "node_modules": true,
+    "dist": true,
+    ".tsbuildinfo": true,
+    "bun.lockb": true
+  }
+}

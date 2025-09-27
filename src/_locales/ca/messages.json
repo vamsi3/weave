@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Captura de pantalla completa",
+    "description": "El nom oficial de l'extensió. Es manté concís per a la visibilitat a la botiga web i la marca."
+  },
+  "extDescription": {
+    "message": "Captureu i uniu captures de pantalla de pàgina completa amb desplaçament sense problemes amb un sol clic. Visualitzeu, descarregueu o copieu les vostres captures a l'instant.",
+    "description": "La descripció de màrqueting de l'extensió, centrada en els beneficis i la facilitat d'ús."
+  },
+  "actionTitle": {
+    "message": "Captura amb Weave",
+    "description": "Informació sobre eines per al botó d'acció del navegador. Curt, de marca i orientat a l'acció."
+  },
+  "optionsTitle": {
+    "message": "Configuració de Weave",
+    "description": "Títol de la pestanya del navegador de la pàgina d'opcions."
+  },
+  "optionsHeader": {
+    "message": "Configuració",
+    "description": "Capçalera principal a la pàgina d'opcions. Neta i senzilla."
+  },
+  "defaultActionHeader": {
+    "message": "Després de capturar...",
+    "description": "Capçalera per a la configuració de l'acció predeterminada. Més intuïtiva i orientada al flux de treball."
+  },
+  "defaultActionDescription": {
+    "message": "Trieu què fa Weave en el moment en què finalitza una captura.",
+    "description": "Descripció de la configuració de l'acció predeterminada."
+  },
+  "openViewerLabel": {
+    "message": "Obre el visualitzador",
+    "description": "Etiqueta per al botó d'opció 'obre al visualitzador'. Clara i directa."
+  },
+  "downloadLabel": {
+    "message": "Descarrega",
+    "description": "Etiqueta per al botó d'opció 'descarrega'. Entesa universalment."
+  },
+  "copyLabel": {
+    "message": "Copia",
+    "description": "Etiqueta per al botó d'opció 'copia'. Concisa per a la coherència de la interfície d'usuari."
+  },
+  "saveAsHeader": {
+    "message": "Pregunta abans de desar",
+    "description": "Capçalera per a l'interruptor 'desa com a'. Frasejat des de la perspectiva de l'usuari."
+  },
+  "saveAsDescription": {
+    "message": "Si està activat, se us demanarà que trieu un nom de fitxer i una ubicació per a cada descàrrega.",
+    "description": "Descripció de l'interruptor 'desa com a'. Utilitza la veu activa."
+  },
+  "scrollingHeader": {
+    "message": "Activa la captura amb desplaçament",
+    "description": "Capçalera per a la configuració de l'interruptor de captura amb desplaçament."
+  },
+  "scrollingDescription": {
+    "message": "Activa per capturar tota la pàgina amb desplaçament. Desactiva per capturar només l'àrea visible actualment.",
+    "description": "Descripció de l'interruptor de captura amb desplaçament. Més directa i imperativa."
+  },
+  "supportHeader": {
+    "message": "Dóna suport a aquest projecte",
+    "description": "Capçalera per a la secció de suport/patrocini. Més personal i centrada en la comunitat."
+  },
+  "supportDescription": {
+    "message": "Weave és un projecte gratuït i de codi obert. Si el trobeu útil, considereu donar suport al seu desenvolupament continuat.",
+    "description": "Descripció de la secció de suport. Destaca la proposta de valor (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Patrocina a GitHub",
+    "description": "Text per al botó de patrocinador."
+  },
+  "viewerTitle": {
+    "message": "Weave: Captura completada",
+    "description": "Títol de la pestanya del navegador de la pàgina del visualitzador de captures de pantalla."
+  },
+  "viewerHeader": {
+    "message": "Captura completada",
+    "description": "Capçalera principal a la pàgina del visualitzador, confirmant l'èxit."
+  },
+  "viewerDescription": {
+    "message": "La vostra captura de pantalla de pàgina completa està a punt. Què serà el següent?",
+    "description": "Descripció a la pàgina del visualitzador, implicant l'usuari."
+  },
+  "copyButton": {
+    "message": "Copia la imatge",
+    "description": "Text per al botó de còpia a la pàgina del visualitzador."
+  },
+  "copiedButton": {
+    "message": "Copiat!",
+    "description": "Text per al botó de còpia després d'una còpia reeixida, proporcionant una retroalimentació clara."
+  },
+  "downloadButton": {
+    "message": "Descarrega la imatge",
+    "description": "Text per al botó de descàrrega a la pàgina del visualitzador."
+  },
+  "downloadingButton": {
+    "message": "Descarregant...",
+    "description": "Text per al botó de descàrrega mentre la descàrrega està en curs."
+  },
+  "errorButton": {
+    "message": "Ha fallat",
+    "description": "Text per a un botó quan es produeix un error. Menys alarmant que 'Error'."
+  },
+  "screenshotAltText": {
+    "message": "Una captura de pantalla de pàgina completa capturada per Weave.",
+    "description": "Text alternatiu per a la imatge de la captura de pantalla, millorant l'accessibilitat i la marca."
+  },
+  "noScreenshotAltText": {
+    "message": "No s'han trobat dades de la captura de pantalla. Torneu a la pestanya anterior i torneu a intentar la captura.",
+    "description": "Text alternatiu per a l'àrea de la imatge quan no hi ha cap captura de pantalla disponible, proporcionant una instrucció clara."
+  },
+  "copyFailedError": {
+    "message": "No s'ha pogut copiar la imatge al porta-retalls. Motiu: $details$",
+    "description": "Missatge d'error que es mostra quan falla la còpia al porta-retalls. Llenguatge més suau.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Accés al porta-retalls denegat."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "S'ha produït un error durant el procés de captura. Error: $details$",
+    "description": "Missatge d'error genèric que es mostra quan falla la captura de pantalla. Més llegible per a humans.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "No s'ha pogut crear el llenç."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Captura cancel·lada perquè heu navegat a una altra pàgina. Per a una captura de pàgina completa, si us plau, romangueu a la pestanya fins que Weave hagi acabat.",
+    "description": "Missatge d'error que es mostra quan l'usuari canvia de pestanya. Explica *per què* i instrueix educadament."
+  }
+}

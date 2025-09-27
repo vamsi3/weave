@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Viso puslapio ekrano kopija ir fiksavimas",
+    "description": "Oficialus plėtinio pavadinimas. Išlaikytas trumpas, kad būtų matomas internetinėje parduotuvėje ir dėl prekės ženklo."
+  },
+  "extDescription": {
+    "message": "Sklandžiai fiksuokite ir sujunkite slenkančias viso puslapio ekrano kopijas vienu paspaudimu. Iš karto peržiūrėkite, atsisiųskite arba kopijuokite savo fiksavimus.",
+    "description": "Plėtinio rinkodaros aprašymas, orientuotas į naudą ir naudojimo paprastumą."
+  },
+  "actionTitle": {
+    "message": "Fiksuoti su Weave",
+    "description": "Patarimas naršyklės veiksmo mygtukui. Trumpas, firminis ir orientuotas į veiksmą."
+  },
+  "optionsTitle": {
+    "message": "Weave nustatymai",
+    "description": "Naršyklės skirtuko pavadinimas parinkčių puslapyje."
+  },
+  "optionsHeader": {
+    "message": "Nustatymai",
+    "description": "Pagrindinė antraštė parinkčių puslapyje. Švarus ir paprastas."
+  },
+  "defaultActionHeader": {
+    "message": "Po fiksavimo...",
+    "description": "Antraštė numatytojo veiksmo nustatymui. Intuityvesnis ir orientuotas į darbo eigą."
+  },
+  "defaultActionDescription": {
+    "message": "Pasirinkite, ką Weave darys, kai fiksavimas bus baigtas.",
+    "description": "Numatytojo veiksmo nustatymo aprašymas."
+  },
+  "openViewerLabel": {
+    "message": "Atidaryti peržiūros programoje",
+    "description": "Žymė radijo mygtukui 'atidaryti peržiūros programoje'. Aiški ir tiesioginė."
+  },
+  "downloadLabel": {
+    "message": "Atsisiųsti",
+    "description": "Žymė radijo mygtukui 'atsisiųsti'. Universaliai suprantama."
+  },
+  "copyLabel": {
+    "message": "Kopijuoti",
+    "description": "Žymė radijo mygtukui 'kopijuoti'. Glausta dėl vartotojo sąsajos nuoseklumo."
+  },
+  "saveAsHeader": {
+    "message": "Klausti prieš išsaugant",
+    "description": "Antraštė perjungikliui 'įrašyti kaip'. Suformuluota iš vartotojo perspektyvos."
+  },
+  "saveAsDescription": {
+    "message": "Jei įjungta, būsite paprašyti pasirinkti failo pavadinimą ir vietą kiekvienam atsisiuntimui.",
+    "description": "Aprašymas perjungikliui 'įrašyti kaip'. Naudoja aktyviąją veiksmažodžio formą."
+  },
+  "scrollingHeader": {
+    "message": "Įjungti slenkantį fiksavimą",
+    "description": "Antraštė slenkančio fiksavimo perjungiklio nustatymui."
+  },
+  "scrollingDescription": {
+    "message": "Įjunkite, kad užfiksuotumėte visą slenkantį puslapį. Išjunkite, kad užfiksuotumėte tik šiuo metu matomą sritį.",
+    "description": "Aprašymas slenkančio fiksavimo perjungikliui. Tiesiogesnis ir liepiamasis."
+  },
+  "supportHeader": {
+    "message": "Paremti šį projektą",
+    "description": "Antraštė palaikymo/rėmimo skyriui. Asmeniškesnis ir orientuotas į bendruomenę."
+  },
+  "supportDescription": {
+    "message": "Weave yra nemokamas atvirojo kodo projektas. Jei manote, kad jis naudingas, apsvarstykite galimybę paremti jo tolesnį vystymą.",
+    "description": "Aprašymas palaikymo skyriui. Pabrėžia vertės pasiūlymą (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Remti per GitHub",
+    "description": "Tekstas rėmėjo mygtukui."
+  },
+  "viewerTitle": {
+    "message": "Weave: Fiksavimas baigtas",
+    "description": "Naršyklės skirtuko pavadinimas ekrano kopijos peržiūros puslapyje."
+  },
+  "viewerHeader": {
+    "message": "Fiksavimas baigtas",
+    "description": "Pagrindinė antraštė peržiūros puslapyje, patvirtinanti sėkmę."
+  },
+  "viewerDescription": {
+    "message": "Jūsų viso puslapio ekrano kopija paruošta. Kas toliau?",
+    "description": "Aprašymas peržiūros puslapyje, įtraukiantis vartotoją."
+  },
+  "copyButton": {
+    "message": "Kopijuoti paveikslėlį",
+    "description": "Tekstas kopijavimo mygtukui peržiūros puslapyje."
+  },
+  "copiedButton": {
+    "message": "Nukopijuota!",
+    "description": "Tekstas kopijavimo mygtukui po sėkmingo kopijavimo, suteikiantis aiškų atsiliepimą."
+  },
+  "downloadButton": {
+    "message": "Atsisiųsti paveikslėlį",
+    "description": "Tekstas atsisiuntimo mygtukui peržiūros puslapyje."
+  },
+  "downloadingButton": {
+    "message": "Atsisiunčiama...",
+    "description": "Tekstas atsisiuntimo mygtukui, kol vyksta atsisiuntimas."
+  },
+  "errorButton": {
+    "message": "Nepavyko",
+    "description": "Tekstas mygtukui, kai įvyksta klaida. Mažiau bauginantis nei 'Klaida'."
+  },
+  "screenshotAltText": {
+    "message": "Viso puslapio ekrano kopija, užfiksuota Weave.",
+    "description": "Alternatyvus tekstas ekrano kopijos paveikslėliui, gerinantis prieinamumą ir prekės ženklą."
+  },
+  "noScreenshotAltText": {
+    "message": "Nerasta ekrano kopijos duomenų. Grįžkite į ankstesnį skirtuką ir bandykite fiksuoti dar kartą.",
+    "description": "Alternatyvus tekstas paveikslėlio sričiai, kai nėra ekrano kopijos, suteikiantis aiškią instrukciją."
+  },
+  "copyFailedError": {
+    "message": "Nepavyko nukopijuoti paveikslėlio į iškarpinę. Priežastis: $details$",
+    "description": "Klaidos pranešimas, rodomas, kai nepavyksta nukopijuoti į iškarpinę. Švelnesnė kalba.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Prieiga prie iškarpinės uždrausta."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Kažkas nutiko fiksavimo proceso metu. Klaida: $details$",
+    "description": "Bendras klaidos pranešimas, rodomas, kai nepavyksta padaryti ekrano kopijos. Labiau suprantamas žmogui.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Nepavyko sukurti drobės."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Fiksavimas atšauktas, nes perėjote į kitą puslapį. Norėdami užfiksuoti visą puslapį, likite skirtuke, kol Weave baigs.",
+    "description": "Klaidos pranešimas, rodomas, kai vartotojas perjungia skirtukus. Paaiškina, *kodėl*, ir mandagiai instruktuoja."
+  }
+}
