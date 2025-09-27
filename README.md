@@ -67,7 +67,7 @@ Built with modern web technologies, Weave is lightweight, fast, and privacy-focu
 
 The easiest way to install Weave is through the Chrome Web Store.
 
-**(Link to Chrome Web Store coming soon!)**
+[**Install Weave from the Chrome Web Store**](https://chromewebstore.google.com/detail/ibeaikmdlelfijnemegcagglbbcmlkie)
 
 ### For Developers
 
