@@ -1,5 +1,5 @@
 // scripts/build.ts
-import { cp, rm } from "node:fs/promises"
+import { cp, readFile, rm } from "node:fs/promises"
 import { resolve } from "node:path"
 import { logger } from "./logger"
 
@@ -14,6 +14,29 @@ const projectRoot = resolve(import.meta.dir, "..")
 const distDir = resolve(projectRoot, "dist")
 const srcDir = resolve(projectRoot, "src")
 const tsBuildInfoDir = resolve(projectRoot, ".tsbuildinfo")
+
+// --- Version Synchronization Check ---
+const packageJsonPath = resolve(projectRoot, "package.json")
+const manifestJsonPath = resolve(srcDir, "manifest.json")
+
+const packageJson = JSON.parse(await readFile(packageJsonPath, "utf-8"))
+const manifestJson = JSON.parse(await readFile(manifestJsonPath, "utf-8"))
+
+const packageVersion = packageJson.version
+const manifestVersion = manifestJson.version
+
+if (packageVersion !== manifestVersion) {
+  logger.error(
+    `Version mismatch! package.json version is "${packageVersion}" while manifest.json version is "${manifestVersion}".`,
+  )
+  logger.error("Please ensure both versions are in sync before building.")
+  process.exit(1)
+}
+
+logger.info(`Building extension version: ${packageVersion}`)
+const version = packageVersion // Use the verified version for the zip file.
+const zipFileName = `weave-${version}.zip`
+const zipFilePath = resolve(projectRoot, zipFileName)
 
 logger.info("Cleaning previous build artifacts...")
 try {
@@ -84,6 +107,32 @@ try {
 } catch (error) {
   logger.error("Error copying static assets:", error)
   process.exit(1)
+}
+
+// --- Create Production Zip ---
+if (isProduction) {
+  logger.info(`Creating production zip file: ${zipFileName}...`)
+  try {
+    // Before zipping, remove any existing zip file with the same name.
+    await rm(zipFilePath, { force: true })
+
+    // The command needs to be run from within the dist directory
+    // to ensure the paths inside the zip are correct (e.g., manifest.json, not dist/manifest.json).
+    const zipProcess = Bun.spawnSync({
+      cmd: ["zip", "-r", zipFilePath, "."],
+      cwd: distDir,
+    })
+
+    if (!zipProcess.success) {
+      const stderr = new TextDecoder().decode(zipProcess.stderr)
+      throw new Error(`Failed to create zip file. Stderr: ${stderr}`)
+    }
+
+    logger.success(`Successfully created ${zipFileName}`)
+  } catch (error) {
+    logger.error("Error creating zip file:", error)
+    process.exit(1)
+  }
 }
 
 logger.success(

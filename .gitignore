@@ -8,7 +8,7 @@
 # Ignore compiled files, build caches, and other artifacts.
 /dist
 /.tsbuildinfo
-*.tsbuildinfo
+/weave-*.zip
 
 ### Bun ###
 # The binary lockfile can cause merge conflicts across different OSs.
