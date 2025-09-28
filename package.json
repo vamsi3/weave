@@ -1,19 +1,23 @@
 {
-  "name": "weave",
+  "name": "weave-extension",
   "version": "1.0.0",
-  "description": "A Chrome extension for full-page screenshots.",
+  "private": true,
   "scripts": {
-    "clean": "shx rm -rf dist .tsbuildinfo",
-    "build:ts": "tsc --build",
-    "build:static": "cpx \"src/static/**/*\" dist",
-    "postbuild:ts": "shx rm dist/**/*.d.ts",
-    "build": "pnpm run clean && pnpm run build:static && pnpm run build:ts",
-    "watch": "tsc --build --watch"
+    "clean": "bun run scripts/clean.ts",
+    "build": "NODE_ENV=production bun run scripts/build.ts",
+    "build:dev": "NODE_ENV=development bun run scripts/build.ts",
+    "dev": "chokidar \"src/**/*\" -c \"bun run build:dev\" --initial",
+    "format": "bunx @biomejs/biome format --write .",
+    "lint": "bunx @biomejs/biome check --write .",
+    "check": "bunx @biomejs/biome check .",
+    "check:staged": "bunx @biomejs/biome check --changed"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.2.4",
     "@types/chrome": "^0.1.12",
-    "cpx": "^1.5.0",
-    "shx": "^0.4.0",
+    "bun-types": "^1.2.22",
+    "chokidar-cli": "^3.0.0",
+    "picocolors": "^1.1.1",
     "typescript": "^5.9.2"
   }
 }

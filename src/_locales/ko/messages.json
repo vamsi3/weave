@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave(위브): 전체 페이지 스크린샷 및 캡처",
+    "description": "확장 프로그램의 공식 명칭. 웹 스토어 가시성과 브랜딩을 위해 간결하게 유지합니다."
+  },
+  "extDescription": {
+    "message": "클릭 한 번으로 스크롤되는 전체 페이지 스크린샷을 원활하게 캡처하고 이어 붙입니다. 캡처한 내용을 즉시 보고, 다운로드하거나 복사하세요.",
+    "description": "확장 프로그램의 마케팅 설명으로, 장점과 사용 편의성에 중점을 둡니다."
+  },
+  "actionTitle": {
+    "message": "Weave로 캡처",
+    "description": "브라우저 작업 버튼의 도구 설명. 짧고, 브랜드가 있으며, 행동 지향적입니다."
+  },
+  "optionsTitle": {
+    "message": "Weave 설정",
+    "description": "옵션 페이지의 브라우저 탭 제목."
+  },
+  "optionsHeader": {
+    "message": "설정",
+    "description": "옵션 페이지의 주 헤더. 깔끔하고 간단합니다."
+  },
+  "defaultActionHeader": {
+    "message": "캡처 후...",
+    "description": "기본 작업 설정의 헤더. 더 직관적이고 워크플로 지향적입니다."
+  },
+  "defaultActionDescription": {
+    "message": "캡처가 완료되는 순간 Weave가 수행할 작업을 선택하세요.",
+    "description": "기본 작업 설정에 대한 설명."
+  },
+  "openViewerLabel": {
+    "message": "뷰어에서 열기",
+    "description": "'뷰어에서 열기' 라디오 버튼의 레이블. 명확하고 직접적입니다."
+  },
+  "downloadLabel": {
+    "message": "다운로드",
+    "description": "'다운로드' 라디오 버튼의 레이블. 보편적으로 이해됩니다."
+  },
+  "copyLabel": {
+    "message": "복사",
+    "description": "'복사' 라디오 버튼의 레이블. UI 일관성을 위해 간결합니다."
+  },
+  "saveAsHeader": {
+    "message": "저장하기 전에 묻기",
+    "description": "'다른 이름으로 저장' 토글의 헤더. 사용자 관점에서 표현되었습니다."
+  },
+  "saveAsDescription": {
+    "message": "활성화하면 각 다운로드에 대해 파일 이름과 위치를 선택하라는 메시지가 표시됩니다.",
+    "description": "'다른 이름으로 저장' 토글에 대한 설명. 능동태를 사용합니다."
+  },
+  "scrollingHeader": {
+    "message": "스크롤 캡처 활성화",
+    "description": "스크롤 캡처 토글 설정의 헤더."
+  },
+  "scrollingDescription": {
+    "message": "스크롤되는 전체 페이지를 캡처하려면 활성화하세요. 현재 보이는 영역만 캡처하려면 비활성화하세요.",
+    "description": "스크롤 캡처 토글에 대한 설명. 더 직접적이고 명령적입니다."
+  },
+  "supportHeader": {
+    "message": "이 프로젝트 지원",
+    "description": "지원/후원 섹션의 헤더. 더 개인적이고 커뮤니티 중심적입니다."
+  },
+  "supportDescription": {
+    "message": "Weave는 무료 오픈 소스 프로젝트입니다. 유용하다고 생각하시면 지속적인 개발을 지원해 주세요.",
+    "description": "지원 섹션에 대한 설명. 가치 제안(FOSS)을 강조합니다."
+  },
+  "sponsorButton": {
+    "message": "GitHub에서 후원하기",
+    "description": "후원 버튼의 텍스트."
+  },
+  "viewerTitle": {
+    "message": "Weave: 캡처 완료",
+    "description": "스크린샷 뷰어 페이지의 브라우저 탭 제목."
+  },
+  "viewerHeader": {
+    "message": "캡처 완료",
+    "description": "뷰어 페이지의 주 헤더, 성공을 확인합니다."
+  },
+  "viewerDescription": {
+    "message": "전체 페이지 스크린샷이 준비되었습니다. 다음은 무엇인가요?",
+    "description": "뷰어 페이지의 설명으로, 사용자의 참여를 유도합니다."
+  },
+  "copyButton": {
+    "message": "이미지 복사",
+    "description": "뷰어 페이지의 복사 버튼 텍스트."
+  },
+  "copiedButton": {
+    "message": "복사됨!",
+    "description": "성공적으로 복사한 후 복사 버튼의 텍스트로, 명확한 피드백을 제공합니다."
+  },
+  "downloadButton": {
+    "message": "이미지 다운로드",
+    "description": "뷰어 페이지의 다운로드 버튼 텍스트."
+  },
+  "downloadingButton": {
+    "message": "다운로드 중...",
+    "description": "다운로드가 진행 중일 때 다운로드 버튼의 텍스트."
+  },
+  "errorButton": {
+    "message": "실패",
+    "description": "오류가 발생했을 때 버튼의 텍스트. '오류'보다 덜 놀랍습니다."
+  },
+  "screenshotAltText": {
+    "message": "Weave로 캡처한 전체 페이지 스크린샷.",
+    "description": "스크린샷 이미지의 대체 텍스트로, 접근성과 브랜딩을 향상시킵니다."
+  },
+  "noScreenshotAltText": {
+    "message": "스크린샷 데이터를 찾을 수 없습니다. 이전 탭으로 돌아가 다시 캡처해 보세요.",
+    "description": "스크린샷을 사용할 수 없을 때 이미지 영역의 대체 텍스트로, 명확한 지침을 제공합니다."
+  },
+  "copyFailedError": {
+    "message": "클립보드에 이미지를 복사할 수 없습니다. 이유: $details$",
+    "description": "클립보드에 복사하지 못했을 때 표시되는 오류 메시지. 부드러운 언어.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "클립보드 접근이 거부되었습니다."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "캡처 과정에서 문제가 발생했습니다. 오류: $details$",
+    "description": "스크린샷에 실패했을 때 표시되는 일반적인 오류 메시지. 사람이 읽기 쉽습니다.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "캔버스를 만들지 못했습니다."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "다른 곳으로 이동하여 캡처가 취소되었습니다. 전체 페이지를 캡처하려면 Weave가 완료될 때까지 탭에 머물러 주세요.",
+    "description": "사용자가 탭을 전환할 때 표시되는 오류 메시지. *이유*를 설명하고 정중하게 안내합니다."
+  }
+}

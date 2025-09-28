@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave（ウィーブ）：フルページスクリーンショット＆キャプチャ",
+    "description": "拡張機能の正式名称。ウェブストアでの視認性とブランディングのために簡潔に保たれています。"
+  },
+  "extDescription": {
+    "message": "スクロールが必要なページ全体のスクリーンショットをワンクリックでシームレスに撮影・結合します。撮影した画像をすぐに表示、ダウンロード、コピーできます。",
+    "description": "拡張機能のマーケティング説明。利点と使いやすさに焦点を当てています。"
+  },
+  "actionTitle": {
+    "message": "Weaveでキャプチャ",
+    "description": "ブラウザアクションボタンのツールチップ。短く、ブランド化され、アクション指向です。"
+  },
+  "optionsTitle": {
+    "message": "Weave 設定",
+    "description": "オプションページのブラウザタブのタイトル。"
+  },
+  "optionsHeader": {
+    "message": "設定",
+    "description": "オプションページのメインヘッダー。クリーンでシンプル。"
+  },
+  "defaultActionHeader": {
+    "message": "キャプチャ後...",
+    "description": "デフォルトのアクション設定のヘッダー。より直感的でワークフロー指向です。"
+  },
+  "defaultActionDescription": {
+    "message": "キャプチャが完了した瞬間にWeaveが何をするかを選択します。",
+    "description": "デフォルトのアクション設定の説明。"
+  },
+  "openViewerLabel": {
+    "message": "ビューアで開く",
+    "description": "「ビューアで開く」ラジオボタンのラベル。明確で直接的です。"
+  },
+  "downloadLabel": {
+    "message": "ダウンロード",
+    "description": "「ダウンロード」ラジオボタンのラベル。世界共通で理解されています。"
+  },
+  "copyLabel": {
+    "message": "コピー",
+    "description": "「コピー」ラジオボタンのラベル。UIの一貫性のために簡潔です。"
+  },
+  "saveAsHeader": {
+    "message": "保存前に確認",
+    "description": "「名前を付けて保存」トグルのヘッダー。ユーザーの視点から表現されています。"
+  },
+  "saveAsDescription": {
+    "message": "有効にすると、ダウンロードごとにファイル名と場所を選択するように求められます。",
+    "description": "「名前を付けて保存」トグルの説明。能動態を使用しています。"
+  },
+  "scrollingHeader": {
+    "message": "スクロールキャプチャを有効にする",
+    "description": "スクロールキャプチャトグル設定のヘッダー。"
+  },
+  "scrollingDescription": {
+    "message": "スクロールするページ全体をキャプチャするには有効にします。現在表示されている領域のみをキャプチャするには無効にします。",
+    "description": "スクロールキャプチャトグルの説明。より直接的で命令的です。"
+  },
+  "supportHeader": {
+    "message": "このプロジェクトを支援する",
+    "description": "サポート/スポンサーシップセクションのヘッダー。より個人的でコミュニティ中心です。"
+  },
+  "supportDescription": {
+    "message": "Weaveは無料のオープンソースプロジェクトです。もし便利だと感じたら、継続的な開発を支援することを検討してください。",
+    "description": "サポートセクションの説明。価値提案（FOSS）を強調しています。"
+  },
+  "sponsorButton": {
+    "message": "GitHubでスポンサーになる",
+    "description": "スポンサーボタンのテキスト。"
+  },
+  "viewerTitle": {
+    "message": "Weave：キャプチャ完了",
+    "description": "スクリーンショットビューアページのブラウザタブのタイトル。"
+  },
+  "viewerHeader": {
+    "message": "キャプチャ完了",
+    "description": "ビューアページのメインヘッダー。成功を確認します。"
+  },
+  "viewerDescription": {
+    "message": "フルページのスクリーンショットの準備ができました。次は何をしますか？",
+    "description": "ビューアページの説明。ユーザーを引き込みます。"
+  },
+  "copyButton": {
+    "message": "画像をコピー",
+    "description": "ビューアページのコピーボタンのテキスト。"
+  },
+  "copiedButton": {
+    "message": "コピーしました！",
+    "description": "コピー成功後のコピーボタンのテキスト。明確なフィードバックを提供します。"
+  },
+  "downloadButton": {
+    "message": "画像をダウンロード",
+    "description": "ビューアページのダウンロードボタンのテキスト。"
+  },
+  "downloadingButton": {
+    "message": "ダウンロード中...",
+    "description": "ダウンロード中のダウンロードボタンのテキスト。"
+  },
+  "errorButton": {
+    "message": "失敗しました",
+    "description": "エラーが発生したときのボタンのテキスト。「エラー」よりも穏やかです。"
+  },
+  "screenshotAltText": {
+    "message": "Weaveでキャプチャされたフルページのスクリーンショット。",
+    "description": "スクリーンショット画像の代替テキスト。アクセシビリティとブランディングを向上させます。"
+  },
+  "noScreenshotAltText": {
+    "message": "スクリーンショットデータが見つかりませんでした。前のタブに戻って、もう一度キャプチャしてみてください。",
+    "description": "スクリーンショットが利用できない場合の画像領域の代替テキスト。明確な指示を提供します。"
+  },
+  "copyFailedError": {
+    "message": "画像をクリップボードにコピーできませんでした。理由：$details$",
+    "description": "クリップボードへのコピーが失敗したときに表示されるエラーメッセージ。より穏やかな言葉遣いです。",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "クリップボードへのアクセスが拒否されました。"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "キャプチャプロセス中に問題が発生しました。エラー：$details$",
+    "description": "スクリーンショットが失敗したときに表示される一般的なエラーメッセージ。人間が読みやすいようにしています。",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "キャンバスの作成に失敗しました。"
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "ページから移動したため、キャプチャはキャンセルされました。フルページのキャプチャを行うには、Weaveが完了するまでタブにとどまってください。",
+    "description": "ユーザーがタブを切り替えたときに表示されるエラーメッセージ。*理由*を説明し、丁寧に指示します。"
+  }
+}

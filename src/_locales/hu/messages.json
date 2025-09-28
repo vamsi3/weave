@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Teljes oldalas képernyőkép és rögzítés",
+    "description": "A bővítmény hivatalos neve. A webáruházban való láthatóság és a márkaépítés érdekében rövidre van fogva."
+  },
+  "extDescription": {
+    "message": "Zökkenőmentesen rögzíthet és fűzhet össze görgethető, teljes oldalas képernyőképeket egyetlen kattintással. Azonnal megtekintheti, letöltheti vagy másolhatja a felvételeit.",
+    "description": "A bővítmény marketingleírása, amely az előnyökre és a könnyű használatra összpontosít."
+  },
+  "actionTitle": {
+    "message": "Rögzítés a Weave-vel",
+    "description": "Eszköztip a böngésző művelet gombjához. Rövid, márkás és cselekvésorientált."
+  },
+  "optionsTitle": {
+    "message": "Weave beállítások",
+    "description": "Az opciók oldal böngészőlapjának címe."
+  },
+  "optionsHeader": {
+    "message": "Beállítások",
+    "description": "Fő fejléc az opciók oldalon. Tiszta és egyszerű."
+  },
+  "defaultActionHeader": {
+    "message": "Rögzítés után...",
+    "description": "Fejléc az alapértelmezett művelet beállításához. Intuitívabb és munkafolyamat-orientált."
+  },
+  "defaultActionDescription": {
+    "message": "Válassza ki, mit tegyen a Weave a rögzítés befejezésének pillanatában.",
+    "description": "Az alapértelmezett művelet beállításának leírása."
+  },
+  "openViewerLabel": {
+    "message": "Megnyitás a nézegetőben",
+    "description": "Címke a 'megnyitás a nézegetőben' rádiógombhoz. Világos és közvetlen."
+  },
+  "downloadLabel": {
+    "message": "Letöltés",
+    "description": "Címke a 'letöltés' rádiógombhoz. Általánosan érthető."
+  },
+  "copyLabel": {
+    "message": "Másolás",
+    "description": "Címke a 'másolás' rádiógombhoz. Tömör a felhasználói felület következetessége érdekében."
+  },
+  "saveAsHeader": {
+    "message": "Kérdés mentés előtt",
+    "description": "Fejléc a 'mentés másként' kapcsolóhoz. A felhasználó szemszögéből fogalmazva."
+  },
+  "saveAsDescription": {
+    "message": "Ha engedélyezve van, minden letöltésnél meg kell adnia a fájl nevét és helyét.",
+    "description": "A 'mentés másként' kapcsoló leírása. Aktív hangot használ."
+  },
+  "scrollingHeader": {
+    "message": "Görgethető rögzítés engedélyezése",
+    "description": "Fejléc a görgethető rögzítés kapcsolóbeállításához."
+  },
+  "scrollingDescription": {
+    "message": "Engedélyezze a teljes görgethető oldal rögzítéséhez. Tiltsa le, hogy csak a jelenleg látható területet rögzítse.",
+    "description": "A görgethető rögzítés kapcsoló leírása. Közvetlenebb és parancsolóbb."
+  },
+  "supportHeader": {
+    "message": "Támogassa ezt a projektet",
+    "description": "Fejléc a támogatási/szponzorációs szakaszhoz. Személyesebb és közösségközpontúbb."
+  },
+  "supportDescription": {
+    "message": "A Weave egy ingyenes, nyílt forráskódú projekt. Ha hasznosnak találja, kérjük, fontolja meg a folyamatos fejlesztésének támogatását.",
+    "description": "A támogatási szakasz leírása. Kiemeli az értékajánlatot (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Szponzorálás a GitHubon",
+    "description": "Szöveg a szponzor gombhoz."
+  },
+  "viewerTitle": {
+    "message": "Weave: A rögzítés befejeződött",
+    "description": "A képernyőkép-nézegető oldal böngészőlapjának címe."
+  },
+  "viewerHeader": {
+    "message": "A rögzítés befejeződött",
+    "description": "Fő fejléc a nézegető oldalon, amely megerősíti a sikert."
+  },
+  "viewerDescription": {
+    "message": "A teljes oldalas képernyőképe készen áll. Mi a következő lépés?",
+    "description": "Leírás a nézegető oldalon, amely bevonja a felhasználót."
+  },
+  "copyButton": {
+    "message": "Kép másolása",
+    "description": "Szöveg a másolás gombhoz a nézegető oldalon."
+  },
+  "copiedButton": {
+    "message": "Másolva!",
+    "description": "Szöveg a másolás gombhoz egy sikeres másolás után, egyértelmű visszajelzést adva."
+  },
+  "downloadButton": {
+    "message": "Kép letöltése",
+    "description": "Szöveg a letöltés gombhoz a nézegető oldalon."
+  },
+  "downloadingButton": {
+    "message": "Letöltés...",
+    "description": "Szöveg a letöltés gombhoz, amíg a letöltés folyamatban van."
+  },
+  "errorButton": {
+    "message": "Sikertelen",
+    "description": "Szöveg egy gombhoz, amikor hiba történik. Kevésbé riasztó, mint a 'Hiba'."
+  },
+  "screenshotAltText": {
+    "message": "A Weave által rögzített teljes oldalas képernyőkép.",
+    "description": "Alternatív szöveg a képernyőképhez, javítva a hozzáférhetőséget és a márkaépítést."
+  },
+  "noScreenshotAltText": {
+    "message": "Nem található képernyőkép adat. Kérjük, térjen vissza az előző lapra, és próbálja újra a rögzítést.",
+    "description": "Alternatív szöveg a képterülethez, ha nincs elérhető képernyőkép, egyértelmű utasítást adva."
+  },
+  "copyFailedError": {
+    "message": "Nem sikerült a képet a vágólapra másolni. Ok: $details$",
+    "description": "Hibaüzenet, amely akkor jelenik meg, ha a vágólapra másolás sikertelen. Lágyabb nyelvezet.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Vágólaphoz való hozzáférés megtagadva."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Valami hiba történt a rögzítési folyamat során. Hiba: $details$",
+    "description": "Általános hibaüzenet, amely akkor jelenik meg, ha a képernyőkép készítése sikertelen. Ember által olvashatóbb.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "A vászon létrehozása sikertelen."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "A rögzítés megszakadt, mert elnavigált. A teljes oldalas rögzítéshez kérjük, maradjon a lapon, amíg a Weave befejezi.",
+    "description": "Hibaüzenet, amely akkor jelenik meg, ha a felhasználó lapot vált. Elmagyarázza, *miért*, és udvariasan utasít."
+  }
+}

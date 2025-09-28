@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave：全頁螢幕截圖與擷取",
+    "description": "擴充功能的官方名稱。為在網路商店中的可見性和品牌推廣而保持簡潔。"
+  },
+  "extDescription": {
+    "message": "一鍵無縫擷取和拼接滾動全頁螢幕截圖。立即檢視、下載或複製您的擷取內容。",
+    "description": "擴充功能的行銷描述，重點介紹其優勢和易用性。"
+  },
+  "actionTitle": {
+    "message": "使用 Weave 擷取",
+    "description": "瀏覽器操作按鈕的工具提示。簡短、有品牌特色且以操作為導向。"
+  },
+  "optionsTitle": {
+    "message": "Weave 設定",
+    "description": "選項頁的瀏覽器分頁標題。"
+  },
+  "optionsHeader": {
+    "message": "設定",
+    "description": "選項頁上的主標題。簡潔明瞭。"
+  },
+  "defaultActionHeader": {
+    "message": "擷取後...",
+    "description": "預設操作設定的標題。更直觀、更注重工作流程。"
+  },
+  "defaultActionDescription": {
+    "message": "選擇 Weave 在擷取完成時執行的操作。",
+    "description": "預設操作設定的描述。"
+  },
+  "openViewerLabel": {
+    "message": "在檢視器中開啟",
+    "description": "「在檢視器中開啟」單選按鈕的標籤。清晰直接。"
+  },
+  "downloadLabel": {
+    "message": "下載",
+    "description": "「下載」單選按鈕的標籤。通用易懂。"
+  },
+  "copyLabel": {
+    "message": "複製",
+    "description": "「複製」單選按鈕的標籤。為保持 UI 一致性而設計得簡潔。"
+  },
+  "saveAsHeader": {
+    "message": "儲存前詢問",
+    "description": "「另存新檔」開關的標題。從使用者的角度進行措辭。"
+  },
+  "saveAsDescription": {
+    "message": "如果啟用，系統將提示您為每次下載選擇檔案名稱和位置。",
+    "description": "「另存新檔」開關的描述。使用主動語態。"
+  },
+  "scrollingHeader": {
+    "message": "啟用滾動擷取",
+    "description": "滾動擷取開關設定的標題。"
+  },
+  "scrollingDescription": {
+    "message": "啟用以擷取整個滾動頁面。停用以僅擷取目前可見區域。",
+    "description": "滾動擷取開關的描述。更直接、更具命令性。"
+  },
+  "supportHeader": {
+    "message": "支持此專案",
+    "description": "支援/贊助部分的標題。更具個人化和社群導向。"
+  },
+  "supportDescription": {
+    "message": "Weave 是一個免費的開源專案。如果您覺得它有用，請考慮支持其持續發展。",
+    "description": "支援部分的描述。突顯其價值主張（FOSS）。"
+  },
+  "sponsorButton": {
+    "message": "在 GitHub 上贊助",
+    "description": "贊助按鈕的文字。"
+  },
+  "viewerTitle": {
+    "message": "Weave：擷取完成",
+    "description": "螢幕截圖檢視器頁的瀏覽器分頁標題。"
+  },
+  "viewerHeader": {
+    "message": "擷取完成",
+    "description": "檢視器頁面上的主標題，確認成功。"
+  },
+  "viewerDescription": {
+    "message": "您的全頁螢幕截圖已準備就緒。下一步做什麼？",
+    "description": "檢視器頁面上的描述，吸引使用者參與。"
+  },
+  "copyButton": {
+    "message": "複製影像",
+    "description": "檢視器頁面上複製按鈕的文字。"
+  },
+  "copiedButton": {
+    "message": "已複製！",
+    "description": "成功複製後複製按鈕的文字，提供清晰的回饋。"
+  },
+  "downloadButton": {
+    "message": "下載影像",
+    "description": "檢視器頁面上傳送按鈕的文字。"
+  },
+  "downloadingButton": {
+    "message": "正在下載...",
+    "description": "下載過程中下載按鈕的文字。"
+  },
+  "errorButton": {
+    "message": "失敗",
+    "description": "發生錯誤時按鈕的文字。比「錯誤」更溫和。"
+  },
+  "screenshotAltText": {
+    "message": "由 Weave 擷取的全頁螢幕截圖。",
+    "description": "螢幕截圖影像的替代文字，提高可及性和品牌形象。"
+  },
+  "noScreenshotAltText": {
+    "message": "未找到螢幕截圖資料。請返回上一個分頁並重試擷取。",
+    "description": "沒有可用螢幕截圖時影像區域的替代文字，提供明確的指示。"
+  },
+  "copyFailedError": {
+    "message": "無法將影像複製到剪貼簿。原因：$details$",
+    "description": "複製到剪貼簿失敗時顯示的錯誤訊息。措辭更溫和。",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "剪貼簿存取被拒絕。"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "擷取過程中出現問題。錯誤：$details$",
+    "description": "螢幕截圖失敗時顯示的通用錯誤訊息。更易於人類閱讀。",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "無法建立畫布。"
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "由於您導覽離開，擷取已取消。要進行全頁擷取，請停留在該分頁上，直到 Weave 完成。",
+    "description": "使用者切換分頁時顯示的錯誤訊息。解釋了*原因*並禮貌地給出指示。"
+  }
+}

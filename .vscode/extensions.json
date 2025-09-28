@@ -1,0 +1,9 @@
+{
+  // This file recommends extensions that are highly beneficial for this project.
+  // VS Code will prompt the user to install these recommendations if they don't have them.
+  "recommendations": [
+    // The official Biome extension is essential for integrating the linter
+    // and formatter directly into the editor for a seamless experience.
+    "biomejs.biome"
+  ]
+}

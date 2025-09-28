@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: ሙሉ ገጽ ቅጽበታዊ ገጽ እይታ እና ቀረጻ",
+    "description": "የቅጥያው ይፋዊ ስም። ለድር መደብር ታይነት እና የምርት ስም አጭር ሆኖ ተቀምጧል።"
+  },
+  "extDescription": {
+    "message": "በአንድ ጠቅታ የሚሸበለሉ፣ ሙሉ ገጽ ያላቸውን ቅጽበታዊ ገጽ እይታዎችን ያለችግር ያንሱ እና ይስፉ። ቀረጻዎችዎን ወዲያውኑ ይመልከቱ፣ ያውርዱ ወይም ይቅዱ።",
+    "description": "የቅጥያው የገበያ መግለጫ፣ በጥቅሞች እና በአጠቃቀም ቀላልነት ላይ ያተኩራል።"
+  },
+  "actionTitle": {
+    "message": "በWeave ያንሱ",
+    "description": "ለአሳሽ ድርጊት አዝራር የመሳሪያ ጥቆማ። አጭር፣ የምርት ስም ያለው እና በድርጊት ላይ ያተኮረ።"
+  },
+  "optionsTitle": {
+    "message": "Weave ቅንብሮች",
+    "description": "የአማራጮች ገጽ የአሳሽ ትር ርዕስ።"
+  },
+  "optionsHeader": {
+    "message": "ቅንብሮች",
+    "description": "በአማራጮች ገጽ ላይ ዋና ርዕስ። ንጹህ እና ቀላል።"
+  },
+  "defaultActionHeader": {
+    "message": "ከቀረጻ በኋላ...",
+    "description": "ለነባሪ የድርጊት ቅንብር ርዕስ። የበለጠ ገላጭ እና በስራ ሂደት ላይ ያተኮረ።"
+  },
+  "defaultActionDescription": {
+    "message": "ቀረጻ ሲጠናቀቅ Weave ምን ማድረግ እንዳለበት ይምረጡ።",
+    "description": "ለነባሪ የድርጊት ቅንብር መግለጫ።"
+  },
+  "openViewerLabel": {
+    "message": "ተመልካችን ክፈት",
+    "description": "ለ'በተመልካች ክፈት' የሬዲዮ አዝራር መለያ። ግልጽ እና ቀጥተኛ።"
+  },
+  "downloadLabel": {
+    "message": "አውርድ",
+    "description": "ለ'አውርድ' የሬዲዮ አዝራር መለያ። በዓለም አቀፍ ደረጃ የሚታወቅ።"
+  },
+  "copyLabel": {
+    "message": "ቅዳ",
+    "description": "ለ'ቅዳ' የሬዲዮ አዝራር መለያ። ለUI ወጥነት አጭር።"
+  },
+  "saveAsHeader": {
+    "message": "ከማስቀመጥዎ በፊት ይጠይቁ",
+    "description": "ለ'አስቀምጥ እንደ' መቀያየሪያ ርዕስ። ከተጠቃሚው እይታ አንጻር የተቀረጸ።"
+  },
+  "saveAsDescription": {
+    "message": "ከነቃ፣ ለእያንዳንዱ ማውረድ የፋይል ስም እና ቦታ እንዲመርጡ ይጠየቃሉ።",
+    "description": "ለ'አስቀምጥ እንደ' መቀያየሪያ መግለጫ። ንቁ ድምጽ ይጠቀማል።"
+  },
+  "scrollingHeader": {
+    "message": "የሚሸበለል ቀረጻ አንቃ",
+    "description": "ለሚሸበለል ቀረጻ መቀያየሪያ ቅንብር ርዕስ።"
+  },
+  "scrollingDescription": {
+    "message": "ሙሉ የሚሸበለለውን ገጽ ለመቅረጽ አንቃ። በአሁኑ ጊዜ የሚታየውን ቦታ ብቻ ለመቅረጽ አሰናክል።",
+    "description": "ለሚሸበለል ቀረጻ መቀያየሪያ መግለጫ። የበለጠ ቀጥተኛ እና ትዕዛዛዊ።"
+  },
+  "supportHeader": {
+    "message": "ይህን ፕሮጀክት ይደግፉ",
+    "description": "ለድጋፍ/ስፖንሰርሺፕ ክፍል ርዕስ። የበለጠ ግላዊ እና በማህበረሰብ ላይ ያተኮረ።"
+  },
+  "supportDescription": {
+    "message": "Weave ነፃ፣ ክፍት ምንጭ ፕሮጀክት ነው። ጠቃሚ ሆኖ ካገኙት፣ እባክዎ ቀጣይ ልማቱን ለመደገፍ ያስቡበት።",
+    "description": "ለድጋፍ ክፍል መግለጫ። የእሴት ሀሳቡን (FOSS) ያጎላል።"
+  },
+  "sponsorButton": {
+    "message": "በ GitHub ስፖንሰር ያድርጉ",
+    "description": "ለስፖንሰር አዝራር ጽሑፍ።"
+  },
+  "viewerTitle": {
+    "message": "Weave: ቀረጻ ተጠናቋል",
+    "description": "የቅጽበታዊ ገጽ እይታ ተመልካች ገጽ የአሳሽ ትር ርዕስ።"
+  },
+  "viewerHeader": {
+    "message": "ቀረጻ ተጠናቋል",
+    "description": "በተመልካች ገጽ ላይ ዋና ርዕስ፣ ስኬትን ያረጋግጣል።"
+  },
+  "viewerDescription": {
+    "message": "የእርስዎ ሙሉ ገጽ ቅጽበታዊ ገጽ እይታ ዝግጁ ነው። ቀጥሎስ?",
+    "description": "በተመልካች ገጽ ላይ መግለጫ፣ ተጠቃሚውን ያሳትፋል።"
+  },
+  "copyButton": {
+    "message": "ምስል ቅዳ",
+    "description": "በተመልካች ገጽ ላይ ላለው የቅጂ አዝራር ጽሑፍ።"
+  },
+  "copiedButton": {
+    "message": "ተቀድቷል!",
+    "description": "ለቅጂ አዝራር ስኬታማ ቅጂ በኋላ ያለው ጽሑፍ፣ ግልጽ ግብረመልስ ይሰጣል።"
+  },
+  "downloadButton": {
+    "message": "ምስል አውርድ",
+    "description": "በተመልካች ገጽ ላይ ላለው የማውረድ አዝራር ጽሑፍ።"
+  },
+  "downloadingButton": {
+    "message": "እያወረደ ነው...",
+    "description": "ማውረዱ በሂደት ላይ እያለ ለማውረጃ አዝራሩ ጽሑፍ።"
+  },
+  "errorButton": {
+    "message": "አልተሳካም",
+    "description": "ስህተት ሲከሰት ለአንድ አዝራር ጽሑፍ። ከ'ስህተት' ያነሰ የሚያስደነግጥ።"
+  },
+  "screenshotAltText": {
+    "message": "በWeave የተቀረጸ ሙሉ ገጽ ቅጽበታዊ ገጽ እይታ።",
+    "description": "ለቅጽበታዊ ገጽ እይታ ምስል አማራጭ ጽሑፍ፣ ተደራሽነትን እና የምርት ስምን ያሻሽላል።"
+  },
+  "noScreenshotAltText": {
+    "message": "ምንም የቅጽበታዊ ገጽ እይታ ውሂብ አልተገኘም። እባክዎ ወደ ቀድሞው ትር ይመለሱ እና እንደገና ለመቅረጽ ይሞክሩ።",
+    "description": "ምንም ቅጽበታዊ ገጽ እይታ በማይገኝበት ጊዜ ለምስሉ አካባቢ አማራጭ ጽሑፍ፣ ግልጽ መመሪያ ይሰጣል።"
+  },
+  "copyFailedError": {
+    "message": "ምስሉን ወደ ቅንጥብ ሰሌዳ መቅዳት አልተቻለም። ምክንያት፦ $details$",
+    "description": "ወደ ቅንጥብ ሰሌዳ መቅዳት ሳይሳካ ሲቀር የሚታይ የስህተት መልእክት። ለስለስ ያለ ቋንቋ።",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "የቅንጥብ ሰሌዳ መዳረሻ ተከልክሏል።"
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "በቀረጻ ሂደት ወቅት የሆነ ችግር ተፈጥሯል። ስህተት፦ $details$",
+    "description": "ቅጽበታዊ ገጽ እይታ ሳይሳካ ሲቀር የሚታይ አጠቃላይ የስህተት መልእክት። የበለጠ ሰው ሊረዳው የሚችል።",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "ሸራ መፍጠር አልተሳካም።"
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "ስለሄዱ ቀረጻ ተሰርዟል። ለሙሉ ገጽ ቀረጻ፣ እባክዎ Weave እስኪጨርስ ድረስ በትር ላይ ይቆዩ።",
+    "description": "ተጠቃሚው ትሮችን ሲቀይር የሚታይ የስህተት መልእክት። *ለምን* እንደሆነ ያብራራል እና በትህትና ይመራል።"
+  }
+}

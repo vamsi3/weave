@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Full Page Screenshot & Capture",
+    "description": "The official name of the extension. Kept concise for web store visibility and branding."
+  },
+  "extDescription": {
+    "message": "Seamlessly capture and stitch scrolling, full-page screenshots in a single click. Instantly view, download, or copy your captures.",
+    "description": "The marketing description of the extension, focusing on benefits and ease of use."
+  },
+  "actionTitle": {
+    "message": "Capture with Weave",
+    "description": "Tooltip for the browser action button. Short, branded, and action-oriented."
+  },
+  "optionsTitle": {
+    "message": "Weave Settings",
+    "description": "Title of the options page's browser tab."
+  },
+  "optionsHeader": {
+    "message": "Settings",
+    "description": "Main header on the options page. Clean and simple."
+  },
+  "defaultActionHeader": {
+    "message": "After Capturing...",
+    "description": "Header for the default action setting. More intuitive and workflow-oriented."
+  },
+  "defaultActionDescription": {
+    "message": "Choose what Weave does the moment a capture is finished.",
+    "description": "Description for the default action setting."
+  },
+  "openViewerLabel": {
+    "message": "Open Viewer",
+    "description": "Label for the 'open in viewer' radio button. Clear and direct."
+  },
+  "downloadLabel": {
+    "message": "Download",
+    "description": "Label for the 'download' radio button. Universally understood."
+  },
+  "copyLabel": {
+    "message": "Copy",
+    "description": "Label for the 'copy' radio button. Concise for UI consistency."
+  },
+  "saveAsHeader": {
+    "message": "Ask Before Saving",
+    "description": "Header for the 'save as' toggle. Phrased from the user's perspective."
+  },
+  "saveAsDescription": {
+    "message": "If enabled, you'll be prompted to choose a file name and location for each download.",
+    "description": "Description for the 'save as' toggle. Uses active voice."
+  },
+  "scrollingHeader": {
+    "message": "Enable Scrolling Capture",
+    "description": "Header for the scrolling capture toggle setting."
+  },
+  "scrollingDescription": {
+    "message": "Enable to capture the entire scrolling page. Disable to capture only the currently visible area.",
+    "description": "Description for the scrolling capture toggle. More direct and imperative."
+  },
+  "supportHeader": {
+    "message": "Support This Project",
+    "description": "Header for the support/sponsorship section. More personal and community-focused."
+  },
+  "supportDescription": {
+    "message": "Weave is a free, open-source project. If you find it useful, please consider supporting its continued development.",
+    "description": "Description for the support section. Highlights the value proposition (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Sponsor on GitHub",
+    "description": "Text for the sponsor button."
+  },
+  "viewerTitle": {
+    "message": "Weave: Capture Complete",
+    "description": "Title of the screenshot viewer page's browser tab."
+  },
+  "viewerHeader": {
+    "message": "Capture Complete",
+    "description": "Main header on the viewer page, confirming success."
+  },
+  "viewerDescription": {
+    "message": "Your full-page screenshot is ready. What's next?",
+    "description": "Description on the viewer page, engaging the user."
+  },
+  "copyButton": {
+    "message": "Copy Image",
+    "description": "Text for the copy button on the viewer page."
+  },
+  "copiedButton": {
+    "message": "Copied!",
+    "description": "Text for the copy button after a successful copy, providing clear feedback."
+  },
+  "downloadButton": {
+    "message": "Download Image",
+    "description": "Text for the download button on the viewer page."
+  },
+  "downloadingButton": {
+    "message": "Downloading...",
+    "description": "Text for the download button while the download is in progress."
+  },
+  "errorButton": {
+    "message": "Failed",
+    "description": "Text for a button when an error occurs. Less alarming than 'Error'."
+  },
+  "screenshotAltText": {
+    "message": "A full-page screenshot captured by Weave.",
+    "description": "Alt text for the screenshot image, improving accessibility and branding."
+  },
+  "noScreenshotAltText": {
+    "message": "No screenshot data found. Please return to the previous tab and try capturing again.",
+    "description": "Alt text for the image area when no screenshot is available, providing a clear instruction."
+  },
+  "copyFailedError": {
+    "message": "Could not copy image to the clipboard. Reason: $details$",
+    "description": "Error message shown when copying to clipboard fails. Softer language.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Clipboard access denied."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Something went wrong during the capture process. Error: $details$",
+    "description": "Generic error message shown when screenshotting fails. More human-readable.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Failed to create canvas."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Capture cancelled because you navigated away. For a full-page capture, please stay on the tab until Weave is finished.",
+    "description": "Error message shown when the user switches tabs. Explains *why* and politely instructs."
+  }
+}

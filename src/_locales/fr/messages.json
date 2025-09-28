@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave : Capture d'écran et enregistrement de page entière",
+    "description": "Le nom officiel de l'extension. Maintenu concis pour la visibilité dans le magasin en ligne et la stratégie de marque."
+  },
+  "extDescription": {
+    "message": "Capturez et assemblez en toute transparence des captures d'écran de pages entières avec défilement en un seul clic. Affichez, téléchargez ou copiez instantanément vos captures.",
+    "description": "La description marketing de l'extension, axée sur les avantages et la facilité d'utilisation."
+  },
+  "actionTitle": {
+    "message": "Capturer avec Weave",
+    "description": "Info-bulle pour le bouton d'action du navigateur. Court, de marque et orienté vers l'action."
+  },
+  "optionsTitle": {
+    "message": "Paramètres de Weave",
+    "description": "Titre de l'onglet du navigateur de la page des options."
+  },
+  "optionsHeader": {
+    "message": "Paramètres",
+    "description": "En-tête principal sur la page des options. Propre et simple."
+  },
+  "defaultActionHeader": {
+    "message": "Après la capture...",
+    "description": "En-tête pour le paramètre d'action par défaut. Plus intuitif et axé sur le flux de travail."
+  },
+  "defaultActionDescription": {
+    "message": "Choisissez ce que Weave fait au moment où une capture est terminée.",
+    "description": "Description du paramètre d'action par défaut."
+  },
+  "openViewerLabel": {
+    "message": "Ouvrir la visionneuse",
+    "description": "Étiquette pour le bouton radio 'ouvrir dans la visionneuse'. Clair et direct."
+  },
+  "downloadLabel": {
+    "message": "Télécharger",
+    "description": "Étiquette pour le bouton radio 'télécharger'. Universellement compris."
+  },
+  "copyLabel": {
+    "message": "Copier",
+    "description": "Étiquette pour le bouton radio 'copier'. Concis pour la cohérence de l'interface utilisateur."
+  },
+  "saveAsHeader": {
+    "message": "Demander avant d'enregistrer",
+    "description": "En-tête pour le commutateur 'enregistrer sous'. Formulée du point de vue de l'utilisateur."
+  },
+  "saveAsDescription": {
+    "message": "Si activé, il vous sera demandé de choisir un nom de fichier et un emplacement pour chaque téléchargement.",
+    "description": "Description du commutateur 'enregistrer sous'. Utilise la voix active."
+  },
+  "scrollingHeader": {
+    "message": "Activer la capture avec défilement",
+    "description": "En-tête pour le paramètre du commutateur de capture avec défilement."
+  },
+  "scrollingDescription": {
+    "message": "Activer pour capturer toute la page en défilement. Désactiver pour ne capturer que la zone actuellement visible.",
+    "description": "Description du commutateur de capture avec défilement. Plus directe et impérative."
+  },
+  "supportHeader": {
+    "message": "Soutenir ce projet",
+    "description": "En-tête pour la section de soutien/parrainage. Plus personnel et axé sur la communauté."
+  },
+  "supportDescription": {
+    "message": "Weave est un projet gratuit et open source. Si vous le trouvez utile, veuillez envisager de soutenir son développement continu.",
+    "description": "Description de la section de soutien. Met en évidence la proposition de valeur (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Soutenir sur GitHub",
+    "description": "Texte pour le bouton de parrainage."
+  },
+  "viewerTitle": {
+    "message": "Weave : Capture terminée",
+    "description": "Titre de l'onglet du navigateur de la page de la visionneuse de captures d'écran."
+  },
+  "viewerHeader": {
+    "message": "Capture terminée",
+    "description": "En-tête principal sur la page de la visionneuse, confirmant le succès."
+  },
+  "viewerDescription": {
+    "message": "Votre capture d'écran de page entière est prête. Quelle est la prochaine étape ?",
+    "description": "Description sur la page de la visionneuse, engageant l'utilisateur."
+  },
+  "copyButton": {
+    "message": "Copier l'image",
+    "description": "Texte pour le bouton de copie sur la page de la visionneuse."
+  },
+  "copiedButton": {
+    "message": "Copié !",
+    "description": "Texte pour le bouton de copie après une copie réussie, fournissant un retour d'information clair."
+  },
+  "downloadButton": {
+    "message": "Télécharger l'image",
+    "description": "Texte pour le bouton de téléchargement sur la page de la visionneuse."
+  },
+  "downloadingButton": {
+    "message": "Téléchargement en cours...",
+    "description": "Texte pour le bouton de téléchargement pendant que le téléchargement est en cours."
+  },
+  "errorButton": {
+    "message": "Échec",
+    "description": "Texte pour un bouton lorsqu'une erreur se produit. Moins alarmant que 'Erreur'."
+  },
+  "screenshotAltText": {
+    "message": "Une capture d'écran de page entière capturée par Weave.",
+    "description": "Texte alternatif pour l'image de la capture d'écran, améliorant l'accessibilité et la stratégie de marque."
+  },
+  "noScreenshotAltText": {
+    "message": "Aucune donnée de capture d'écran trouvée. Veuillez retourner à l'onglet précédent et réessayer la capture.",
+    "description": "Texte alternatif pour la zone de l'image lorsqu'aucune capture d'écran n'est disponible, fournissant une instruction claire."
+  },
+  "copyFailedError": {
+    "message": "Impossible de copier l'image dans le presse-papiers. Raison : $details$",
+    "description": "Message d'erreur affiché lorsque la copie dans le presse-papiers échoue. Langage plus doux.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Accès au presse-papiers refusé."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Une erreur s'est produite pendant le processus de capture. Erreur : $details$",
+    "description": "Message d'erreur générique affiché lorsque la capture d'écran échoue. Plus lisible par l'homme.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Échec de la création du canevas."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Capture annulée car vous avez quitté la page. Pour une capture de page entière, veuillez rester sur l'onglet jusqu'à ce que Weave ait terminé.",
+    "description": "Message d'erreur affiché lorsque l'utilisateur change d'onglet. Explique *pourquoi* et donne des instructions poliment."
+  }
+}

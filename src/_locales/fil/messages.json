@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Buong Pahinang Screenshot at Pagkuha",
+    "description": "Ang opisyal na pangalan ng extension. Pinananatiling maikli para sa kakayahang makita sa web store at pagba-brand."
+  },
+  "extDescription": {
+    "message": "Walang putol na makuha at tahiin ang mga nag-i-scroll, buong pahinang screenshot sa isang pag-click. Agad na tingnan, i-download, o kopyahin ang iyong mga nakuha.",
+    "description": "Ang paglalarawan sa marketing ng extension, na nakatuon sa mga benepisyo at kadalian ng paggamit."
+  },
+  "actionTitle": {
+    "message": "Kumuha gamit ang Weave",
+    "description": "Tooltip para sa pindutan ng pagkilos ng browser. Maikli, may tatak, at nakatuon sa pagkilos."
+  },
+  "optionsTitle": {
+    "message": "Mga Setting ng Weave",
+    "description": "Pamagat ng tab ng browser ng pahina ng mga pagpipilian."
+  },
+  "optionsHeader": {
+    "message": "Mga Setting",
+    "description": "Pangunahing header sa pahina ng mga pagpipilian. Malinis at simple."
+  },
+  "defaultActionHeader": {
+    "message": "Pagkatapos makuha...",
+    "description": "Header para sa setting ng default na pagkilos. Mas madaling maunawaan at nakatuon sa daloy ng trabaho."
+  },
+  "defaultActionDescription": {
+    "message": "Piliin kung ano ang gagawin ng Weave sa sandaling matapos ang isang pagkuha.",
+    "description": "Paglalarawan para sa setting ng default na pagkilos."
+  },
+  "openViewerLabel": {
+    "message": "Buksan ang Viewer",
+    "description": "Label para sa radio button na 'buksan sa viewer'. Malinaw at direkta."
+  },
+  "downloadLabel": {
+    "message": "I-download",
+    "description": "Label para sa radio button na 'i-download'. Nauunawaan sa buong mundo."
+  },
+  "copyLabel": {
+    "message": "Kopyahin",
+    "description": "Label para sa radio button na 'kopyahin'. Maikli para sa pagkakapare-pareho ng UI."
+  },
+  "saveAsHeader": {
+    "message": "Magtanong Bago Mag-save",
+    "description": "Header para sa toggle na 'i-save bilang'. Nakasulat mula sa pananaw ng gumagamit."
+  },
+  "saveAsDescription": {
+    "message": "Kung pinagana, sasabihan kang pumili ng pangalan ng file at lokasyon para sa bawat pag-download.",
+    "description": "Paglalarawan para sa toggle na 'i-save bilang'. Gumagamit ng aktibong boses."
+  },
+  "scrollingHeader": {
+    "message": "Paganahin ang Pagkuha sa Pag-scroll",
+    "description": "Header para sa setting ng toggle ng pagkuha sa pag-scroll."
+  },
+  "scrollingDescription": {
+    "message": "Paganahin upang makuha ang buong pahinang nag-i-scroll. Huwag paganahin upang makuha lamang ang kasalukuyang nakikitang lugar.",
+    "description": "Paglalarawan para sa toggle ng pagkuha sa pag-scroll. Mas direkta at nag-uutos."
+  },
+  "supportHeader": {
+    "message": "Suportahan ang Proyektong Ito",
+    "description": "Header para sa seksyon ng suporta/sponsorship. Mas personal at nakatuon sa komunidad."
+  },
+  "supportDescription": {
+    "message": "Ang Weave ay isang libre, open-source na proyekto. Kung sa tingin mo ay kapaki-pakinabang ito, mangyaring isaalang-alang ang pagsuporta sa patuloy na pag-unlad nito.",
+    "description": "Paglalarawan para sa seksyon ng suporta. Binibigyang-diin ang proposisyon ng halaga (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Maging Sponsor sa GitHub",
+    "description": "Teksto para sa pindutan ng sponsor."
+  },
+  "viewerTitle": {
+    "message": "Weave: Kumpleto na ang Pagkuha",
+    "description": "Pamagat ng tab ng browser ng pahina ng viewer ng screenshot."
+  },
+  "viewerHeader": {
+    "message": "Kumpleto na ang Pagkuha",
+    "description": "Pangunahing header sa pahina ng viewer, na nagpapatunay ng tagumpay."
+  },
+  "viewerDescription": {
+    "message": "Handa na ang iyong buong pahinang screenshot. Ano ang susunod?",
+    "description": "Paglalarawan sa pahina ng viewer, na nakikipag-ugnayan sa gumagamit."
+  },
+  "copyButton": {
+    "message": "Kopyahin ang Imahe",
+    "description": "Teksto para sa pindutan ng kopya sa pahina ng viewer."
+  },
+  "copiedButton": {
+    "message": "Nakopya!",
+    "description": "Teksto para sa pindutan ng kopya pagkatapos ng isang matagumpay na pagkopya, na nagbibigay ng malinaw na feedback."
+  },
+  "downloadButton": {
+    "message": "I-download ang Imahe",
+    "description": "Teksto para sa pindutan ng pag-download sa pahina ng viewer."
+  },
+  "downloadingButton": {
+    "message": "Nagda-download...",
+    "description": "Teksto para sa pindutan ng pag-download habang isinasagawa ang pag-download."
+  },
+  "errorButton": {
+    "message": "Nabigo",
+    "description": "Teksto para sa isang pindutan kapag may naganap na error. Hindi gaanong nakakaalarma kaysa sa 'Error'."
+  },
+  "screenshotAltText": {
+    "message": "Isang buong pahinang screenshot na nakuha ng Weave.",
+    "description": "Alt text para sa imahe ng screenshot, na nagpapabuti sa pagiging naa-access at pagba-brand."
+  },
+  "noScreenshotAltText": {
+    "message": "Walang nakitang data ng screenshot. Mangyaring bumalik sa nakaraang tab at subukang makuha muli.",
+    "description": "Alt text para sa lugar ng imahe kapag walang magagamit na screenshot, na nagbibigay ng malinaw na tagubilin."
+  },
+  "copyFailedError": {
+    "message": "Hindi makopya ang imahe sa clipboard. Dahilan: $details$",
+    "description": "Mensahe ng error na ipinapakita kapag nabigo ang pagkopya sa clipboard. Mas malumanay na wika.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Tinanggihan ang pag-access sa clipboard."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "May nangyaring mali sa proseso ng pagkuha. Error: $details$",
+    "description": "Pangkalahatang mensahe ng error na ipinapakita kapag nabigo ang pagkuha ng screenshot. Mas nababasa ng tao.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Nabigong lumikha ng canvas."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Kinansela ang pagkuha dahil nag-navigate ka palayo. Para sa isang buong pahinang pagkuha, mangyaring manatili sa tab hanggang matapos ang Weave.",
+    "description": "Mensahe ng error na ipinapakita kapag lumipat ng mga tab ang gumagamit. Ipinapaliwanag *kung bakit* at magalang na nagtuturo."
+  }
+}

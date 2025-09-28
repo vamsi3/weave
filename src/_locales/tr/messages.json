@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Tam Sayfa Ekran Görüntüsü ve Yakalama",
+    "description": "Uzantının resmi adı. Web mağazası görünürlüğü ve markalaşma için kısa tutulmuştur."
+  },
+  "extDescription": {
+    "message": "Tek bir tıklamayla kaydırmalı, tam sayfa ekran görüntülerini sorunsuzca yakalayın ve birleştirin. Yakalamalarınızı anında görüntüleyin, indirin veya kopyalayın.",
+    "description": "Uzantının pazarlama açıklaması, faydalara ve kullanım kolaylığına odaklanmıştır."
+  },
+  "actionTitle": {
+    "message": "Weave ile Yakala",
+    "description": "Tarayıcı eylem düğmesi için araç ipucu. Kısa, markalı ve eylem odaklı."
+  },
+  "optionsTitle": {
+    "message": "Weave Ayarları",
+    "description": "Seçenekler sayfasının tarayıcı sekmesi başlığı."
+  },
+  "optionsHeader": {
+    "message": "Ayarlar",
+    "description": "Seçenekler sayfasındaki ana başlık. Temiz ve basit."
+  },
+  "defaultActionHeader": {
+    "message": "Yakaladıktan Sonra...",
+    "description": "Varsayılan eylem ayarı için başlık. Daha sezgisel ve iş akışı odaklı."
+  },
+  "defaultActionDescription": {
+    "message": "Bir yakalama tamamlandığı anda Weave'in ne yapacağını seçin.",
+    "description": "Varsayılan eylem ayarı için açıklama."
+  },
+  "openViewerLabel": {
+    "message": "Görüntüleyicide Aç",
+    "description": "'Görüntüleyicide aç' radyo düğmesi için etiket. Açık ve doğrudan."
+  },
+  "downloadLabel": {
+    "message": "İndir",
+    "description": "'İndir' radyo düğmesi için etiket. Evrensel olarak anlaşılır."
+  },
+  "copyLabel": {
+    "message": "Kopyala",
+    "description": "'Kopyala' radyo düğmesi için etiket. Kullanıcı arayüzü tutarlılığı için kısa."
+  },
+  "saveAsHeader": {
+    "message": "Kaydetmeden Önce Sor",
+    "description": "'Farklı kaydet' anahtarı için başlık. Kullanıcının bakış açısından ifade edilmiştir."
+  },
+  "saveAsDescription": {
+    "message": "Etkinleştirilirse, her indirme için bir dosya adı ve konum seçmeniz istenir.",
+    "description": "'Farklı kaydet' anahtarı için açıklama. Etken çatı kullanır."
+  },
+  "scrollingHeader": {
+    "message": "Kaydırmalı Yakalamayı Etkinleştir",
+    "description": "Kaydırmalı yakalama anahtarı ayarı için başlık."
+  },
+  "scrollingDescription": {
+    "message": "Tüm kaydırmalı sayfayı yakalamak için etkinleştirin. Yalnızca o anda görünür olan alanı yakalamak için devre dışı bırakın.",
+    "description": "Kaydırmalı yakalama anahtarı için açıklama. Daha doğrudan ve emredici."
+  },
+  "supportHeader": {
+    "message": "Bu Projeyi Destekleyin",
+    "description": "Destek/sponsorluk bölümü için başlık. Daha kişisel ve topluluk odaklı."
+  },
+  "supportDescription": {
+    "message": "Weave ücretsiz, açık kaynaklı bir projedir. Faydalı bulursanız, lütfen devam eden gelişimini desteklemeyi düşünün.",
+    "description": "Destek bölümü için açıklama. Değer önerisini (FOSS) vurgular."
+  },
+  "sponsorButton": {
+    "message": "GitHub'da Sponsor Ol",
+    "description": "Sponsor düğmesi için metin."
+  },
+  "viewerTitle": {
+    "message": "Weave: Yakalama Tamamlandı",
+    "description": "Ekran görüntüsü görüntüleyici sayfasının tarayıcı sekmesi başlığı."
+  },
+  "viewerHeader": {
+    "message": "Yakalama Tamamlandı",
+    "description": "Görüntüleyici sayfasındaki ana başlık, başarıyı onaylar."
+  },
+  "viewerDescription": {
+    "message": "Tam sayfa ekran görüntünüz hazır. Sırada ne var?",
+    "description": "Görüntüleyici sayfasındaki açıklama, kullanıcıyı dahil eder."
+  },
+  "copyButton": {
+    "message": "Resmi Kopyala",
+    "description": "Görüntüleyici sayfasındaki kopyala düğmesi için metin."
+  },
+  "copiedButton": {
+    "message": "Kopyalandı!",
+    "description": "Başarılı bir kopyalamadan sonra kopyala düğmesi için metin, net geri bildirim sağlar."
+  },
+  "downloadButton": {
+    "message": "Resmi İndir",
+    "description": "Görüntüleyici sayfasındaki indir düğmesi için metin."
+  },
+  "downloadingButton": {
+    "message": "İndiriliyor...",
+    "description": "İndirme devam ederken indir düğmesi için metin."
+  },
+  "errorButton": {
+    "message": "Başarısız",
+    "description": "Bir hata oluştuğunda bir düğme için metin. 'Hata'dan daha az endişe verici."
+  },
+  "screenshotAltText": {
+    "message": "Weave tarafından yakalanan tam sayfa bir ekran görüntüsü.",
+    "description": "Ekran görüntüsü resmi için alternatif metin, erişilebilirliği ve markalaşmayı iyileştirir."
+  },
+  "noScreenshotAltText": {
+    "message": "Ekran görüntüsü verisi bulunamadı. Lütfen önceki sekmeye dönün ve tekrar yakalamayı deneyin.",
+    "description": "Ekran görüntüsü olmadığında resim alanı için alternatif metin, net bir talimat sağlar."
+  },
+  "copyFailedError": {
+    "message": "Resim panoya kopyalanamadı. Neden: $details$",
+    "description": "Panoya kopyalama başarısız olduğunda gösterilen hata mesajı. Daha yumuşak bir dil.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Pano erişimi reddedildi."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Yakalama işlemi sırasında bir şeyler ters gitti. Hata: $details$",
+    "description": "Ekran görüntüsü alma başarısız olduğunda gösterilen genel hata mesajı. İnsan tarafından daha okunabilir.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Tuval oluşturulamadı."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Başka bir yere gittiğiniz için yakalama iptal edildi. Tam sayfa yakalama için, lütfen Weave bitene kadar sekmede kalın.",
+    "description": "Kullanıcı sekmeleri değiştirdiğinde gösterilen hata mesajı. *Nedenini* açıklar ve kibarca talimat verir."
+  }
+}

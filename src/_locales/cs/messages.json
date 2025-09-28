@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Snímek celé stránky a zachycení",
+    "description": "Oficiální název rozšíření. Zůstal stručný pro viditelnost v internetovém obchodě a branding."
+  },
+  "extDescription": {
+    "message": "Plynule zachycujte a spojujte posouvací snímky celé stránky jedním kliknutím. Okamžitě si prohlížejte, stahujte nebo kopírujte své záběry.",
+    "description": "Marketingový popis rozšíření, zaměřený na výhody a snadné použití."
+  },
+  "actionTitle": {
+    "message": "Zachytit pomocí Weave",
+    "description": "Nápověda pro tlačítko akce prohlížeče. Krátké, značkové a orientované na akci."
+  },
+  "optionsTitle": {
+    "message": "Nastavení Weave",
+    "description": "Název karty prohlížeče stránky s možnostmi."
+  },
+  "optionsHeader": {
+    "message": "Nastavení",
+    "description": "Hlavní záhlaví na stránce s možnostmi. Čisté a jednoduché."
+  },
+  "defaultActionHeader": {
+    "message": "Po zachycení...",
+    "description": "Záhlaví pro nastavení výchozí akce. Intuitivnější a zaměřené na pracovní postup."
+  },
+  "defaultActionDescription": {
+    "message": "Zvolte, co Weave udělá v okamžiku, kdy je zachycení dokončeno.",
+    "description": "Popis nastavení výchozí akce."
+  },
+  "openViewerLabel": {
+    "message": "Otevřít prohlížeč",
+    "description": "Popisek pro přepínač 'otevřít v prohlížeči'. Jasné a přímé."
+  },
+  "downloadLabel": {
+    "message": "Stáhnout",
+    "description": "Popisek pro přepínač 'stáhnout'. Univerzálně srozumitelné."
+  },
+  "copyLabel": {
+    "message": "Kopírovat",
+    "description": "Popisek pro přepínač 'kopírovat'. Stručné pro konzistenci uživatelského rozhraní."
+  },
+  "saveAsHeader": {
+    "message": "Zeptat se před uložením",
+    "description": "Záhlaví pro přepínač 'uložit jako'. Formulováno z pohledu uživatele."
+  },
+  "saveAsDescription": {
+    "message": "Pokud je povoleno, budete vyzváni k výběru názvu souboru a umístění pro každé stažení.",
+    "description": "Popis přepínače 'uložit jako'. Používá aktivní hlas."
+  },
+  "scrollingHeader": {
+    "message": "Povolit posouvací zachycení",
+    "description": "Záhlaví pro nastavení přepínače posouvacího zachycení."
+  },
+  "scrollingDescription": {
+    "message": "Povolte pro zachycení celé posouvací stránky. Zakázat pro zachycení pouze aktuálně viditelné oblasti.",
+    "description": "Popis přepínače posouvacího zachycení. Přímější a imperativní."
+  },
+  "supportHeader": {
+    "message": "Podpořte tento projekt",
+    "description": "Záhlaví pro sekci podpory/sponzorství. Osobní a zaměřené na komunitu."
+  },
+  "supportDescription": {
+    "message": "Weave je bezplatný projekt s otevřeným zdrojovým kódem. Pokud vám přijde užitečný, zvažte prosím podporu jeho dalšího vývoje.",
+    "description": "Popis sekce podpory. Zdůrazňuje hodnotovou nabídku (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Sponzorovat na GitHubu",
+    "description": "Text pro tlačítko sponzora."
+  },
+  "viewerTitle": {
+    "message": "Weave: Zachycení dokončeno",
+    "description": "Název karty prohlížeče stránky prohlížeče snímků obrazovky."
+  },
+  "viewerHeader": {
+    "message": "Zachycení dokončeno",
+    "description": "Hlavní záhlaví na stránce prohlížeče, potvrzující úspěch."
+  },
+  "viewerDescription": {
+    "message": "Váš snímek celé stránky je připraven. Co dál?",
+    "description": "Popis na stránce prohlížeče, který zapojuje uživatele."
+  },
+  "copyButton": {
+    "message": "Kopírovat obrázek",
+    "description": "Text pro tlačítko kopírování na stránce prohlížeče."
+  },
+  "copiedButton": {
+    "message": "Zkopírováno!",
+    "description": "Text pro tlačítko kopírování po úspěšném zkopírování, poskytující jasnou zpětnou vazbu."
+  },
+  "downloadButton": {
+    "message": "Stáhnout obrázek",
+    "description": "Text pro tlačítko stahování na stránce prohlížeče."
+  },
+  "downloadingButton": {
+    "message": "Stahování...",
+    "description": "Text pro tlačítko stahování, když probíhá stahování."
+  },
+  "errorButton": {
+    "message": "Selhalo",
+    "description": "Text pro tlačítko, když dojde k chybě. Méně alarmující než 'Chyba'."
+  },
+  "screenshotAltText": {
+    "message": "Snímek celé stránky zachycený pomocí Weave.",
+    "description": "Alternativní text pro obrázek snímku obrazovky, zlepšující přístupnost a branding."
+  },
+  "noScreenshotAltText": {
+    "message": "Nenalezena žádná data snímku obrazovky. Vraťte se prosím na předchozí kartu a zkuste zachycení znovu.",
+    "description": "Alternativní text pro oblast obrázku, když není k dispozici žádný snímek obrazovky, poskytující jasné pokyny."
+  },
+  "copyFailedError": {
+    "message": "Nelze zkopírovat obrázek do schránky. Důvod: $details$",
+    "description": "Chybová zpráva zobrazená při selhání kopírování do schránky. Měkčí jazyk.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Přístup do schránky byl odepřen."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Během procesu zachycení se něco pokazilo. Chyba: $details$",
+    "description": "Obecná chybová zpráva zobrazená při selhání snímku obrazovky. Lidštěji čitelné.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Nepodařilo se vytvořit plátno."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Zachycení bylo zrušeno, protože jste opustili stránku. Pro zachycení celé stránky zůstaňte prosím na kartě, dokud Weave nedokončí.",
+    "description": "Chybová zpráva zobrazená, když uživatel přepne karty. Vysvětluje *proč* a zdvořile instruuje."
+  }
+}

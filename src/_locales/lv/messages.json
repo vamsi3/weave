@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Pilnas lapas ekrānuzņēmums un tveršana",
+    "description": "Paplašinājuma oficiālais nosaukums. Saglabāts īss, lai nodrošinātu redzamību tīmekļa veikalā un zīmolu."
+  },
+  "extDescription": {
+    "message": "Vienmērīgi tveriet un sašujiet ritināmus, pilnas lapas ekrānuzņēmumus ar vienu klikšķi. Uzreiz apskatiet, lejupielādējiet vai kopējiet savus tverumus.",
+    "description": "Paplašinājuma mārketinga apraksts, koncentrējoties uz priekšrocībām un lietošanas ērtumu."
+  },
+  "actionTitle": {
+    "message": "Tvert ar Weave",
+    "description": "Rīka padoms pārlūkprogrammas darbības pogai. Īss, zīmolots un uz darbību orientēts."
+  },
+  "optionsTitle": {
+    "message": "Weave iestatījumi",
+    "description": "Opciju lapas pārlūkprogrammas cilnes nosaukums."
+  },
+  "optionsHeader": {
+    "message": "Iestatījumi",
+    "description": "Galvenais virsraksts opciju lapā. Tīrs un vienkāršs."
+  },
+  "defaultActionHeader": {
+    "message": "Pēc tveršanas...",
+    "description": "Noklusējuma darbības iestatījuma virsraksts. Intuitīvāks un uz darbplūsmu orientēts."
+  },
+  "defaultActionDescription": {
+    "message": "Izvēlieties, ko Weave dara brīdī, kad tveršana ir pabeigta.",
+    "description": "Noklusējuma darbības iestatījuma apraksts."
+  },
+  "openViewerLabel": {
+    "message": "Atvērt skatītāju",
+    "description": "Etiķete radio pogai 'atvērt skatītājā'. Skaidra un tieša."
+  },
+  "downloadLabel": {
+    "message": "Lejupielādēt",
+    "description": "Etiķete radio pogai 'lejupielādēt'. Universāli saprotama."
+  },
+  "copyLabel": {
+    "message": "Kopēt",
+    "description": "Etiķete radio pogai 'kopēt'. Lakoniska lietotāja saskarnes konsekvencei."
+  },
+  "saveAsHeader": {
+    "message": "Jautāt pirms saglabāšanas",
+    "description": "Virsraksts pārslēgam 'saglabāt kā'. Formulēts no lietotāja perspektīvas."
+  },
+  "saveAsDescription": {
+    "message": "Ja iespējots, jums tiks lūgts izvēlēties faila nosaukumu un atrašanās vietu katrai lejupielādei.",
+    "description": "Apraksts pārslēgam 'saglabāt kā'. Izmanto aktīvo balsi."
+  },
+  "scrollingHeader": {
+    "message": "Iespējot ritināmo tveršanu",
+    "description": "Ritināmās tveršanas pārslēga iestatījuma virsraksts."
+  },
+  "scrollingDescription": {
+    "message": "Iespējojiet, lai tvertu visu ritināmo lapu. Atspējojiet, lai tvertu tikai pašlaik redzamo apgabalu.",
+    "description": "Ritināmās tveršanas pārslēga apraksts. Tiešāks un pavēlošāks."
+  },
+  "supportHeader": {
+    "message": "Atbalstiet šo projektu",
+    "description": "Atbalsta/sponsorēšanas sadaļas virsraksts. Personiskāks un uz kopienu vērsts."
+  },
+  "supportDescription": {
+    "message": "Weave ir bezmaksas atvērtā pirmkoda projekts. Ja uzskatāt to par noderīgu, lūdzu, apsveriet iespēju atbalstīt tā turpmāko attīstību.",
+    "description": "Atbalsta sadaļas apraksts. Uzsver vērtības piedāvājumu (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Sponsorēt GitHub",
+    "description": "Teksts sponsora pogai."
+  },
+  "viewerTitle": {
+    "message": "Weave: Tveršana pabeigta",
+    "description": "Ekrānuzņēmuma skatītāja lapas pārlūkprogrammas cilnes nosaukums."
+  },
+  "viewerHeader": {
+    "message": "Tveršana pabeigta",
+    "description": "Galvenais virsraksts skatītāja lapā, apstiprinot panākumus."
+  },
+  "viewerDescription": {
+    "message": "Jūsu pilnas lapas ekrānuzņēmums ir gatavs. Kas tālāk?",
+    "description": "Apraksts skatītāja lapā, iesaistot lietotāju."
+  },
+  "copyButton": {
+    "message": "Kopēt attēlu",
+    "description": "Teksts kopēšanas pogai skatītāja lapā."
+  },
+  "copiedButton": {
+    "message": "Nokopēts!",
+    "description": "Teksts kopēšanas pogai pēc veiksmīgas kopēšanas, sniedzot skaidru atgriezenisko saiti."
+  },
+  "downloadButton": {
+    "message": "Lejupielādēt attēlu",
+    "description": "Teksts lejupielādes pogai skatītāja lapā."
+  },
+  "downloadingButton": {
+    "message": "Lejupielādē...",
+    "description": "Teksts lejupielādes pogai, kamēr notiek lejupielāde."
+  },
+  "errorButton": {
+    "message": "Neizdevās",
+    "description": "Teksts pogai, kad rodas kļūda. Mazāk satraucošs nekā 'Kļūda'."
+  },
+  "screenshotAltText": {
+    "message": "Weave tverts pilnas lapas ekrānuzņēmums.",
+    "description": "Alternatīvais teksts ekrānuzņēmuma attēlam, uzlabojot pieejamību un zīmolu."
+  },
+  "noScreenshotAltText": {
+    "message": "Ekrānuzņēmuma dati nav atrasti. Lūdzu, atgriezieties iepriekšējā cilnē un mēģiniet tvert vēlreiz.",
+    "description": "Alternatīvais teksts attēla apgabalam, ja nav pieejams ekrānuzņēmums, sniedzot skaidru norādījumu."
+  },
+  "copyFailedError": {
+    "message": "Nevarēja nokopēt attēlu starpliktuvē. Iemesls: $details$",
+    "description": "Kļūdas ziņojums, kas tiek parādīts, ja neizdodas kopēt starpliktuvē. Mīkstāka valoda.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Piekļuve starpliktuvei liegta."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Tveršanas procesa laikā kaut kas nogāja greizi. Kļūda: $details$",
+    "description": "Vispārīgs kļūdas ziņojums, kas tiek parādīts, ja neizdodas uzņemt ekrānuzņēmumu. Cilvēkam lasāmāks.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Neizdevās izveidot audeklu."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Tveršana tika atcelta, jo jūs pārvietojāties prom. Lai tvertu pilnu lapu, lūdzu, palieciet cilnē, līdz Weave pabeidz.",
+    "description": "Kļūdas ziņojums, kas tiek parādīts, kad lietotājs pārslēdz cilnes. Paskaidro, *kāpēc*, un pieklājīgi norāda."
+  }
+}

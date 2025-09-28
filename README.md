@@ -109,7 +109,7 @@ Weave is built with a modern, efficient, and framework-free stack:
 *   **Manifest V3:** Adhering to the latest Chrome extension standards for enhanced security and performance.
 *   **TypeScript:** Ensuring type safety and maintainable code across the project.
 *   **Service Worker:** The extension's background logic runs in a non-persistent service worker for optimal resource management.
-*   **Offscreen API:** Used for reliably copying images to the clipboard, a requirement under Manifest V3.
+*   **Clipboard API:** Uses the modern Web Clipboard API (`navigator.clipboard`) within a content script to securely copy images.
 *   **Plain HTML, CSS, & JS:** For a lightweight, fast, and dependency-free user interface.
 
 ## 🤝 Contributing

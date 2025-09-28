@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Zrzut ekranu i przechwytywanie całej strony",
+    "description": "Oficjalna nazwa rozszerzenia. Zachowano zwięzłość dla widoczności w sklepie internetowym i brandingu."
+  },
+  "extDescription": {
+    "message": "Bezproblemowo przechwytuj i łącz przewijane zrzuty ekranu całej strony jednym kliknięciem. Natychmiast przeglądaj, pobieraj lub kopiuj swoje przechwyty.",
+    "description": "Opis marketingowy rozszerzenia, skupiający się na korzyściach i łatwości użytkowania."
+  },
+  "actionTitle": {
+    "message": "Przechwyć za pomocą Weave",
+    "description": "Podpowiedź dla przycisku akcji przeglądarki. Krótka, markowa i zorientowana na działanie."
+  },
+  "optionsTitle": {
+    "message": "Ustawienia Weave",
+    "description": "Tytuł karty przeglądarki strony opcji."
+  },
+  "optionsHeader": {
+    "message": "Ustawienia",
+    "description": "Główny nagłówek na stronie opcji. Czysty i prosty."
+  },
+  "defaultActionHeader": {
+    "message": "Po przechwyceniu...",
+    "description": "Nagłówek dla ustawienia domyślnej akcji. Bardziej intuicyjny i zorientowany na przepływ pracy."
+  },
+  "defaultActionDescription": {
+    "message": "Wybierz, co Weave ma zrobić w momencie zakończenia przechwytywania.",
+    "description": "Opis ustawienia domyślnej akcji."
+  },
+  "openViewerLabel": {
+    "message": "Otwórz przeglądarkę",
+    "description": "Etykieta dla przycisku radiowego 'otwórz w przeglądarce'. Jasna i bezpośrednia."
+  },
+  "downloadLabel": {
+    "message": "Pobierz",
+    "description": "Etykieta dla przycisku radiowego 'pobierz'. Powszechnie zrozumiała."
+  },
+  "copyLabel": {
+    "message": "Kopiuj",
+    "description": "Etykieta dla przycisku radiowego 'kopiuj'. Zwięzła dla spójności interfejsu użytkownika."
+  },
+  "saveAsHeader": {
+    "message": "Pytaj przed zapisaniem",
+    "description": "Nagłówek dla przełącznika 'zapisz jako'. Sformułowany z perspektywy użytkownika."
+  },
+  "saveAsDescription": {
+    "message": "Jeśli włączone, zostaniesz poproszony o wybranie nazwy pliku i lokalizacji dla każdego pobrania.",
+    "description": "Opis przełącznika 'zapisz jako'. Używa strony czynnej."
+  },
+  "scrollingHeader": {
+    "message": "Włącz przechwytywanie z przewijaniem",
+    "description": "Nagłówek dla ustawienia przełącznika przechwytywania z przewijaniem."
+  },
+  "scrollingDescription": {
+    "message": "Włącz, aby przechwycić całą przewijaną stronę. Wyłącz, aby przechwycić tylko aktualnie widoczny obszar.",
+    "description": "Opis przełącznika przechwytywania z przewijaniem. Bardziej bezpośredni i nakazujący."
+  },
+  "supportHeader": {
+    "message": "Wesprzyj ten projekt",
+    "description": "Nagłówek dla sekcji wsparcia/sponsoringu. Bardziej osobisty i zorientowany na społeczność."
+  },
+  "supportDescription": {
+    "message": "Weave to darmowy projekt open-source. Jeśli uważasz go za przydatny, rozważ wsparcie jego dalszego rozwoju.",
+    "description": "Opis sekcji wsparcia. Podkreśla propozycję wartości (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Sponsoruj na GitHub",
+    "description": "Tekst przycisku sponsora."
+  },
+  "viewerTitle": {
+    "message": "Weave: Przechwytywanie zakończone",
+    "description": "Tytuł karty przeglądarki strony przeglądarki zrzutów ekranu."
+  },
+  "viewerHeader": {
+    "message": "Przechwytywanie zakończone",
+    "description": "Główny nagłówek na stronie przeglądarki, potwierdzający sukces."
+  },
+  "viewerDescription": {
+    "message": "Twój zrzut ekranu całej strony jest gotowy. Co dalej?",
+    "description": "Opis na stronie przeglądarki, angażujący użytkownika."
+  },
+  "copyButton": {
+    "message": "Kopiuj obraz",
+    "description": "Tekst przycisku kopiowania na stronie przeglądarki."
+  },
+  "copiedButton": {
+    "message": "Skopiowano!",
+    "description": "Tekst przycisku kopiowania po udanym skopiowaniu, zapewniający jasną informację zwrotną."
+  },
+  "downloadButton": {
+    "message": "Pobierz obraz",
+    "description": "Tekst przycisku pobierania na stronie przeglądarki."
+  },
+  "downloadingButton": {
+    "message": "Pobieranie...",
+    "description": "Tekst przycisku pobierania podczas pobierania."
+  },
+  "errorButton": {
+    "message": "Niepowodzenie",
+    "description": "Tekst przycisku, gdy wystąpi błąd. Mniej alarmujący niż 'Błąd'."
+  },
+  "screenshotAltText": {
+    "message": "Zrzut ekranu całej strony przechwycony przez Weave.",
+    "description": "Tekst alternatywny dla obrazu zrzutu ekranu, poprawiający dostępność i branding."
+  },
+  "noScreenshotAltText": {
+    "message": "Nie znaleziono danych zrzutu ekranu. Wróć do poprzedniej karty i spróbuj przechwycić ponownie.",
+    "description": "Tekst alternatywny dla obszaru obrazu, gdy zrzut ekranu nie jest dostępny, zapewniający jasne instrukcje."
+  },
+  "copyFailedError": {
+    "message": "Nie można skopiować obrazu do schowka. Powód: $details$",
+    "description": "Komunikat o błędzie wyświetlany, gdy kopiowanie do schowka nie powiedzie się. Łagodniejszy język.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Odmowa dostępu do schowka."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Coś poszło nie tak podczas procesu przechwytywania. Błąd: $details$",
+    "description": "Ogólny komunikat o błędzie wyświetlany, gdy przechwytywanie zrzutu ekranu nie powiedzie się. Bardziej czytelny dla człowieka.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Nie udało się utworzyć płótna."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Przechwytywanie anulowane, ponieważ opuściłeś stronę. Aby przechwycić całą stronę, pozostań na karcie, dopóki Weave nie zakończy.",
+    "description": "Komunikat o błędzie wyświetlany, gdy użytkownik przełącza karty. Wyjaśnia, *dlaczego*, i grzecznie instruuje."
+  }
+}

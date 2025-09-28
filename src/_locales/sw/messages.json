@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Picha ya skrini ya Ukurasa Mzima na Kukamata",
+    "description": "Jina rasmi la kiendelezi. Imefupishwa kwa ajili ya mwonekano wa duka la wavuti na chapa."
+  },
+  "extDescription": {
+    "message": "Nasa na unganisha bila mshono picha za skrini za ukurasa mzima zinazotembea kwa kubofya mara moja. Tazama, pakua, au nakili picha zako mara moja.",
+    "description": "Maelezo ya uuzaji ya kiendelezi, yanayozingatia faida na urahisi wa matumizi."
+  },
+  "actionTitle": {
+    "message": "Nasa na Weave",
+    "description": "Kidokezo cha zana kwa kitufe cha kitendo cha kivinjari. Fupi, lenye chapa, na linalolenga vitendo."
+  },
+  "optionsTitle": {
+    "message": "Mipangilio ya Weave",
+    "description": "Kichwa cha kichupo cha kivinjari cha ukurasa wa chaguzi."
+  },
+  "optionsHeader": {
+    "message": "Mipangilio",
+    "description": "Kichwa kikuu kwenye ukurasa wa chaguzi. Safi na rahisi."
+  },
+  "defaultActionHeader": {
+    "message": "Baada ya Kunasa...",
+    "description": "Kichwa cha mpangilio wa kitendo chaguo-msingi. Intuitive zaidi na inayolenga mtiririko wa kazi."
+  },
+  "defaultActionDescription": {
+    "message": "Chagua Weave ifanye nini pindi tu unasa unapokamilika.",
+    "description": "Maelezo ya mpangilio wa kitendo chaguo-msingi."
+  },
+  "openViewerLabel": {
+    "message": "Fungua Kitazamaji",
+    "description": "Lebo ya kitufe cha redio cha 'fungua kwenye kitazamaji'. Wazi na ya moja kwa moja."
+  },
+  "downloadLabel": {
+    "message": "Pakua",
+    "description": "Lebo ya kitufe cha redio cha 'pakua'. Inaeleweka ulimwenguni kote."
+  },
+  "copyLabel": {
+    "message": "Nakili",
+    "description": "Lebo ya kitufe cha redio cha 'nakili'. Fupi kwa uthabiti wa kiolesura."
+  },
+  "saveAsHeader": {
+    "message": "Uliza Kabla ya Kuhifadhi",
+    "description": "Kichwa cha kigeuzi cha 'hifadhi kama'. Kimeandikwa kutoka kwa mtazamo wa mtumiaji."
+  },
+  "saveAsDescription": {
+    "message": "Ikiwashwa, utaulizwa kuchagua jina la faili na eneo kwa kila upakuaji.",
+    "description": "Maelezo ya kigeuzi cha 'hifadhi kama'. Inatumia sauti tendaji."
+  },
+  "scrollingHeader": {
+    "message": "Washa Unasaji wa Kusogeza",
+    "description": "Kichwa cha mpangilio wa kigeuzi cha unasaji wa kusogeza."
+  },
+  "scrollingDescription": {
+    "message": "Washa ili kunasa ukurasa mzima unaosogea. Zima ili kunasa eneo linaloonekana sasa hivi pekee.",
+    "description": "Maelezo ya kigeuzi cha unasaji wa kusogeza. Ya moja kwa moja na ya kuamuru zaidi."
+  },
+  "supportHeader": {
+    "message": "Saidia Mradi Huu",
+    "description": "Kichwa cha sehemu ya usaidizi/ufadhili. Ya kibinafsi zaidi na inayolenga jamii."
+  },
+  "supportDescription": {
+    "message": "Weave ni mradi huru wa chanzo wazi. Ikiwa unaona ni muhimu, tafadhali fikiria kusaidia maendeleo yake endelevu.",
+    "description": "Maelezo ya sehemu ya usaidizi. Inaangazia pendekezo la thamani (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Fadhili kwenye GitHub",
+    "description": "Maandishi ya kitufe cha mfadhili."
+  },
+  "viewerTitle": {
+    "message": "Weave: Unasaji Umekamilika",
+    "description": "Kichwa cha kichupo cha kivinjari cha ukurasa wa kitazamaji cha picha ya skrini."
+  },
+  "viewerHeader": {
+    "message": "Unasaji Umekamilika",
+    "description": "Kichwa kikuu kwenye ukurasa wa kitazamaji, kinathibitisha mafanikio."
+  },
+  "viewerDescription": {
+    "message": "Picha yako ya skrini ya ukurasa mzima iko tayari. Nini kinafuata?",
+    "description": "Maelezo kwenye ukurasa wa kitazamaji, yakimshirikisha mtumiaji."
+  },
+  "copyButton": {
+    "message": "Nakili Picha",
+    "description": "Maandishi ya kitufe cha kunakili kwenye ukurasa wa kitazamaji."
+  },
+  "copiedButton": {
+    "message": "Imenakiliwa!",
+    "description": "Maandishi ya kitufe cha kunakili baada ya kunakili kwa mafanikio, yakitoa maoni wazi."
+  },
+  "downloadButton": {
+    "message": "Pakua Picha",
+    "description": "Maandishi ya kitufe cha kupakua kwenye ukurasa wa kitazamaji."
+  },
+  "downloadingButton": {
+    "message": "Inapakua...",
+    "description": "Maandishi ya kitufe cha kupakua wakati upakuaji unaendelea."
+  },
+  "errorButton": {
+    "message": "Imeshindwa",
+    "description": "Maandishi ya kitufe wakati kosa linatokea. Si ya kutisha kama 'Kosa'."
+  },
+  "screenshotAltText": {
+    "message": "Picha ya skrini ya ukurasa mzima iliyonaswa na Weave.",
+    "description": "Maandishi mbadala ya picha ya skrini, yanayoboresha ufikiaji na chapa."
+  },
+  "noScreenshotAltText": {
+    "message": "Hakuna data ya picha ya skrini iliyopatikana. Tafadhali rudi kwenye kichupo kilichopita na ujaribu kunasa tena.",
+    "description": "Maandishi mbadala ya eneo la picha wakati hakuna picha ya skrini inayopatikana, yakitoa maagizo wazi."
+  },
+  "copyFailedError": {
+    "message": "Haikuweza kunakili picha kwenye ubao wa kunakili. Sababu: $details$",
+    "description": "Ujumbe wa kosa unaoonyeshwa wakati kunakili kwenye ubao wa kunakili kunashindwa. Lugha laini.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Ufikiaji wa ubao wa kunakili umekataliwa."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Kuna kitu kilienda vibaya wakati wa mchakato wa kunasa. Kosa: $details$",
+    "description": "Ujumbe wa kosa wa jumla unaoonyeshwa wakati picha ya skrini inashindwa. Rahisi kusoma kwa binadamu.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Imeshindwa kuunda turubai."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Unasaji umeghairiwa kwa sababu uliondoka. Kwa unasi wa ukurasa mzima, tafadhali kaa kwenye kichupo hadi Weave imalize.",
+    "description": "Ujumbe wa kosa unaoonyeshwa mtumiaji anapobadilisha vichupo. Unaeleza *kwa nini* na unaelekeza kwa upole."
+  }
+}

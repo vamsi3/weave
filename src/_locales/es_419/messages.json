@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Captura de pantalla de página completa",
+    "description": "El nombre oficial de la extensión. Se mantiene conciso para la visibilidad en la tienda web y la marca."
+  },
+  "extDescription": {
+    "message": "Captura y une sin problemas capturas de pantalla de página completa con desplazamiento con un solo clic. Visualiza, descarga o copia tus capturas al instante.",
+    "description": "La descripción de marketing de la extensión, centrada en los beneficios y la facilidad de uso."
+  },
+  "actionTitle": {
+    "message": "Capturar con Weave",
+    "description": "Información sobre herramientas para el botón de acción del navegador. Corto, de marca y orientado a la acción."
+  },
+  "optionsTitle": {
+    "message": "Configuración de Weave",
+    "description": "Título de la pestaña del navegador de la página de opciones."
+  },
+  "optionsHeader": {
+    "message": "Configuración",
+    "description": "Encabezado principal en la página de opciones. Limpio y simple."
+  },
+  "defaultActionHeader": {
+    "message": "Después de capturar...",
+    "description": "Encabezado para la configuración de la acción predeterminada. Más intuitivo y orientado al flujo de trabajo."
+  },
+  "defaultActionDescription": {
+    "message": "Elige qué hace Weave en el momento en que finaliza una captura.",
+    "description": "Descripción de la configuración de la acción predeterminada."
+  },
+  "openViewerLabel": {
+    "message": "Abrir visor",
+    "description": "Etiqueta para el botón de opción 'abrir en el visor'. Claro y directo."
+  },
+  "downloadLabel": {
+    "message": "Descargar",
+    "description": "Etiqueta para el botón de opción 'descargar'. Universalmente entendido."
+  },
+  "copyLabel": {
+    "message": "Copiar",
+    "description": "Etiqueta para el botón de opción 'copiar'. Conciso para la coherencia de la interfaz de usuario."
+  },
+  "saveAsHeader": {
+    "message": "Preguntar antes de guardar",
+    "description": "Encabezado para el interruptor 'guardar como'. Fraseado desde la perspectiva del usuario."
+  },
+  "saveAsDescription": {
+    "message": "Si está habilitado, se te pedirá que elijas un nombre de archivo y una ubicación para cada descarga.",
+    "description": "Descripción del interruptor 'guardar como'. Utiliza voz activa."
+  },
+  "scrollingHeader": {
+    "message": "Habilitar captura con desplazamiento",
+    "description": "Encabezado para la configuración del interruptor de captura con desplazamiento."
+  },
+  "scrollingDescription": {
+    "message": "Habilita para capturar toda la página con desplazamiento. Deshabilita para capturar solo el área visible actualmente.",
+    "description": "Descripción del interruptor de captura con desplazamiento. Más directo e imperativo."
+  },
+  "supportHeader": {
+    "message": "Apoya este proyecto",
+    "description": "Encabezado para la sección de soporte/patrocinio. Más personal y centrado en la comunidad."
+  },
+  "supportDescription": {
+    "message": "Weave es un proyecto gratuito y de código abierto. Si lo encuentras útil, considera apoyar su desarrollo continuo.",
+    "description": "Descripción de la sección de soporte. Destaca la propuesta de valor (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Patrocinar en GitHub",
+    "description": "Texto para el botón de patrocinador."
+  },
+  "viewerTitle": {
+    "message": "Weave: Captura completa",
+    "description": "Título de la pestaña del navegador de la página del visor de capturas de pantalla."
+  },
+  "viewerHeader": {
+    "message": "Captura completa",
+    "description": "Encabezado principal en la página del visor, confirmando el éxito."
+  },
+  "viewerDescription": {
+    "message": "Tu captura de pantalla de página completa está lista. ¿Qué sigue?",
+    "description": "Descripción en la página del visor, involucrando al usuario."
+  },
+  "copyButton": {
+    "message": "Copiar imagen",
+    "description": "Texto para el botón de copiar en la página del visor."
+  },
+  "copiedButton": {
+    "message": "¡Copiado!",
+    "description": "Texto para el botón de copiar después de una copia exitosa, proporcionando una retroalimentación clara."
+  },
+  "downloadButton": {
+    "message": "Descargar imagen",
+    "description": "Texto para el botón de descarga en la página del visor."
+  },
+  "downloadingButton": {
+    "message": "Descargando...",
+    "description": "Texto para el botón de descarga mientras la descarga está en progreso."
+  },
+  "errorButton": {
+    "message": "Falló",
+    "description": "Texto para un botón cuando ocurre un error. Menos alarmante que 'Error'."
+  },
+  "screenshotAltText": {
+    "message": "Una captura de pantalla de página completa capturada por Weave.",
+    "description": "Texto alternativo para la imagen de la captura de pantalla, mejorando la accesibilidad y la marca."
+  },
+  "noScreenshotAltText": {
+    "message": "No se encontraron datos de la captura de pantalla. Vuelve a la pestaña anterior e intenta capturar de nuevo.",
+    "description": "Texto alternativo para el área de la imagen cuando no hay ninguna captura de pantalla disponible, proporcionando una instrucción clara."
+  },
+  "copyFailedError": {
+    "message": "No se pudo copiar la imagen al portapapeles. Razón: $details$",
+    "description": "Mensaje de error que se muestra cuando falla la copia al portapapeles. Lenguaje más suave.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Acceso al portapapeles denegado."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Algo salió mal durante el proceso de captura. Error: $details$",
+    "description": "Mensaje de error genérico que se muestra cuando falla la captura de pantalla. Más legible para humanos.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "No se pudo crear el lienzo."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Captura cancelada porque navegaste a otra parte. Para una captura de página completa, permanece en la pestaña hasta que Weave termine.",
+    "description": "Mensaje de error que se muestra cuando el usuario cambia de pestaña. Explica *por qué* e instruye educadamente."
+  }
+}

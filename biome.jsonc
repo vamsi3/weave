@@ -1,0 +1,64 @@
+{
+  "$schema": "https://biomejs.dev/schemas/latest/schema.json",
+
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+
+  "files": {
+    "experimentalScannerIgnores": [
+      "dist/",
+      ".tsbuildinfo/",
+      "bun.lockb",
+      "node_modules/"
+    ]
+  },
+
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 80
+  },
+
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    }
+  },
+
+  "javascript": {
+    // Make the linter aware of the `chrome` global provided by browser extensions.
+    "globals": ["chrome"],
+    "formatter": {
+      "semicolons": "asNeeded",
+      "quoteStyle": "double",
+      "jsxQuoteStyle": "double",
+      "trailingCommas": "all",
+      "arrowParentheses": "always"
+    }
+  },
+
+  // Use overrides to apply special rules for specific files or directories.
+  "overrides": [
+    {
+      // The files in the `scripts` directory are build tools, not browser code.
+      "includes": ["scripts/*.ts"],
+      "linter": {
+        "rules": {
+          // It's okay to use Node.js modules (like `fs` and `path`) in build scripts.
+          "correctness": {
+            "noNodejsModules": "off"
+          },
+          // It's standard to log progress to the console in build scripts.
+          "suspicious": {
+            "noConsole": "off"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Posnetek zaslona in zajem celotne strani",
+    "description": "Uradno ime razširitve. Ohranjeno jedrnato za prepoznavnost v spletni trgovini in blagovno znamko."
+  },
+  "extDescription": {
+    "message": "Brezhibno zajemite in združite drsne posnetke zaslona celotne strani z enim klikom. Takoj si oglejte, prenesite ali kopirajte svoje zajeme.",
+    "description": "Trženjski opis razširitve, osredotočen na prednosti in enostavnost uporabe."
+  },
+  "actionTitle": {
+    "message": "Zajem z Weave",
+    "description": "Namig za gumb za dejanje brskalnika. Kratek, z blagovno znamko in usmerjen v dejanja."
+  },
+  "optionsTitle": {
+    "message": "Nastavitve Weave",
+    "description": "Naslov zavihka brskalnika strani z možnostmi."
+  },
+  "optionsHeader": {
+    "message": "Nastavitve",
+    "description": "Glavna glava na strani z možnostmi. Čisto in preprosto."
+  },
+  "defaultActionHeader": {
+    "message": "Po zajemu...",
+    "description": "Glava za nastavitev privzetega dejanja. Bolj intuitivno in usmerjeno v potek dela."
+  },
+  "defaultActionDescription": {
+    "message": "Izberite, kaj naj Weave stori, ko je zajem končan.",
+    "description": "Opis nastavitve privzetega dejanja."
+  },
+  "openViewerLabel": {
+    "message": "Odpri pregledovalnik",
+    "description": "Oznaka za radijski gumb 'odpri v pregledovalniku'. Jasno in neposredno."
+  },
+  "downloadLabel": {
+    "message": "Prenesi",
+    "description": "Oznaka za radijski gumb 'prenesi'. Univerzalno razumljivo."
+  },
+  "copyLabel": {
+    "message": "Kopiraj",
+    "description": "Oznaka za radijski gumb 'kopiraj'. Jedrnato za doslednost uporabniškega vmesnika."
+  },
+  "saveAsHeader": {
+    "message": "Vprašaj pred shranjevanjem",
+    "description": "Glava za preklopnik 'shrani kot'. Oblikovano z vidika uporabnika."
+  },
+  "saveAsDescription": {
+    "message": "Če je omogočeno, boste pozvani, da za vsak prenos izberete ime datoteke in lokacijo.",
+    "description": "Opis preklopnika 'shrani kot'. Uporablja aktivni glas."
+  },
+  "scrollingHeader": {
+    "message": "Omogoči drsni zajem",
+    "description": "Glava za nastavitev preklopnika za drsni zajem."
+  },
+  "scrollingDescription": {
+    "message": "Omogočite za zajem celotne drsne strani. Onemogočite za zajem samo trenutno vidnega območja.",
+    "description": "Opis preklopnika za drsni zajem. Bolj neposreden in zapovedujoč."
+  },
+  "supportHeader": {
+    "message": "Podprite ta projekt",
+    "description": "Glava za razdelek o podpori/sponzorstvu. Bolj osebno in osredotočeno na skupnost."
+  },
+  "supportDescription": {
+    "message": "Weave je brezplačen odprtokodni projekt. Če se vam zdi uporaben, prosimo, razmislite o podpori njegovega nadaljnjega razvoja.",
+    "description": "Opis razdelka o podpori. Poudarja vrednostno ponudbo (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Sponzorirajte na GitHubu",
+    "description": "Besedilo za gumb sponzorja."
+  },
+  "viewerTitle": {
+    "message": "Weave: Zajem končan",
+    "description": "Naslov zavihka brskalnika strani pregledovalnika posnetkov zaslona."
+  },
+  "viewerHeader": {
+    "message": "Zajem končan",
+    "description": "Glavna glava na strani pregledovalnika, ki potrjuje uspeh."
+  },
+  "viewerDescription": {
+    "message": "Vaš posnetek zaslona celotne strani je pripravljen. Kaj sledi?",
+    "description": "Opis na strani pregledovalnika, ki pritegne uporabnika."
+  },
+  "copyButton": {
+    "message": "Kopiraj sliko",
+    "description": "Besedilo za gumb za kopiranje na strani pregledovalnika."
+  },
+  "copiedButton": {
+    "message": "Kopirano!",
+    "description": "Besedilo za gumb za kopiranje po uspešnem kopiranju, ki zagotavlja jasno povratno informacijo."
+  },
+  "downloadButton": {
+    "message": "Prenesi sliko",
+    "description": "Besedilo za gumb za prenos na strani pregledovalnika."
+  },
+  "downloadingButton": {
+    "message": "Prenašanje...",
+    "description": "Besedilo za gumb za prenos, medtem ko prenos poteka."
+  },
+  "errorButton": {
+    "message": "Ni uspelo",
+    "description": "Besedilo za gumb, ko pride do napake. Manj alarmantno kot 'Napaka'."
+  },
+  "screenshotAltText": {
+    "message": "Posnetek zaslona celotne strani, ki ga je zajel Weave.",
+    "description": "Nadomestno besedilo za sliko posnetka zaslona, ki izboljšuje dostopnost in blagovno znamko."
+  },
+  "noScreenshotAltText": {
+    "message": "Podatkov o posnetku zaslona ni bilo mogoče najti. Vrnite se na prejšnji zavihek in poskusite znova zajeti.",
+    "description": "Nadomestno besedilo za območje slike, ko posnetek zaslona ni na voljo, ki zagotavlja jasno navodilo."
+  },
+  "copyFailedError": {
+    "message": "Slike ni bilo mogoče kopirati v odložišče. Razlog: $details$",
+    "description": "Sporočilo o napaki, prikazano, ko kopiranje v odložišče ne uspe. Mehkejši jezik.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Dostop do odložišča zavrnjen."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Med postopkom zajemanja je šlo nekaj narobe. Napaka: $details$",
+    "description": "Splošno sporočilo o napaki, prikazano, ko posnetek zaslona ne uspe. Bolj berljivo za ljudi.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Ni uspelo ustvariti platna."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Zajem je bil preklican, ker ste se oddaljili. Za zajem celotne strani ostanite na zavihku, dokler Weave ne konča.",
+    "description": "Sporočilo o napaki, prikazano, ko uporabnik zamenja zavihek. Pojasnjuje, *zakaj*, in vljudno poučuje."
+  }
+}

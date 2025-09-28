@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Weave: Terve lehe ekraanipilt ja jäädvustamine",
+    "description": "Laienduse ametlik nimi. Hoitud lühidalt veebipoe nähtavuse ja brändingu jaoks."
+  },
+  "extDescription": {
+    "message": "Jäädvustage ja ühendage sujuvalt keritavaid terve lehe ekraanipilte ühe klõpsuga. Vaadake, laadige alla või kopeerige oma jäädvustusi kohe.",
+    "description": "Laienduse turunduskirjeldus, mis keskendub eelistele ja kasutusmugavusele."
+  },
+  "actionTitle": {
+    "message": "Jäädvusta Weave'iga",
+    "description": "Tööriistavihje brauseri tegevusnupule. Lühike, bränditud ja tegevusele suunatud."
+  },
+  "optionsTitle": {
+    "message": "Weave'i seaded",
+    "description": "Valikute lehe brauseri vahekaardi pealkiri."
+  },
+  "optionsHeader": {
+    "message": "Seaded",
+    "description": "Põhipealkiri valikute lehel. Puhas ja lihtne."
+  },
+  "defaultActionHeader": {
+    "message": "Pärast jäädvustamist...",
+    "description": "Vaiketegevuse seade pealkiri. Intuitiivsem ja töövoole suunatud."
+  },
+  "defaultActionDescription": {
+    "message": "Valige, mida Weave teeb hetkel, kui jäädvustamine on lõppenud.",
+    "description": "Vaiketegevuse seade kirjeldus."
+  },
+  "openViewerLabel": {
+    "message": "Ava vaatur",
+    "description": "Silt raadionupule 'ava vaaturis'. Selge ja otsekohene."
+  },
+  "downloadLabel": {
+    "message": "Laadi alla",
+    "description": "Silt raadionupule 'laadi alla'. Üldiselt mõistetav."
+  },
+  "copyLabel": {
+    "message": "Kopeeri",
+    "description": "Silt raadionupule 'kopeeri'. Lühike kasutajaliidese järjepidevuse tagamiseks."
+  },
+  "saveAsHeader": {
+    "message": "Küsi enne salvestamist",
+    "description": "Pealkiri 'salvesta kui' lülitile. Sõnastatud kasutaja vaatenurgast."
+  },
+  "saveAsDescription": {
+    "message": "Kui see on lubatud, palutakse teil iga allalaadimise jaoks valida failinimi ja asukoht.",
+    "description": "Kirjeldus 'salvesta kui' lülitile. Kasutab aktiivset häält."
+  },
+  "scrollingHeader": {
+    "message": "Luba keriv jäädvustamine",
+    "description": "Keriva jäädvustamise lüliti seade pealkiri."
+  },
+  "scrollingDescription": {
+    "message": "Luba terve keriva lehe jäädvustamiseks. Keela ainult praegu nähtava ala jäädvustamiseks.",
+    "description": "Keriva jäädvustamise lüliti kirjeldus. Otsesem ja käskivam."
+  },
+  "supportHeader": {
+    "message": "Toeta seda projekti",
+    "description": "Pealkiri toe/sponsorluse jaotisele. Isiklikum ja kogukonnale suunatud."
+  },
+  "supportDescription": {
+    "message": "Weave on tasuta avatud lähtekoodiga projekt. Kui leiate, et see on kasulik, kaaluge palun selle jätkuva arengu toetamist.",
+    "description": "Kirjeldus toe jaotisele. Rõhutab väärtuspakkumist (FOSS)."
+  },
+  "sponsorButton": {
+    "message": "Sponsoreeri GitHubis",
+    "description": "Tekst sponsoreerimisnupule."
+  },
+  "viewerTitle": {
+    "message": "Weave: Jäädvustamine on lõpetatud",
+    "description": "Ekraanipildi vaaturi lehe brauseri vahekaardi pealkiri."
+  },
+  "viewerHeader": {
+    "message": "Jäädvustamine on lõpetatud",
+    "description": "Põhipealkiri vaaturi lehel, mis kinnitab edu."
+  },
+  "viewerDescription": {
+    "message": "Teie terve lehe ekraanipilt on valmis. Mis edasi?",
+    "description": "Kirjeldus vaaturi lehel, kaasates kasutajat."
+  },
+  "copyButton": {
+    "message": "Kopeeri pilt",
+    "description": "Tekst kopeerimisnupule vaaturi lehel."
+  },
+  "copiedButton": {
+    "message": "Kopeeritud!",
+    "description": "Tekst kopeerimisnupule pärast edukat kopeerimist, andes selget tagasisidet."
+  },
+  "downloadButton": {
+    "message": "Laadi pilt alla",
+    "description": "Tekst allalaadimisnupule vaaturi lehel."
+  },
+  "downloadingButton": {
+    "message": "Allalaadimine...",
+    "description": "Tekst allalaadimisnupule allalaadimise ajal."
+  },
+  "errorButton": {
+    "message": "Ebaõnnestus",
+    "description": "Tekst nupule, kui ilmneb viga. Vähem murettekitav kui 'Viga'."
+  },
+  "screenshotAltText": {
+    "message": "Weave'iga jäädvustatud terve lehe ekraanipilt.",
+    "description": "Ekraanipildi pildi alternatiivtekst, mis parandab juurdepääsetavust ja brändingut."
+  },
+  "noScreenshotAltText": {
+    "message": "Ekraanipildi andmeid ei leitud. Palun naaske eelmisele vahekaardile ja proovige uuesti jäädvustada.",
+    "description": "Pildiala alternatiivtekst, kui ekraanipilti pole saadaval, andes selge juhise."
+  },
+  "copyFailedError": {
+    "message": "Pilti ei saanud lõikelauale kopeerida. Põhjus: $details$",
+    "description": "Veateade, mis kuvatakse, kui lõikelauale kopeerimine ebaõnnestub. Pehmem keel.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Lõikelauale juurdepääs keelatud."
+      }
+    }
+  },
+  "screenshotGenericError": {
+    "message": "Jäädvustamisprotsessi käigus läks midagi valesti. Viga: $details$",
+    "description": "Üldine veateade, mis kuvatakse, kui ekraanipildi tegemine ebaõnnestub. Inimloetavam.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Lõuendi loomine ebaõnnestus."
+      }
+    }
+  },
+  "captureCancelledError": {
+    "message": "Jäädvustamine tühistati, kuna navigeerisite eemale. Terve lehe jäädvustamiseks püsige palun vahekaardil, kuni Weave on lõpetanud.",
+    "description": "Veateade, mis kuvatakse, kui kasutaja vahetab vahekaarte. Selgitab, *miks* ja annab viisakalt juhiseid."
+  }
+}
