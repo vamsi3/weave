@@ -47,14 +47,14 @@ Built with modern web technologies, Weave is lightweight, fast, and privacy-focu
     The beautiful built-in viewer lets you inspect your capture and decide what to do next. The interface is clean, responsive, and supports both light and dark modes.
 
     <p align="center">
-      <img src="./assets/weave-screenshot-preview.png" alt="Weave's screenshot viewer page, showing a captured webpage and buttons to 'Copy' and 'Download'." width="700">
+      <img src="assets/README Viewer Page (2560x1440).png" alt="Weave's screenshot viewer page, showing a captured webpage and buttons to 'Copy' and 'Download'." width="700">
     </p>
 
 *   **⚙️ Customizable Settings**
     Tailor Weave to your liking. The settings page allows you to set your preferred one-click action and decide whether you want to be prompted to choose a file name and location for every download.
 
     <p align="center">
-      <img src="./assets/weave-settings.png" alt="Weave's settings page, showcasing the segmented button for 'Default Action' and the toggle for 'Ask where to save'." width="700">
+      <img src="assets/README Settings Page (2560x1440).png" alt="Weave's settings page, showcasing the segmented button for 'Default Action' and the toggle for 'Ask where to save'." width="700">
     </p>
 
 *   **🌍 Multi-Language Support:** The UI is available in dozens of languages thanks to internationalization support.
