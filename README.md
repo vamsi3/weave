@@ -9,10 +9,10 @@
   Seamlessly capture and stitch full-page screenshots with a single click.
   <br />
   <br />
-  <a href="#about-the-project"><strong>Explore the features »</strong></a>
+  <a href="#-key-features"><strong>Explore the features »</strong></a>
   <br />
   <br />
-  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
+  <img src="https://img.shields.io/badge/version-1.0.1-blue.svg" alt="Version">
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
   <img src="https://img.shields.io/badge/chrome-v120%2B-brightgreen.svg" alt="Chrome Version">
   <a href="https://github.com/sponsors/vamsi3" target="_blank">
@@ -71,36 +71,41 @@ The easiest way to install Weave is through the Chrome Web Store.
 
 ### For Developers
 
-To get a local copy up and running for development or testing, follow these simple steps.
+This project uses [Bun](https://bun.sh/) as its runtime, package manager, and bundler. Follow the steps below to get a local copy up and running.
 
 #### Prerequisites
 
-*   Node.js and pnpm
-    ```sh
-    npm install -g pnpm
-    ```
+*   [**Bun**](https://bun.sh/docs/installation): Make sure Bun is installed on your system.
 
-#### Installation & Building
+#### Setup & Development
 
-1.  **Clone the repo**
+1.  **Clone the repository**
     ```sh
     git clone https://github.com/your-username/weave.git
     cd weave
     ```
 2.  **Install dependencies**
     ```sh
-    pnpm install
+    bun install
     ```
-3.  **Build the extension**
-    This command will compile the TypeScript files and copy all static assets into the `dist` directory.
+3.  **Run the development server**
+    This command builds the extension and watches for any changes in the `src` directory, automatically rebuilding as you work.
     ```sh
-    pnpm run build
+    bun run dev
     ```
 4.  **Load the extension in Chrome**
     *   Open Chrome and navigate to `chrome://extensions`.
-    *   Enable "Developer mode" using the toggle in the top-right corner.
-    *   Click the "Load unpacked" button.
+    *   Enable **"Developer mode"** using the toggle in the top-right corner.
+    *   Click the **"Load unpacked"** button.
     *   Select the `dist` folder that was created in your project directory.
+
+#### Building for Production
+
+To create an optimized, minified production build and a distributable `.zip` file, run:
+```sh
+bun run build
+```
+This will generate a `weave-x.y.z.zip` file in the project's root directory, ready for distribution.
 
 ## 🛠️ Technical Snapshot
 
@@ -108,9 +113,10 @@ Weave is built with a modern, efficient, and framework-free stack:
 
 *   **Manifest V3:** Adhering to the latest Chrome extension standards for enhanced security and performance.
 *   **TypeScript:** Ensuring type safety and maintainable code across the project.
+*   **Bun:** Used as the all-in-one toolkit for package management, running scripts, and bundling the extension.
 *   **Service Worker:** The extension's background logic runs in a non-persistent service worker for optimal resource management.
-*   **Clipboard API:** Uses the modern Web Clipboard API (`navigator.clipboard`) within a content script to securely copy images.
-*   **Plain HTML, CSS, & JS:** For a lightweight, fast, and dependency-free user interface.
+*   **Clipboard API:** Uses the modern Web Clipboard API (`navigator.clipboard`) to securely copy images.
+*   **Plain HTML, CSS, & TS:** For a lightweight, fast, and dependency-free user interface.
 
 ## 🤝 Contributing
 
