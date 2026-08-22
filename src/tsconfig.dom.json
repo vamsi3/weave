@@ -6,9 +6,10 @@
     "tsBuildInfoFile": "../.tsbuildinfo/dom.tsbuildinfo"
   },
   "include": [
-    "content/index.ts",
-    "options/index.ts",
-    "viewer/index.ts",
+    "content/**/*.ts",
+    "options/**/*.ts",
+    "viewer/**/*.ts",
+    "shared/**/*.ts",
     "types/index.d.ts"
   ]
 }

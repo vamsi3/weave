@@ -1,5 +1,7 @@
 // This script handles the logic for the extension's options page.
 
+import { loadSettings, parseSettings, saveSettings } from "../shared/settings"
+
 ;(() => {
   /**
    * Applies localized strings to the DOM. It finds all elements with a
@@ -89,24 +91,20 @@
     const saveAs = saveAsCheckbox.checked
     const scrollingEnabled = scrollingCheckbox.checked
 
-    const settings: ExtensionSettings = {
-      defaultAction: selectedAction as ExtensionSettings["defaultAction"],
+    // Re-parse instead of casting: guards against unexpected input values.
+    const settings = parseSettings({
+      defaultAction: selectedAction,
       saveAs,
       scrollingEnabled,
-    }
-    chrome.storage.sync.set(settings)
+    })
+    void saveSettings(settings)
   }
 
   /**
    * Restores options from chrome.storage.sync by updating the input states.
    */
   const restoreOptionsState = async (): Promise<void> => {
-    const defaults: ExtensionSettings = {
-      defaultAction: "open",
-      saveAs: true,
-      scrollingEnabled: true,
-    }
-    const settings: ExtensionSettings = await chrome.storage.sync.get(defaults)
+    const settings = await loadSettings()
 
     const selectedRadio = document.querySelector<HTMLInputElement>(
       `input[name="defaultAction"][value="${settings.defaultAction}"]`,

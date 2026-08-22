@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <!-- Using predefined messages to set language and direction automatically -->
+<!-- biome-ignore lint/a11y/useValidLang: Chrome substitutes the real locale for this i18n placeholder at runtime. -->
 <html lang="__MSG_@@ui_locale__" dir="__MSG_@@bidi_dir__">
   <head>
     <meta charset="UTF-8" />
@@ -14,12 +15,12 @@
           <p data-i18n="viewerDescription"></p>
         </div>
         <div class="button-group">
-          <button id="copyBtn" class="secondary" data-i18n="copyButton"></button>
-          <button id="downloadBtn" class="primary" data-i18n="downloadButton"></button>
+          <button type="button" id="copyBtn" class="secondary" data-i18n="copyButton"></button>
+          <button type="button" id="downloadBtn" class="primary" data-i18n="downloadButton"></button>
         </div>
       </header>
       <div class="screenshot-wrapper">
-        <img id="screenshot" data-i18n-alt="screenshotAltText" />
+        <img id="screenshot" alt="" data-i18n-alt="screenshotAltText" />
       </div>
     </div>
     <script src="index.js"></script>

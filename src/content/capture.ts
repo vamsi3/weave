@@ -1,11 +1,26 @@
 import { copyImageToClipboard } from "./clipboard"
 import { sendMessage } from "./comms"
 import {
+  type CapturedSegment,
+  clampLayout,
+  computeStitchLayout,
+  cssPx,
+  devicePx,
+  type StitchLayout,
+} from "./geometry"
+import {
   getScrollableElement,
   hideOverlayElements,
   preparePageForCapture,
 } from "./page"
 import { waitForIdle } from "./utils"
+
+/**
+ * Chrome enforces MAX_CAPTURE_VISIBLE_TAB_CALLS_PER_SECOND (2/sec). Pacing
+ * captures slightly above 500ms apart keeps long captures from tripping the
+ * quota, which would otherwise abort mid-page with an opaque error.
+ */
+const MIN_CAPTURE_INTERVAL_MS = 550
 
 /**
  * A helper function to load an image from a data URL.
@@ -30,7 +45,7 @@ function loadImage(src: string): Promise<HTMLImageElement> {
  */
 const withHiddenScrollbars = async <T>(task: () => Promise<T>): Promise<T> => {
   const style = document.createElement("style")
-  style.innerHTML = `
+  style.textContent = `
     *::-webkit-scrollbar { display: none !important; }
     * { -ms-overflow-style: none !important; scrollbar-width: none !important; }
   `
@@ -38,16 +53,96 @@ const withHiddenScrollbars = async <T>(task: () => Promise<T>): Promise<T> => {
   try {
     return await task()
   } finally {
-    if (style.parentElement) {
-      document.head.removeChild(style)
-    }
+    style.remove()
   }
+}
+
+/** Timestamp of the last captureVisibleTab call, for quota pacing. */
+let lastCaptureAt = 0
+
+/**
+ * Requests a capture of the visible tab from the background worker,
+ * pacing calls to stay under Chrome's captureVisibleTab rate quota.
+ * @returns The data URL of the captured bitmap.
+ */
+const captureVisibleBitmap = async (): Promise<string> => {
+  const elapsed = Date.now() - lastCaptureAt
+  if (elapsed < MIN_CAPTURE_INTERVAL_MS) {
+    await new Promise((resolve) =>
+      setTimeout(resolve, MIN_CAPTURE_INTERVAL_MS - elapsed),
+    )
+  }
+  const response = await withHiddenScrollbars(() =>
+    sendMessage({ type: "CAPTURE_VISIBLE_TAB" }),
+  )
+  lastCaptureAt = Date.now()
+  if (!response.ok) {
+    throw new Error(response.error)
+  }
+  return response.dataUrl
+}
+
+/** A capture segment before its bitmap has been decoded. */
+interface RawSegment {
+  readonly scrollTop: number
+  readonly dataUrl: string
+}
+
+/**
+ * Decodes captured data URLs and computes the stitch layout from the
+ * scroll positions each segment was actually captured at.
+ */
+const stitchSegments = async (
+  rawSegments: readonly RawSegment[],
+  viewportWidth: number,
+): Promise<string> => {
+  const images = await Promise.all(
+    rawSegments.map((raw) => loadImage(raw.dataUrl)),
+  )
+  const segments: CapturedSegment[] = rawSegments.map((raw, index) => {
+    const image = images[index]
+    if (!image) throw new Error("Segment image missing after decode.")
+    return {
+      scrollTop: cssPx(raw.scrollTop),
+      width: devicePx(image.width),
+      height: devicePx(image.height),
+    }
+  })
+
+  const layout: StitchLayout = clampLayout(
+    computeStitchLayout(segments, cssPx(viewportWidth)),
+  )
+
+  const canvas = document.createElement("canvas")
+  canvas.width = layout.canvasWidth
+  canvas.height = layout.canvasHeight
+  const ctx = canvas.getContext("2d")
+  if (!ctx) throw new Error("Could not create canvas context.")
+
+  for (const draw of layout.draws) {
+    const image = images[draw.segmentIndex]
+    if (!image) throw new Error("Segment image missing during stitch.")
+    ctx.drawImage(
+      image,
+      0,
+      draw.sourceY,
+      image.width,
+      draw.sourceHeight,
+      0,
+      draw.destY,
+      image.width,
+      draw.sourceHeight,
+    )
+  }
+
+  return canvas.toDataURL("image/png")
 }
 
 /**
  * Captures a full-page screenshot by scrolling, taking segment captures,
- * and stitching them together. This function now robustly handles both
- * standard window scrolling and custom inner-element scrolling.
+ * and stitching them together. Handles both standard window scrolling and
+ * custom inner-element scrolling, positioning each segment by the scroll
+ * offset it was *actually* captured at (robust to scroll-snap and clamping).
  * @param scrollElement - The HTML element identified as the primary scroller for the page.
  * @returns A Promise that resolves with the data URL of the final stitched image.
  */
@@ -61,6 +156,9 @@ async function captureScrollingPage(
   const viewportHeight = isWindowScrolling
     ? window.innerHeight
     : scrollElement.clientHeight
+  const viewportWidth = isWindowScrolling
+    ? window.innerWidth
+    : scrollElement.clientWidth
   const originalScrollTop = isWindowScrolling
     ? window.scrollY
     : scrollElement.scrollTop
@@ -72,6 +170,8 @@ async function captureScrollingPage(
       scrollElement.scrollTop = y
     }
   }
+  const readScrollTop = () =>
+    isWindowScrolling ? window.scrollY : scrollElement.scrollTop
 
   // First, run the preparation step. This scrolls through the page, triggering
   // lazy-loading and forcing the browser to calculate the true scrollHeight.
@@ -93,31 +193,23 @@ async function captureScrollingPage(
   }
 
   try {
-    const captures: string[] = []
-    // Initial capture at the top of the page.
-    let response = await withHiddenScrollbars(() =>
-      sendMessage<CaptureVisibleTabResponse>({
-        type: "CAPTURE_VISIBLE_TAB",
-      }),
-    )
-    if (response.error || !response.data) {
-      throw new Error(response.error ?? "Initial capture failed.")
-    }
-    captures.push(response.data)
+    const rawSegments: RawSegment[] = []
 
-    let lastScrollTop = isWindowScrolling
-      ? window.scrollY
-      : scrollElement.scrollTop
+    // Initial capture at the top of the page (preparation left us at 0,
+    // but read the real position rather than assuming it).
+    rawSegments.push({
+      scrollTop: readScrollTop(),
+      dataUrl: await captureVisibleBitmap(),
+    })
+
+    let lastScrollTop = readScrollTop()
 
     // Scroll and capture segments until the bottom is reached.
     for (let y = viewportHeight; y < finalPageHeight; y += viewportHeight) {
       scrollTo(y)
       await waitForIdle(100)
 
-      const currentScrollTop = isWindowScrolling
-        ? window.scrollY
-        : scrollElement.scrollTop
-
+      const currentScrollTop = readScrollTop()
       if (currentScrollTop === lastScrollTop) {
         break // Reached the absolute bottom.
       }
@@ -125,17 +217,10 @@ async function captureScrollingPage(
       const restoreVisibility = hideOverlayElements()
       try {
         await waitForIdle(16) // Wait for repaint after hiding elements.
-
-        response = await withHiddenScrollbars(() =>
-          sendMessage<CaptureVisibleTabResponse>({
-            type: "CAPTURE_VISIBLE_TAB",
-          }),
-        )
-
-        if (response.error || !response.data) {
-          throw new Error(response.error ?? "A capture segment failed.")
-        }
-        captures.push(response.data)
+        rawSegments.push({
+          scrollTop: currentScrollTop,
+          dataUrl: await captureVisibleBitmap(),
+        })
         lastScrollTop = currentScrollTop
       } finally {
         // This is guaranteed to run, ensuring elements are always restored.
@@ -143,51 +228,7 @@ async function captureScrollingPage(
       }
     }
 
-    // Recalculate page height based on the final scroll position for a perfect stitch.
-    const actualPageHeight = lastScrollTop + viewportHeight
-
-    const canvas = document.createElement("canvas")
-    const ctx = canvas.getContext("2d")
-    if (!ctx) throw new Error("Could not create canvas context.")
-
-    const firstImage = await loadImage(captures[0])
-    const scale =
-      firstImage.width /
-      (isWindowScrolling ? window.innerWidth : scrollElement.clientWidth)
-    canvas.width = firstImage.width
-    canvas.height = actualPageHeight * scale
-
-    let currentHeight = 0
-    for (const capture of captures.slice(0, -1)) {
-      const img = await loadImage(capture)
-      ctx.drawImage(img, 0, currentHeight)
-      currentHeight += img.height
-    }
-
-    const lastCapture = captures.at(-1)
-    if (!lastCapture) {
-      // This path should not be reachable given the logic flow.
-      throw new Error("Stitching failed: the last capture segment is missing.")
-    }
-    const lastImg = await loadImage(lastCapture)
-
-    const remainingHeight = canvas.height - currentHeight
-    if (remainingHeight > 0) {
-      const sourceY = Math.max(0, lastImg.height - remainingHeight)
-      ctx.drawImage(
-        lastImg,
-        0,
-        sourceY,
-        lastImg.width,
-        remainingHeight,
-        0,
-        currentHeight,
-        lastImg.width,
-        remainingHeight,
-      )
-    }
-
-    return canvas.toDataURL("image/png")
+    return await stitchSegments(rawSegments, viewportWidth)
   } finally {
     // This outer finally guarantees the global styles and scroll position are restored.
     cleanupPage()
@@ -201,17 +242,7 @@ async function captureScrollingPage(
  */
 async function captureVisiblePage(): Promise<string> {
   await waitForIdle(250)
-  const response = await withHiddenScrollbars(() =>
-    sendMessage<CaptureVisibleTabResponse>({
-      type: "CAPTURE_VISIBLE_TAB",
-    }),
-  )
-  if (response.error || !response.data) {
-    throw new Error(
-      response.error ?? "Visible capture failed without an error message.",
-    )
-  }
-  return response.data
+  return captureVisibleBitmap()
 }
 
 /**
@@ -220,9 +251,7 @@ async function captureVisiblePage(): Promise<string> {
  * individual capture functions.
  */
 export async function takeScreenshot(): Promise<void> {
-  const settings = await sendMessage<ExtensionSettings>({
-    type: "GET_SETTINGS",
-  })
+  const settings = await sendMessage({ type: "GET_SETTINGS" })
 
   const finalDataUrl = settings.scrollingEnabled
     ? await captureScrollingPage(getScrollableElement())
@@ -238,7 +267,7 @@ export async function takeScreenshot(): Promise<void> {
         type: "SCREENSHOT_DATA",
         action: settings.defaultAction,
         data: finalDataUrl,
-      })
+      } satisfies ScreenshotDataMessage)
       break
   }
 }
