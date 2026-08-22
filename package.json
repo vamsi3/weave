@@ -1,6 +1,6 @@
 {
   "name": "weave-extension",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "clean": "bun run scripts/clean.ts",
@@ -10,14 +10,16 @@
     "format": "bunx @biomejs/biome format --write .",
     "lint": "bunx @biomejs/biome check --write .",
     "check": "bunx @biomejs/biome check .",
-    "check:staged": "bunx @biomejs/biome check --changed"
+    "check:staged": "bunx @biomejs/biome check --changed",
+    "test": "bun test",
+    "typecheck": "tsc --build"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.2.4",
-    "@types/chrome": "^0.1.12",
-    "bun-types": "^1.2.22",
+    "@biomejs/biome": "^2.5.10",
+    "@types/chrome": "^0.2.7",
+    "bun-types": "^1.4.0",
     "chokidar-cli": "^3.0.0",
     "picocolors": "^1.1.1",
-    "typescript": "^5.9.2"
+    "typescript": "^7.0.2"
   }
 }

@@ -3,13 +3,17 @@ export const PORT_CLOSED_ERROR_NAME = "WEAVE_PORT_CLOSED"
 
 /**
  * A strongly-typed wrapper for chrome.runtime.sendMessage.
+ * The response type is inferred from the message's `type` via
+ * MessageResponseMap, so callers cannot request a mismatched shape.
  * It includes special handling for when the message port closes due to page navigation.
  * @param message - The message object, conforming to the RuntimeMessage union.
  * @returns A promise that resolves with the typed response from the listener.
  */
-export const sendMessage = <T>(message: RuntimeMessage): Promise<T> => {
+export const sendMessage = <M extends RuntimeMessage>(
+  message: M,
+): Promise<ResponseFor<M>> => {
   return new Promise((resolve, reject) => {
-    chrome.runtime.sendMessage(message, (response: T) => {
+    chrome.runtime.sendMessage(message, (response: ResponseFor<M>) => {
       if (chrome.runtime.lastError) {
         if (
           chrome.runtime.lastError.message?.includes(

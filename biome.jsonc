@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/latest/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.5.10/schema.json",
 
   "vcs": {
     "enabled": true,
@@ -8,11 +8,12 @@
   },
 
   "files": {
-    "experimentalScannerIgnores": [
-      "dist/",
-      ".tsbuildinfo/",
-      "bun.lockb",
-      "node_modules/"
+    "includes": [
+      "**",
+      "!!**/dist/",
+      "!!**/.tsbuildinfo/",
+      "!!**/bun.lockb",
+      "!!**/node_modules/"
     ]
   },
 
@@ -26,7 +27,7 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "preset": "recommended"
     }
   },
 
@@ -56,6 +57,21 @@
           // It's standard to log progress to the console in build scripts.
           "suspicious": {
             "noConsole": "off"
+          }
+        }
+      }
+    },
+    {
+      // Extension pages receive ALL text content at runtime via chrome.i18n
+      // (data-i18n attributes), so elements are intentionally empty in markup
+      // and label/control text association happens after localization.
+      "includes": ["src/options/index.html", "src/viewer/index.html"],
+      "linter": {
+        "rules": {
+          "a11y": {
+            "useHeadingContent": "off",
+            "useAnchorContent": "off",
+            "noLabelWithoutControl": "off"
           }
         }
       }

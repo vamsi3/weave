@@ -51,20 +51,25 @@ type RuntimeMessage =
   | DownloadScreenshotMessage
 
 /**
- * The expected response format for a `CAPTURE_VISIBLE_TAB` message.
- * It contains either the data URL of the capture or an error message.
+ * The response for a `CAPTURE_VISIBLE_TAB` message, as a discriminated
+ * result union: exactly one of the success or failure shapes, never a
+ * bag of optional fields.
  */
-type CaptureVisibleTabResponse = {
-  data?: string
-  error?: string
-}
+type CaptureVisibleTabResponse =
+  | { readonly ok: true; readonly dataUrl: string }
+  | { readonly ok: false; readonly error: string }
 
 /**
- * The expected response format for a `SCREENSHOT_DATA` message.
- * This is no longer used as the message is now fire-and-forget, but is kept
- * for potential future use or as a reference.
+ * Maps every message type to the response type its sender may await.
+ * `undefined` marks fire-and-forget messages. This is the single source of
+ * truth tying the two ends of the protocol together at compile time.
  */
-type ScreenshotDataResponse = {
-  success: boolean
-  error?: string
+interface MessageResponseMap {
+  CAPTURE_VISIBLE_TAB: CaptureVisibleTabResponse
+  GET_SETTINGS: ExtensionSettings
+  SCREENSHOT_DATA: undefined
+  DOWNLOAD_SCREENSHOT: undefined
 }
+
+/** The response type a given message must be answered with. */
+type ResponseFor<M extends RuntimeMessage> = MessageResponseMap[M["type"]]
